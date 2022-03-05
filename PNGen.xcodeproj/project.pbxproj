@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00F8E24427D3D9B300A11169 /* PinkNoiseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F8E24327D3D9B300A11169 /* PinkNoiseView.swift */; };
 		050711BE27B698200046CE4C /* PNGenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050711BD27B698200046CE4C /* PNGenApp.swift */; };
 		050711C027B698200046CE4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050711BF27B698200046CE4C /* ContentView.swift */; };
 		050711C227B698230046CE4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 050711C127B698230046CE4C /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00F8E24327D3D9B300A11169 /* PinkNoiseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkNoiseView.swift; sourceTree = "<group>"; };
 		050711BA27B698200046CE4C /* PNGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PNGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		050711BD27B698200046CE4C /* PNGenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PNGenApp.swift; sourceTree = "<group>"; };
 		050711BF27B698200046CE4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,11 +73,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00F8E23E27D3C11C00A11169 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				00F8E24327D3D9B300A11169 /* PinkNoiseView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		00F8E24227D3CB6300A11169 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
 		050711B127B698200046CE4C = {
 			isa = PBXGroup;
 			children = (
-				050711BC27B698200046CE4C /* PNGen */,
-				050711CD27B698230046CE4C /* PNGenTests */,
+				050711BC27B698200046CE4C /* PNGenApp */,
+				050711CD27B698230046CE4C /* PNGenAppTests */,
 				050711D727B698230046CE4C /* PNGenUITests */,
 				050711BB27B698200046CE4C /* Products */,
 			);
@@ -91,15 +108,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		050711BC27B698200046CE4C /* PNGen */ = {
+		050711BC27B698200046CE4C /* PNGenApp */ = {
 			isa = PBXGroup;
 			children = (
+				00F8E24227D3CB6300A11169 /* Logic */,
+				00F8E23E27D3C11C00A11169 /* Screens */,
 				050711BD27B698200046CE4C /* PNGenApp.swift */,
 				050711BF27B698200046CE4C /* ContentView.swift */,
 				050711C127B698230046CE4C /* Assets.xcassets */,
 				050711C327B698230046CE4C /* Preview Content */,
 			);
-			path = PNGen;
+			path = PNGenApp;
 			sourceTree = "<group>";
 		};
 		050711C327B698230046CE4C /* Preview Content */ = {
@@ -110,12 +129,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		050711CD27B698230046CE4C /* PNGenTests */ = {
+		050711CD27B698230046CE4C /* PNGenAppTests */ = {
 			isa = PBXGroup;
 			children = (
 				050711CE27B698230046CE4C /* PNGenTests.swift */,
 			);
-			path = PNGenTests;
+			path = PNGenAppTests;
 			sourceTree = "<group>";
 		};
 		050711D727B698230046CE4C /* PNGenUITests */ = {
@@ -259,6 +278,7 @@
 			files = (
 				050711C027B698200046CE4C /* ContentView.swift in Sources */,
 				050711BE27B698200046CE4C /* PNGenApp.swift in Sources */,
+				00F8E24427D3D9B300A11169 /* PinkNoiseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +438,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PNGen/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PNGenApp/Preview Content\"";
 				DEVELOPMENT_TEAM = G78THZNY99;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -447,7 +467,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PNGen/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PNGenApp/Preview Content\"";
 				DEVELOPMENT_TEAM = G78THZNY99;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
