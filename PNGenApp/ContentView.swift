@@ -10,24 +10,22 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-           Text("Pink Noise Generator")
+            PinkNoiseView()
              .tabItem {
                 Image(systemName: "iphone.radiowaves.left.and.right")
                 Text("Pink Noise")
-                 PinkNoiseView()
               }
-            Text("Informationen")
+            InformationView()
               .tabItem {
                  Image(systemName: "book.fill")
                  Text("Learn")
                }
-            Text("About")
+            AboutView()
               .tabItem {
                  Image(systemName: "person.fill")
                  Text("About")
                }
         }
-        
     }
 }
 
@@ -36,7 +34,7 @@ struct ContentView_Previews: PreviewProvider {
         Group {
             ContentView()
                 .previewDevice("iPhone 13 mini")
-                .preferredColorScheme(.light)
+                .preferredColorScheme(.dark)
         }
     }
 }

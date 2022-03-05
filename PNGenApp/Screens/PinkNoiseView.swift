@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PinkNoiseView: View {
     var body: some View {
-                Text("Hello, World!")
+                Text("Here will apeare a Button that generates Pink Noise!")
     }
 }
 
