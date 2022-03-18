@@ -15,12 +15,13 @@ struct PinkNoiseView: View {
                 print("Start Pink Noise Now!")
                 playPinkNoise(key: "PINKNoise", format: "mp3")
             }){
-                Text("Start Pink Noise")
+                Text("Play \n Pink Noise")
                     .bold()
-                    .frame(width: 200, height: 150)
+                    .frame(width: 200, height: 150, alignment: .center)
+                    .multilineTextAlignment(.center)
                     .clipShape(Circle())
             }.buttonStyle(GrowingButton())
-        }.frame(width: 300, height: 500)
+        }.frame(width: 300, height: 200)
         
     }
 }
