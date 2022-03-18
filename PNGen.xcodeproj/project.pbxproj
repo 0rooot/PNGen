@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00C6100427E4E380003C9780 /* PINKNoise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00C6100327E4E380003C9780 /* PINKNoise.mp3 */; };
 		00C6100627E4E63B003C9780 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C6100527E4E63B003C9780 /* PlaySound.swift */; };
+		00C6100827E4E793003C9780 /* PINKNoise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00C6100727E4E793003C9780 /* PINKNoise.mp3 */; };
 		00F8E24427D3D9B300A11169 /* PinkNoiseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F8E24327D3D9B300A11169 /* PinkNoiseView.swift */; };
 		00F8E24627D3E12200A11169 /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F8E24527D3E12200A11169 /* InformationView.swift */; };
 		00F8E24827D3E12D00A11169 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F8E24727D3E12D00A11169 /* AboutView.swift */; };
@@ -39,8 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00C6100327E4E380003C9780 /* PINKNoise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PINKNoise.mp3; path = ../../../../../Downloads/PINKNoise.mp3; sourceTree = "<group>"; };
 		00C6100527E4E63B003C9780 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		00C6100727E4E793003C9780 /* PINKNoise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PINKNoise.mp3; sourceTree = "<group>"; };
 		00F8E24327D3D9B300A11169 /* PinkNoiseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkNoiseView.swift; sourceTree = "<group>"; };
 		00F8E24527D3E12200A11169 /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
 		00F8E24727D3E12D00A11169 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				00C6100527E4E63B003C9780 /* PlaySound.swift */,
-				00C6100327E4E380003C9780 /* PINKNoise.mp3 */,
+				00C6100727E4E793003C9780 /* PINKNoise.mp3 */,
 			);
 			path = Sound;
 			sourceTree = "<group>";
@@ -272,7 +272,7 @@
 			files = (
 				050711C527B698230046CE4C /* Preview Assets.xcassets in Resources */,
 				050711C227B698230046CE4C /* Assets.xcassets in Resources */,
-				00C6100427E4E380003C9780 /* PINKNoise.mp3 in Resources */,
+				00C6100827E4E793003C9780 /* PINKNoise.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
