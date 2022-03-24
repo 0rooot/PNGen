@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct PinkNoiseView: View {
-    
     var body: some View {
         VStack {
             Button(action: {

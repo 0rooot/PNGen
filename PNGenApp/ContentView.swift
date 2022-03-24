@@ -15,7 +15,7 @@ struct ContentView: View {
                 Image(systemName: "iphone.radiowaves.left.and.right")
                 Text("Pink Noise")
               }
-            InformationView()
+            LearnView()
               .tabItem {
                  Image(systemName: "book.fill")
                  Text("Learn")
