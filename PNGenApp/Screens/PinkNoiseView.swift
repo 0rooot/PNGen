@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import AudioToolbox
 
 struct PinkNoiseView: View {
+    
+    @State var playNoise = false
+    
     var body: some View {
         VStack {
             Button(action: {
                 print("Start Pink Noise Now!")
+                AudioServicesPlayAlertSoundWithCompletion(SystemSoundID(kSystemSoundID_Vibrate)) {   }
                 playPinkNoise(key: "PINKNoise", format: "mp3")
             }){
                 Text("Play \n Pink Noise")
@@ -20,9 +25,11 @@ struct PinkNoiseView: View {
                     .multilineTextAlignment(.center)
                     .clipShape(Circle())
             }.buttonStyle(GrowingButton())
-        }.frame(width: 300, height: 200)
+        }
+        .frame(width: 300, height: 200)
         
     }
+    
 }
 
 struct PinkNoiseView_Previews: PreviewProvider {

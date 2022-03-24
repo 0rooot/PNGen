@@ -10,6 +10,7 @@ import SwiftUI
 struct LearnView: View {
     
     @State var showMenu = false
+    @State var selected: SelectedScreen = .general
     
     var body: some View {
         
@@ -25,18 +26,33 @@ struct LearnView: View {
         return NavigationView {
             GeometryReader { geometry in
                 ZStack(alignment: .leading) {
-                    InformationView(showMenu: self.$showMenu)
-                        .frame(width: geometry.size.width, height: geometry.size.height)
-                        .offset(x: self.showMenu ? geometry.size.width/2 : 0)
-                        .disabled(self.showMenu ? true : false)
-                    if self.showMenu {
-                        SidemenuView()
-                            .frame(width: geometry.size.width/2)
-                            .transition(.move(edge: .leading))
+                    // show selected screen
+                    switch selected {
+                    case .general:
+                        InformationView(showMenu: self.$showMenu)
+                            .frame(width: geometry.size.width, height: geometry.size.height)
+                            .offset(x: self.showMenu ? geometry.size.width/2 : 0)
+                            .disabled(self.showMenu ? true : false)
+                    case .connections:
+                        ConnectionsView(showMenu: self.$showMenu)
+                            .frame(width: geometry.size.width, height: geometry.size.height)
+                            .offset(x: self.showMenu ? geometry.size.width/2 : 0)
+                            .disabled(self.showMenu ? true : false)
+                    case .settings:
+                        SettingsView(showMenu: self.$showMenu)
+                            .frame(width: geometry.size.width, height: geometry.size.height)
+                            .offset(x: self.showMenu ? geometry.size.width/2 : 0)
+                            .disabled(self.showMenu ? true : false)
                     }
+                        if self.showMenu {
+                            SideMenuView(showMenu: $showMenu, selected: $selected)
+                                .transition(.move(edge: .leading))
+                                .frame(width: geometry.size.width/2)
+                                .transition(.move(edge: .leading))
+                        }
+                    }
+                        .gesture(drag)
                 }
-                    .gesture(drag)
-            }
                 .navigationBarTitle("Learn Center", displayMode: .inline)
                 .navigationBarItems(leading: (
                     Button(action: {
@@ -48,31 +64,25 @@ struct LearnView: View {
                             .imageScale(.large)
                     }
                 ))
-        }
-    }
-}
-
-
-struct InformationView: View {
-    @Binding var showMenu: Bool
-    
-    var body: some View {
-        Button(action: {
-            withAnimation {
-               self.showMenu = true
             }
-        }) {
-            Text("Show Menu")
         }
     }
-}
-
-
-struct InformationView_Previews: PreviewProvider {
-    static var previews: some View {
-        LearnView()
+    
+    public enum SelectedScreen {
+        case general
+        case connections
+        case settings
     }
-}
+    
+    struct InformationView_Previews: PreviewProvider {
+        static var previews: some View {
+            LearnView()
+        }
+    }
+    
+    
+    
+
 
 
 
