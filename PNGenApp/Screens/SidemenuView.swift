@@ -37,6 +37,27 @@ struct SideMenuView: View {
                 }
                 
                 Button {
+                    selected = .wifi
+                    showMenu = false
+                } label: {
+                    Label("WiFi", systemImage: "Circle")
+                }
+                
+                Button {
+                    selected = .bluetoot
+                    showMenu = false
+                } label: {
+                    Label("Bluetooth", systemImage: "Circle")
+                }
+                
+                Button {
+                    selected = .mobileNetwork
+                    showMenu = false
+                } label: {
+                    Label("Mobile Network", systemImage: "Circle")
+                }
+                
+                Button {
                     selected = .settings
                     showMenu = false
                 } label: {

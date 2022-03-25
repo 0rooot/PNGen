@@ -43,6 +43,21 @@ struct LearnView: View {
                             .frame(width: geometry.size.width, height: geometry.size.height)
                             .offset(x: self.showMenu ? geometry.size.width/2 : 0)
                             .disabled(self.showMenu ? true : false)
+                    case .wifi:
+                        WiFiLearnView(showMenu: self.$showMenu)
+                            .frame(width: geometry.size.width, height: geometry.size.height)
+                            .offset(x: self.showMenu ? geometry.size.width/2 : 0)
+                            .disabled(self.showMenu ? true : false)
+                    case .bluetoot:
+                        BluetoothLearnView(showMenu: self.$showMenu)
+                            .frame(width: geometry.size.width, height: geometry.size.height)
+                            .offset(x: self.showMenu ? geometry.size.width/2 : 0)
+                            .disabled(self.showMenu ? true : false)
+                    case .mobileNetwork:
+                        MobileNetworkLearnView(showMenu: self.$showMenu)
+                            .frame(width: geometry.size.width, height: geometry.size.height)
+                            .offset(x: self.showMenu ? geometry.size.width/2 : 0)
+                            .disabled(self.showMenu ? true : false)
                     case .settings:
                         SettingsLearnView(showMenu: self.$showMenu)
                             .frame(width: geometry.size.width, height: geometry.size.height)
@@ -77,6 +92,9 @@ struct LearnView: View {
         case general
         case cyberRules
         case connections
+        case wifi
+        case bluetoot
+        case mobileNetwork
         case settings
     }
     

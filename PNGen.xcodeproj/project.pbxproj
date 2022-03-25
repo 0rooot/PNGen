@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0036DDCA27EDD2DA003B1F74 /* CyberRulesLearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036DDC927EDD2DA003B1F74 /* CyberRulesLearnView.swift */; };
+		0036DDCC27EE047B003B1F74 /* BluetoothLearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036DDCB27EE047B003B1F74 /* BluetoothLearnView.swift */; };
+		0036DDCE27EE04B5003B1F74 /* WiFiLearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036DDCD27EE04B5003B1F74 /* WiFiLearnView.swift */; };
+		0036DDD027EE04D1003B1F74 /* MobileNetworkLearnVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036DDCF27EE04D1003B1F74 /* MobileNetworkLearnVIew.swift */; };
 		00C6100627E4E63B003C9780 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C6100527E4E63B003C9780 /* PlaySound.swift */; };
 		00C6100827E4E793003C9780 /* PINKNoise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00C6100727E4E793003C9780 /* PINKNoise.mp3 */; };
 		00C8ACF327EC771200D4A6C2 /* SidemenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C8ACF227EC771200D4A6C2 /* SidemenuView.swift */; };
@@ -46,6 +49,9 @@
 
 /* Begin PBXFileReference section */
 		0036DDC927EDD2DA003B1F74 /* CyberRulesLearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyberRulesLearnView.swift; sourceTree = "<group>"; };
+		0036DDCB27EE047B003B1F74 /* BluetoothLearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothLearnView.swift; sourceTree = "<group>"; };
+		0036DDCD27EE04B5003B1F74 /* WiFiLearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiLearnView.swift; sourceTree = "<group>"; };
+		0036DDCF27EE04D1003B1F74 /* MobileNetworkLearnVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNetworkLearnVIew.swift; sourceTree = "<group>"; };
 		00C6100527E4E63B003C9780 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		00C6100727E4E793003C9780 /* PINKNoise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PINKNoise.mp3; sourceTree = "<group>"; };
 		00C8ACF227EC771200D4A6C2 /* SidemenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidemenuView.swift; sourceTree = "<group>"; };
@@ -108,6 +114,9 @@
 				00C8ACF427ECD1F200D4A6C2 /* LearnGeneralView.swift */,
 				00C8ACF727ECEFF400D4A6C2 /* GeneralLearnView.swift */,
 				0036DDC927EDD2DA003B1F74 /* CyberRulesLearnView.swift */,
+				0036DDCB27EE047B003B1F74 /* BluetoothLearnView.swift */,
+				0036DDCD27EE04B5003B1F74 /* WiFiLearnView.swift */,
+				0036DDCF27EE04D1003B1F74 /* MobileNetworkLearnVIew.swift */,
 				00C8ACF927ECF3BD00D4A6C2 /* ConnectionView.swift */,
 				00C8ACFB27ECF3EE00D4A6C2 /* SettingsLearnView.swift */,
 			);
@@ -323,8 +332,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0036DDD027EE04D1003B1F74 /* MobileNetworkLearnVIew.swift in Sources */,
 				050711C027B698200046CE4C /* ContentView.swift in Sources */,
 				00C6100627E4E63B003C9780 /* PlaySound.swift in Sources */,
+				0036DDCC27EE047B003B1F74 /* BluetoothLearnView.swift in Sources */,
 				00F8E24627D3E12200A11169 /* LearnView.swift in Sources */,
 				00C8ACF327EC771200D4A6C2 /* SidemenuView.swift in Sources */,
 				050711BE27B698200046CE4C /* PNGenApp.swift in Sources */,
@@ -332,6 +343,7 @@
 				00C8ACFA27ECF3BD00D4A6C2 /* ConnectionView.swift in Sources */,
 				00C8ACF827ECEFF400D4A6C2 /* GeneralLearnView.swift in Sources */,
 				00C8ACF527ECD1F200D4A6C2 /* LearnGeneralView.swift in Sources */,
+				0036DDCE27EE04B5003B1F74 /* WiFiLearnView.swift in Sources */,
 				0036DDCA27EDD2DA003B1F74 /* CyberRulesLearnView.swift in Sources */,
 				00F8E24827D3E12D00A11169 /* AboutView.swift in Sources */,
 				00C8ACFC27ECF3EE00D4A6C2 /* SettingsLearnView.swift in Sources */,

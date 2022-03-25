@@ -86,7 +86,7 @@ struct CyberRulesLearnView: View {
                     }
                     Text("Alle Erklärvideos können hier angeschaut werden." )
                         .font(.subheadline)
-                    Link("Cyber Defence Rules - Admin.ch", destination: URL(string: "https://www.vtg.admin.ch/de/aktuell/themen/cyberdefence/cyber-security.html#18_1621347327946")!)
+                    Link("Cyber Defence Rules - Admin.ch", destination: URL(string: "https://www.vtg.admin.ch/de/aktuell/themen/cyberdefence/cyber-security.html#18_1621347327946")!).foregroundColor(.red)
                 }
             }
             Spacer()
