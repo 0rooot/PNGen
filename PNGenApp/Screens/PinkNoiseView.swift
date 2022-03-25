@@ -16,7 +16,8 @@ struct PinkNoiseView: View {
         
         return NavigationView {
             GeometryReader { geometry in
-                VStack (alignment: .center){
+                VStack {
+                    HStack {
                         Button(action: {
                             print("Start Pink Noise Now!")
                             AudioServicesPlayAlertSoundWithCompletion(SystemSoundID(kSystemSoundID_Vibrate)) {   }
@@ -29,8 +30,23 @@ struct PinkNoiseView: View {
                                 .clipShape(Circle())
                         }
                         .buttonStyle(GrowingButton())
+                        
                     }
-                .frame(width: geometry.size.width, height: geometry.size.height/2)
+                    .border(Color.green, width: 3)
+                    .frame(width: geometry.size.width, height: geometry.size.height/2)
+                    
+                    VStack(alignment: .leading) {
+                        Text("Anleitung:")
+                            .font(.title.bold())
+                        Group{
+                            Text("- Mache dies" )
+                            Text("- Mache das" )}
+                        .font(.subheadline)}
+                    .frame(width: geometry.size.width/1.1, height: geometry.size.height/2)
+                    .border(Color.red, width: 3)
+                }
+                
+                .border(Color.blue, width: 3)
             }
             .navigationBarTitle("Pink Noise Generator", displayMode: .inline)
             .navigationBarItems(trailing: (
@@ -42,7 +58,7 @@ struct PinkNoiseView: View {
                 }
             ))
         }
-
+        
     }
 }
 
@@ -55,8 +71,8 @@ struct PinkNoiseView_Previews: PreviewProvider {
 struct GrowingButton: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .background(Color.cyan)
-            .foregroundColor(Color.black)
+            .background(Color(red: 90 / 255, green: 0 / 255, blue: 40 / 255))
+            .foregroundColor(Color.white)
             .clipShape(Capsule())
             .shadow(color: .gray, radius: 2, x: 5, y: 5)
             .scaleEffect(configuration.isPressed ? 1.1 : 1)
