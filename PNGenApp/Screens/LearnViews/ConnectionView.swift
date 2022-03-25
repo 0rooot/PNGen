@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ConnectionsView: View {
+struct ConnectionsLearnView: View {
     @Binding var showMenu: Bool
     
     var body: some View {

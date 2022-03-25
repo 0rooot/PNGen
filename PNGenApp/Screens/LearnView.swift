@@ -29,17 +29,22 @@ struct LearnView: View {
                     // show selected screen
                     switch selected {
                     case .general:
-                        InformationView(showMenu: self.$showMenu)
+                        GeneralLearnView(showMenu: self.$showMenu)
+                            .frame(width: geometry.size.width, height: geometry.size.height)
+                            .offset(x: self.showMenu ? geometry.size.width/2 : 0)
+                            .disabled(self.showMenu ? true : false)
+                    case .cyberRules:
+                        CyberRulesLearnView(showMenu: self.$showMenu)
                             .frame(width: geometry.size.width, height: geometry.size.height)
                             .offset(x: self.showMenu ? geometry.size.width/2 : 0)
                             .disabled(self.showMenu ? true : false)
                     case .connections:
-                        ConnectionsView(showMenu: self.$showMenu)
+                        ConnectionsLearnView(showMenu: self.$showMenu)
                             .frame(width: geometry.size.width, height: geometry.size.height)
                             .offset(x: self.showMenu ? geometry.size.width/2 : 0)
                             .disabled(self.showMenu ? true : false)
                     case .settings:
-                        SettingsView(showMenu: self.$showMenu)
+                        SettingsLearnView(showMenu: self.$showMenu)
                             .frame(width: geometry.size.width, height: geometry.size.height)
                             .offset(x: self.showMenu ? geometry.size.width/2 : 0)
                             .disabled(self.showMenu ? true : false)
@@ -70,6 +75,7 @@ struct LearnView: View {
     
     public enum SelectedScreen {
         case general
+        case cyberRules
         case connections
         case settings
     }

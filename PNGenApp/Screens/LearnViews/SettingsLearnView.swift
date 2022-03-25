@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SettingsView: View {
+struct SettingsLearnView: View {
     @Binding var showMenu: Bool
     
     var body: some View {

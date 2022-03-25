@@ -23,6 +23,13 @@ struct SideMenuView: View {
                 }
                 
                 Button {
+                    selected = .cyberRules
+                    showMenu = false
+                } label: {
+                    Label("Cyber Rules", systemImage: "Circle")
+                }
+                
+                Button {
                     selected = .connections
                     showMenu = false
                 } label: {
