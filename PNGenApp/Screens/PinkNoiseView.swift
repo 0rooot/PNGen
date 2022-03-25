@@ -13,23 +13,37 @@ struct PinkNoiseView: View {
     @State var playNoise = false
     
     var body: some View {
-        VStack {
-            Button(action: {
-                print("Start Pink Noise Now!")
-                AudioServicesPlayAlertSoundWithCompletion(SystemSoundID(kSystemSoundID_Vibrate)) {   }
-                playPinkNoise(key: "PINKNoise", format: "mp3")
-            }){
-                Text("Play \n Pink Noise")
-                    .bold()
-                    .frame(width: 200, height: 150, alignment: .center)
-                    .multilineTextAlignment(.center)
-                    .clipShape(Circle())
-            }.buttonStyle(GrowingButton())
-        }
-        .frame(width: 300, height: 200)
         
+        return NavigationView {
+            GeometryReader { geometry in
+                VStack (alignment: .center){
+                        Button(action: {
+                            print("Start Pink Noise Now!")
+                            AudioServicesPlayAlertSoundWithCompletion(SystemSoundID(kSystemSoundID_Vibrate)) {   }
+                            playPinkNoise(key: "PINKNoise", format: "mp3")
+                        }){
+                            Text("Play \n Pink Noise")
+                                .bold()
+                                .frame(width: 200, height: 150, alignment: .center)
+                                .multilineTextAlignment(.center)
+                                .clipShape(Circle())
+                        }
+                        .buttonStyle(GrowingButton())
+                    }
+                .frame(width: geometry.size.width, height: geometry.size.height/2)
+            }
+            .navigationBarTitle("Pink Noise Generator", displayMode: .inline)
+            .navigationBarItems(trailing: (
+                Button(action: {
+                }) {
+                    Image(systemName: "info.circle")
+                        .imageScale(.large)
+                        .foregroundColor(.black)
+                }
+            ))
+        }
+
     }
-    
 }
 
 struct PinkNoiseView_Previews: PreviewProvider {
