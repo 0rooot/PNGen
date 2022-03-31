@@ -52,6 +52,9 @@ struct PinkNoiseView: View {
                             Text("- Schalten sie " )
                             Text("- Sperren sie das Iphone um Akku zu sparen" )
                         }
+                        .font(.body)
+                        .lineSpacing(10)
+                        .padding(5)
                         .font(.subheadline)}
                     .frame(width: geometry.size.width/1.1, height: geometry.size.height/2)
                 }
