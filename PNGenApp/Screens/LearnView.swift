@@ -20,6 +20,10 @@ struct LearnView: View {
                     withAnimation {
                         self.showMenu = false
                     }
+                } else {
+                    withAnimation {
+                        self.showMenu = true
+                    }
                 }
             }
         
