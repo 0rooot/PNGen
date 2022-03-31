@@ -10,6 +10,7 @@ import AudioToolbox
 
 struct PinkNoiseView: View {
     
+    @State var lang = "DE"
     @State var playNoise = false
     @State var buttonTitle: String = "Start \n Pink Noise"
     
@@ -56,14 +57,19 @@ struct PinkNoiseView: View {
                 }
             }
             .navigationBarTitle("Pink Noise Generator", displayMode: .inline)
-            .navigationBarItems(trailing: (
+            .navigationBarItems(leading:
+                                    Button(action: {
+            }) {
+                Image(systemName: "character.bubble")
+                    .imageScale(.large)
+            } , trailing: (
                 Button(action: {
                 }) {
                     Image(systemName: "info.circle")
                         .imageScale(.large)
-                        .foregroundColor(.black)
                 }
-            ))
+            )
+            )
         }
         
     }
