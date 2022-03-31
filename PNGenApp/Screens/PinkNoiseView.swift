@@ -11,6 +11,7 @@ import AudioToolbox
 struct PinkNoiseView: View {
     
     @State var playNoise = false
+    @State var buttonTitle: String = "Start \n Pink Noise"
     
     var body: some View {
         
@@ -19,12 +20,20 @@ struct PinkNoiseView: View {
                 VStack {
                     HStack {
                         Button(action: {
-                            print("Start Pink Noise Now!")
-                            AudioServicesPlayAlertSoundWithCompletion(SystemSoundID(kSystemSoundID_Vibrate)) {   }
-                            playPinkNoise(key: "PINKNoise", format: "mp3")
+                            if (playNoise==false) {
+                                playNoise = true
+                                buttonTitle = "Stop \n Pink Noise"
+                                AudioServicesPlayAlertSoundWithCompletion(SystemSoundID(kSystemSoundID_Vibrate)) {   }
+                                playPinkNoise(key: "PINKNoise", format: "mp3")
+                            } else {
+                                playNoise = false
+                                buttonTitle = "Start \n Pink Noise"
+                                stopPinkNoise()
+                            }
                         }){
-                            Text("Play \n Pink Noise")
+                            Text(buttonTitle)
                                 .bold()
+                                .font(.title)
                                 .frame(width: 200, height: 150, alignment: .center)
                                 .multilineTextAlignment(.center)
                                 .clipShape(Circle())
@@ -32,21 +41,19 @@ struct PinkNoiseView: View {
                         .buttonStyle(GrowingButton())
                         
                     }
-                    .border(Color.green, width: 3)
                     .frame(width: geometry.size.width, height: geometry.size.height/2)
                     
                     VStack(alignment: .leading) {
-                        Text("Anleitung:")
+                        Text("Hinweis:")
                             .font(.title.bold())
                         Group{
-                            Text("- Mache dies" )
-                            Text("- Mache das" )}
+                            Text("- Stelle die Lautstärke auf Maximum für bessere Zuverlässigkeit des Abhöhrschutzes." )
+                            Text("- Schalten sie " )
+                            Text("- Sperren sie das Iphone um Akku zu sparen" )
+                        }
                         .font(.subheadline)}
                     .frame(width: geometry.size.width/1.1, height: geometry.size.height/2)
-                    .border(Color.red, width: 3)
                 }
-                
-                .border(Color.blue, width: 3)
             }
             .navigationBarTitle("Pink Noise Generator", displayMode: .inline)
             .navigationBarItems(trailing: (

@@ -25,3 +25,7 @@ func playPinkNoise(key: String, format: String){
     }
 }
 
+
+func stopPinkNoise(){
+    player?.stop()
+}
