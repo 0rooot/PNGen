@@ -20,6 +20,7 @@ func playPinkNoise(key: String, format: String){
     do {
         player = try AVAudioPlayer(contentsOf: url!)
         player?.play()
+        player.numberOfLoops = -1
     } catch {
         print("error")
     }

@@ -11,6 +11,7 @@ import AudioToolbox
 struct PinkNoiseView: View {
     
     @State var lang = "DE"
+    @State private var showingInformationPopover = false
     @State var playNoise = false
     @State var buttonTitle: String = "Start \n Pink Noise"
     
@@ -49,8 +50,8 @@ struct PinkNoiseView: View {
                             .font(.title.bold())
                         Group{
                             Text("- Stelle die Lautstärke auf Maximum für bessere Zuverlässigkeit des Abhöhrschutzes." )
-                            Text("- Schalten sie " )
-                            Text("- Sperren sie das Iphone um Akku zu sparen" )
+                            Text("- Schalten sie das Iphone nicht auf stumm." )
+                            Text("- Sperren sie das Iphone um Akku zu sparen." )
                         }
                         .font(.body)
                         .lineSpacing(10)
@@ -67,10 +68,42 @@ struct PinkNoiseView: View {
                     .imageScale(.large)
             } , trailing: (
                 Button(action: {
+                    withAnimation {
+                        showingInformationPopover = true
+                    }
                 }) {
                     Image(systemName: "info.circle")
                         .imageScale(.large)
                 }
+                    .popover(isPresented: $showingInformationPopover) {
+                        VStack(alignment: .leading) {
+                            Spacer()
+                            Text("Was ist Pink Noise?")
+                                .font(.largeTitle)
+                                .padding(.bottom, 20)
+                            Text("Pink Noise ist dies das Ananas.." )
+                                .font(.body)
+                                .lineSpacing(10)
+                                .padding(.bottom, 5)
+                            Spacer()
+                            Text("Optimale Anwendung:")
+                                .font(.largeTitle)
+                                .padding(.bottom, 20)
+                            Text("Glas und zu und los" )
+                                .font(.body)
+                                .lineSpacing(10)
+                                .padding(.bottom, 10)
+                            Spacer()
+                            Text("Weitere Infos:")
+                                .font(.largeTitle)
+                                .padding(.bottom, 20)
+                            Text("Ich mag Züge" )
+                                .font(.body)
+                                .lineSpacing(10)
+                                .padding(.bottom, 10)
+                            Spacer()
+                        }
+                    }
             )
             )
         }
