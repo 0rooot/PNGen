@@ -12,7 +12,7 @@ struct AboutView: View {
         HStack{
             VStack(alignment: .leading) {
                 Spacer()
-                Text("About me:")
+                Text("Impressum:")
                     .font(.largeTitle)
                     .padding(.bottom, 20)
                 Text("Developer: T. A." )
@@ -28,8 +28,8 @@ struct AboutView: View {
                     .lineSpacing(10)
                     .padding(.bottom, 10)
                 VStack() {
-                    Image("HSLU").clipped()
-                    Image("SchweizerischeEidgenossenschaft").clipped()
+                    Image("HSLU").resizable().aspectRatio(contentMode: .fit).padding([.top, .leading], 10).background(.white)
+                    Image("SchweizerischeEidgenossenschaft").resizable().aspectRatio(contentMode: .fit).padding([.top, .leading, .bottom], 10).clipped().background(.white)
                 }
                 Spacer()
                 Text("Feedback & Reports:")
@@ -50,6 +50,7 @@ struct AboutView: View {
 struct AboutView_Previews: PreviewProvider {
     static var previews: some View {
         AboutView()
+            .preferredColorScheme(.light)
     }
 }
 

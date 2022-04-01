@@ -25,9 +25,9 @@ struct GeneralLearnView: View {
                     .font(.body)
                     .lineSpacing(10)
                     .padding(20)
-            }.border(Color.green, width: 3)
+            }
             Spacer()
-        }.border(Color.red, width: 3)
+        }
         
     }
 }

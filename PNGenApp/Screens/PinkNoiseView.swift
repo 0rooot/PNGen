@@ -27,10 +27,14 @@ struct PinkNoiseView: View {
                                 buttonTitle = "Stop \n Pink Noise"
                                 AudioServicesPlayAlertSoundWithCompletion(SystemSoundID(kSystemSoundID_Vibrate)) {   }
                                 playPinkNoise(key: "PINKNoise", format: "mp3")
+                                UIScreen.main.brightness = CGFloat(1)
+                                UIApplication.shared.isIdleTimerDisabled = false
                             } else {
                                 playNoise = false
                                 buttonTitle = "Start \n Pink Noise"
                                 stopPinkNoise()
+                                UIScreen.main.brightness = CGFloat(0.3)
+                                UIApplication.shared.isIdleTimerDisabled = true
                             }
                         }){
                             Text(buttonTitle)
@@ -49,9 +53,29 @@ struct PinkNoiseView: View {
                         Text("Hinweis:")
                             .font(.title.bold())
                         Group{
-                            Text("- Stelle die Lautstärke auf Maximum für bessere Zuverlässigkeit des Abhöhrschutzes." )
-                            Text("- Schalten sie das Iphone nicht auf stumm." )
-                            Text("- Sperren sie das Iphone um Akku zu sparen." )
+                            VStack(alignment: .leading) {
+                                HStack{
+                                    Image(systemName: "speaker.wave.2.circle").resizable().aspectRatio(contentMode: .fit)
+                                    Spacer()
+                                    VStack{Text("Stelle die Lautstärke auf Maximum und deaktiviere den Lautlos Modus." )
+                                            .fixedSize(horizontal: false, vertical: true)
+                                            .frame(maxHeight: .infinity, alignment: .top)
+                                            .font(.system(size: 14.0))
+                                    }
+                                }
+                            }
+                            VStack(alignment: .leading) {
+                                HStack{
+                                    Image(systemName: "lock.circle").resizable().aspectRatio(contentMode: .fit)
+                                    Spacer()
+                                    VStack{Text("Sperren sie das Iphone um Akku zu sparen." )
+                                            .fixedSize(horizontal: false, vertical: true)
+                                            .frame(maxHeight: .infinity, alignment: .top)
+                                            .font(.system(size: 14.0))
+                                    }
+                                }
+                            }
+                            Spacer()
                         }
                         .font(.body)
                         .lineSpacing(10)
@@ -81,18 +105,28 @@ struct PinkNoiseView: View {
                             Text("Was ist Pink Noise?")
                                 .font(.largeTitle)
                                 .padding(.bottom, 20)
-                            Text("Pink Noise ist dies das Ananas.." )
+                            Text("Pink Noise ist der Sound von allen Frequenzen. Pink Noise hat verschiedene Einsatzzwecke. Das Einsatzgebiet dieser App ist die Überwachungs- und Abhör-Abwehr. Pink Noise soll die umliegenden Mikrofone von Smartphones und Smartwatches füllen und die Aufnahme von Gesprächen verhindern." )
                                 .font(.body)
                                 .lineSpacing(10)
                                 .padding(.bottom, 5)
                             Spacer()
-                            Text("Optimale Anwendung:")
-                                .font(.largeTitle)
-                                .padding(.bottom, 20)
-                            Text("Glas und zu und los" )
-                                .font(.body)
-                                .lineSpacing(10)
-                                .padding(.bottom, 10)
+                            Group{
+                                Text("Optimale Anwendung:")
+                                    .font(.largeTitle)
+                                    .padding(.bottom, 20)
+                                Text("1. Pink Noise mit Button Starten" )
+                                    .font(.body)
+                                    .lineSpacing(10)
+                                    .padding(.bottom, 10)
+                                Text("2. Alle Smartphones und Smartwatches im Raum in das Lauschschutzglas legen" )
+                                    .font(.body)
+                                    .lineSpacing(10)
+                                    .padding(.bottom, 10)
+                                Text("3. Lauschschutz Glas schliessen und Sitzung beginnen." )
+                                    .font(.body)
+                                    .lineSpacing(10)
+                                    .padding(.bottom, 10)
+                            }
                             Spacer()
                             Text("Weitere Infos:")
                                 .font(.largeTitle)
