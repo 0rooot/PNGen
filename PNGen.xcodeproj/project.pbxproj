@@ -52,6 +52,7 @@
 		0036DDCB27EE047B003B1F74 /* BluetoothLearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothLearnView.swift; sourceTree = "<group>"; };
 		0036DDCD27EE04B5003B1F74 /* WiFiLearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiLearnView.swift; sourceTree = "<group>"; };
 		0036DDCF27EE04D1003B1F74 /* MobileNetworkLearnVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNetworkLearnVIew.swift; sourceTree = "<group>"; };
+		00601F6C27F757CD00A2E765 /* PNGen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PNGen-Info.plist"; sourceTree = "<group>"; };
 		00C6100527E4E63B003C9780 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		00C6100727E4E793003C9780 /* PINKNoise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PINKNoise.mp3; sourceTree = "<group>"; };
 		00C8ACF227EC771200D4A6C2 /* SidemenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidemenuView.swift; sourceTree = "<group>"; };
@@ -146,6 +147,7 @@
 		050711B127B698200046CE4C = {
 			isa = PBXGroup;
 			children = (
+				00601F6C27F757CD00A2E765 /* PNGen-Info.plist */,
 				050711BC27B698200046CE4C /* PNGenApp */,
 				050711CD27B698230046CE4C /* PNGenAppTests */,
 				050711D727B698230046CE4C /* PNGenUITests */,
@@ -510,17 +512,17 @@
 				DEVELOPMENT_TEAM = G78THZNY99;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "PNGen-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.1;
+				MARKETING_VERSION = 0.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = ThomasArnold.PNGen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -540,17 +542,17 @@
 				DEVELOPMENT_TEAM = G78THZNY99;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "PNGen-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.1;
+				MARKETING_VERSION = 0.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = ThomasArnold.PNGen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
