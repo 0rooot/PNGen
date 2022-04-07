@@ -56,23 +56,29 @@ struct PinkNoiseView: View {
                         Group{
                             VStack(alignment: .leading) {
                                 HStack{
-                                    Image(systemName: "speaker.wave.2.circle").resizable().aspectRatio(contentMode: .fit)
-                                    Spacer()
+                                    Image(systemName: "speaker.wave.2.circle")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(width: 70, height: 70)
                                     VStack{Text("Stelle die Lautstärke auf Maximum und deaktiviere den Lautlos Modus." )
                                             .fixedSize(horizontal: false, vertical: true)
-                                            .frame(maxHeight: .infinity, alignment: .top)
-                                            .font(.system(size: 14.0))
+                                            .frame(maxHeight: .infinity, alignment: .leading)
+                                            .font(.system(size: 18.0))
+                                            .padding(.leading, 10)
                                     }
                                 }
                             }
                             VStack(alignment: .leading) {
                                 HStack{
-                                    Image(systemName: "lock.circle").resizable().aspectRatio(contentMode: .fit)
-                                    Spacer()
-                                    VStack{Text("Sperren sie das Iphone um Akku zu sparen." )
+                                    Image(systemName: "lock.circle")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(width: 70, height: 70)
+                                    VStack{Text("Sperre das Iphone um Akku zu sparen." )
                                             .fixedSize(horizontal: false, vertical: true)
-                                            .frame(maxHeight: .infinity, alignment: .top)
-                                            .font(.system(size: 14.0))
+                                            .frame(maxHeight: .infinity, alignment: .leading)
+                                            .font(.system(size: 18.0))
+                                            .padding(.leading, 10)
                                     }
                                 }
                             }
