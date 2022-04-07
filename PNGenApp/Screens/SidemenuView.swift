@@ -14,13 +14,13 @@ struct SideMenuView: View {
     
     var body: some View {
         HStack {
-            VStack(alignment: .leading, spacing: 24) {
+            VStack(alignment: .leading, spacing: 30) {
                 Button {
                     selected = .general
                     showMenu = false
                 } label: {
                     Label("General", systemImage: "person")
-                }
+                }.font(.title)
                 
                 Button {
                     selected = .cyberRules
@@ -28,13 +28,15 @@ struct SideMenuView: View {
                 } label: {
                     Label("Cyber Rules", systemImage: "Circle")
                 }
+                .font(.title2)
+                .padding(.leading, 40)
                 
                 Button {
                     selected = .connections
                     showMenu = false
                 } label: {
                     Label("Connections", systemImage: "envelope")
-                }
+                }.font(.title)
                 
                 Button {
                     selected = .wifi
@@ -42,6 +44,8 @@ struct SideMenuView: View {
                 } label: {
                     Label("WiFi", systemImage: "Circle")
                 }
+                .font(.title2)
+                .padding(.leading, 40)
                 
                 Button {
                     selected = .bluetoot
@@ -49,6 +53,8 @@ struct SideMenuView: View {
                 } label: {
                     Label("Bluetooth", systemImage: "Circle")
                 }
+                .font(.title2)
+                .padding(.leading, 40)
                 
                 Button {
                     selected = .mobileNetwork
@@ -56,14 +62,17 @@ struct SideMenuView: View {
                 } label: {
                     Label("Mobile Network", systemImage: "Circle")
                 }
+                .font(.title2)
+                .padding(.leading, 40)
                 
                 Button {
                     selected = .settings
                     showMenu = false
                 } label: {
                     Label("Settings", systemImage: "gear")
-                }
+                }.font(.title)
             }
+            .font(.title)
             .padding()
             .frame(maxHeight: .infinity)
             .background(Color(red: 32/255, green: 32/255, blue: 32/255))

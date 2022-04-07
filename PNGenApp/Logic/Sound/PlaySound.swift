@@ -18,6 +18,12 @@ func playPinkNoise(key: String, format: String){
     }
     
     do {
+        _ = try? AVAudioSession.sharedInstance()
+            .setCategory(
+                AVAudioSession.Category.playback,
+                         mode: .default,
+                         options: .mixWithOthers
+            )
         player = try AVAudioPlayer(contentsOf: url!)
         player?.play()
         player.numberOfLoops = -1

@@ -14,6 +14,7 @@ struct PinkNoiseView: View {
     @State private var showingInformationPopover = false
     @State var playNoise = false
     @State var buttonTitle: String = "Start \n Pink Noise"
+    @State var standardBrightness = UIScreen.main.brightness;
     
     var body: some View {
         
@@ -27,20 +28,20 @@ struct PinkNoiseView: View {
                                 buttonTitle = "Stop \n Pink Noise"
                                 AudioServicesPlayAlertSoundWithCompletion(SystemSoundID(kSystemSoundID_Vibrate)) {   }
                                 playPinkNoise(key: "PINKNoise", format: "mp3")
-                                UIScreen.main.brightness = CGFloat(1)
+                                UIScreen.main.brightness = CGFloat(0.3)
                                 UIApplication.shared.isIdleTimerDisabled = false
                             } else {
                                 playNoise = false
                                 buttonTitle = "Start \n Pink Noise"
                                 stopPinkNoise()
-                                UIScreen.main.brightness = CGFloat(0.3)
+                                UIScreen.main.brightness = standardBrightness
                                 UIApplication.shared.isIdleTimerDisabled = true
                             }
                         }){
                             Text(buttonTitle)
                                 .bold()
                                 .font(.title)
-                                .frame(width: 200, height: 150, alignment: .center)
+                                .frame(width: 200, height: 200, alignment: .center)
                                 .multilineTextAlignment(.center)
                                 .clipShape(Circle())
                         }
@@ -154,7 +155,7 @@ struct PinkNoiseView_Previews: PreviewProvider {
 struct GrowingButton: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .background(Color(red: 90 / 255, green: 0 / 255, blue: 40 / 255))
+            .background(Color(red: 165 / 255, green: 32 / 255, blue: 25 / 255))
             .foregroundColor(Color.white)
             .clipShape(Capsule())
             .shadow(color: .gray, radius: 2, x: 5, y: 5)
