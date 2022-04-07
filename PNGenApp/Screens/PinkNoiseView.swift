@@ -144,6 +144,7 @@ struct PinkNoiseView: View {
                                 .padding(.bottom, 10)
                             Spacer()
                         }
+                        .padding(20)
                     }
             )
             )
