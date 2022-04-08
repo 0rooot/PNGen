@@ -7,5 +7,16 @@
 */
 
 "PinkNoiseGeneratorView.Hint.Title" = "Hinweis:";
-"PinkNoiseGeneratorView.Hint.Volume" = "Set the volume on maximum and deactivate the silent mode.";
-"PinkNoiseGeneratorView.Hint.Lock" = "Lock the iPhone to save battery.";
+"PinkNoiseGeneratorView.Hint.Volume" = "Stelle die Lautstärke auf Maximum und deaktiviere den Lautlos Modus.";
+"PinkNoiseGeneratorView.Hint.Lock" = "Sperre das Iphone um Akku zu sparen.";
+
+"PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Title" = "Was ist Pink Noise?";
+"PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Body" = "Pink Noise ist der Sound von allen Frequenzen. Pink Noise hat verschiedene Einsatzzwecke. Das Einsatzgebiet dieser App ist die Überwachungs- und Abhör-Abwehr. Pink Noise soll die umliegenden Mikrofone von Smartphones und Smartwatches füllen und die Aufnahme von Gesprächen verhindern.";
+
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title" = "Empfohlene Verwendung:";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1" = "1. Pink Noise mit Button Starten";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2" = "2. Alle Smartphones und Smartwatches im Raum in das Lauschschutzglas legen";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3" = "3. Lauschschutz Glas schliessen und Sitzung beginnen.";
+//TODO: Ändern!
+"PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "Weitere Infos:";
+"PinkNoiseGeneratorView.Info.FurtherInfos.Body" = "Ich mag Züge";
