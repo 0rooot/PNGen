@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  PNGen
+
+  Created by Thomas Arnold on 08.04.22.
+  
+*/
+
+"PinkNoiseGeneratorView.Hint.Title" = "Hinweis:";
+"PinkNoiseGeneratorView.Hint.Volume" = "Set the volume on maximum and deactivate the silent mode.";
+"PinkNoiseGeneratorView.Hint.Lock" = "Lock the iPhone to save battery.";

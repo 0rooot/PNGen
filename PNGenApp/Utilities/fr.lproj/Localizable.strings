@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  PNGen
+
+  Created by Thomas Arnold on 08.04.22.
+  
+*/
+
+
+//TODO: Ändern!!!
+"PinkNoiseGeneratorView.Hint.Title" = "Babuette:";
+"PinkNoiseGeneratorView.Hint.Volume" = "";
+"PinkNoiseGeneratorView.Hint.Lock" = "";
