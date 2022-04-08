@@ -8,9 +8,10 @@
 import Foundation
 import AVFoundation
 
-var player: AVAudioPlayer!
+var player1: AVAudioPlayer!
+var player2: AVAudioPlayer!
 
-func playPinkNoise(key: String, format: String){
+func playPinkNoise1(key: String, format: String){
     let url = Bundle.main.url(forResource: key, withExtension: format)
     
     guard url != nil else {
@@ -24,9 +25,31 @@ func playPinkNoise(key: String, format: String){
                          mode: .default,
                          options: .mixWithOthers
             )
-        player = try AVAudioPlayer(contentsOf: url!)
-        player?.play()
-        player.numberOfLoops = -1
+        player1 = try AVAudioPlayer(contentsOf: url!)
+        player1?.play()
+        player1.numberOfLoops = -1
+    } catch {
+        print("error")
+    }
+}
+
+func playPinkNoise2(key: String, format: String){
+    let url = Bundle.main.url(forResource: key, withExtension: format)
+    
+    guard url != nil else {
+        return
+    }
+    
+    do {
+        _ = try? AVAudioSession.sharedInstance()
+            .setCategory(
+                AVAudioSession.Category.playback,
+                         mode: .default,
+                         options: .mixWithOthers
+            )
+        player2 = try AVAudioPlayer(contentsOf: url!)
+        player2?.play()
+        player2.numberOfLoops = -1
     } catch {
         print("error")
     }
@@ -34,5 +57,6 @@ func playPinkNoise(key: String, format: String){
 
 
 func stopPinkNoise(){
-    player?.stop()
+    player1?.stop()
+    player2?.stop()
 }
