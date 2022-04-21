@@ -7,7 +7,24 @@
 */
 
 
-//TODO: Ändern!!!
-"PinkNoiseGeneratorView.Hint.Title" = "Babuette:";
-"PinkNoiseGeneratorView.Hint.Volume" = "";
-"PinkNoiseGeneratorView.Hint.Lock" = "";
+"PinkNoiseGeneratorView.Hint.Title" = "Remarque:";
+"PinkNoiseGeneratorView.Hint.Volume" = "Réglez le volume au maximum et désactivez le mode silencieux.";
+"PinkNoiseGeneratorView.Hint.Lock" = "Verrouillez l'iPhone pour économiser la batterie.";
+"PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Title" = "Qu'est-ce que Pink Noise?";
+"PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Body" = "Le bruit rose est le son de toutes les fréquences. Le Pink Noise a plusieurs objectifs. Le domaine d`application de cette application est la surveillance et la prévention des écoutes. Pink Noise est conçu pour remplir les microphones environnants des smartphones et des smartwatches et empêcher l`enregistrement des conversations.";
+
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title" = "Utilisation:";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1" = "1. Démarre Pink Noise avec le bouton";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2" = "2. Place tous les smartphones et smartwatches de la pièce dans le bocal antibruit";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3" = "3. Ferme la vitre anti-bruit et commence la session";
+//TODO: Ändern!
+"PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "Plus d'informations:";
+"PinkNoiseGeneratorView.Info.FurtherInfos.Body" = "Place des information ici.";
+
+"LearnView.General.Title" = "Soyez vigilant!";
+"LearnView.General.Body" = "Cette section est consacrée à l'apprentissage et à la sensibilisation. Vous y trouverez des informations sur des sujets généraux de cybersécurité concernant les téléphones mobiles. De nos jours, il est de plus en plus important d'assurer la sécurité au travail et sur les appareils privés.";
+"LearnView.General.Instructions" = "Ouvrez le menu en haut à gauche et découvrez comment sécuriser votre appareil et vos données.";
+
+"LearnView.Connections.Title" = "Les connexions sont des surfaces d'attaque";
+"LearnView.Connections.Body" = "";
+"LearnView.Connections.More" = "";

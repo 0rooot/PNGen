@@ -88,7 +88,7 @@ struct LearnView: View {
                             .imageScale(.large)
                     }
                 ))
-            }
+            }.navigationViewStyle(StackNavigationViewStyle())
         }
     }
     

@@ -13,10 +13,21 @@
 "PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Title" = "Was ist Pink Noise?";
 "PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Body" = "Pink Noise ist der Sound von allen Frequenzen. Pink Noise hat verschiedene Einsatzzwecke. Das Einsatzgebiet dieser App ist die Überwachungs- und Abhör-Abwehr. Pink Noise soll die umliegenden Mikrofone von Smartphones und Smartwatches füllen und die Aufnahme von Gesprächen verhindern.";
 
-"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title" = "Empfohlene Verwendung:";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title" = "Verwendung:";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1" = "1. Pink Noise mit Button Starten";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2" = "2. Alle Smartphones und Smartwatches im Raum in das Lauschschutzglas legen";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3" = "3. Lauschschutz Glas schliessen und Sitzung beginnen.";
 //TODO: Ändern!
 "PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "Weitere Infos:";
-"PinkNoiseGeneratorView.Info.FurtherInfos.Body" = "Ich mag Züge";
+"PinkNoiseGeneratorView.Info.FurtherInfos.Body" = "Informationen hier plazieren.";
+
+"LearnView.General.Title" = "Sei aufmerksam!";
+"LearnView.General.Body" = "In diesem Abschnitt geht es darum, zu lernen und das Bewusstsein zu schärfen. Hier können Sie über allgemeine Cybersicherheitsthemen in Bezug auf Smartphones lesen. Heutzutage wird es immer wichtiger, sowohl bei der Arbeit als auch bei privaten Geräten für Sicherheit zu sorgen.";
+"LearnView.General.Instructions" = "Öffnen Sie das Menü oben links und erfahren Sie, wie Sie Ihr Gerät und Ihre Daten schützen können.";
+
+"LearnView.Connections.Title" = "Verbindungen sind Angriffsflächen";
+"LearnView.Connections.Body" = "Mit jeder erfolgreichen Verbindung von deinem Smartphone gehst du ein Risiko ein. Sei dir allgemein sicher, welche Verbindungen du eingehst. Bei Wifi, Bluetooth, dem Moblien Netz oder per Kabel, überall gibt es für Angreiffer Möglichkeitenum um an deine Daten zu gelangen. ";
+"LearnView.Connections.More" = "Stelle dir im Allgemeinen folgende Fragen bei Verbindungen:";
+"LearnView.Connections.Q1" = "Mit wem oder was verbinde ich mich?";
+"LearnView.Connections.Q2" = "Ist diese Verbindung zwigend notewendig?";
+"LearnView.Connections.Q3" = "Was möchte ich über die Verbindung übermitteln?";

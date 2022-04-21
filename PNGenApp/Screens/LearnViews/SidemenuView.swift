@@ -26,7 +26,7 @@ struct SideMenuView: View {
                     selected = .cyberRules
                     showMenu = false
                 } label: {
-                    Label("Cyber Rules", systemImage: "Circle")
+                    Label("Cyber Rules", systemImage: "circle")
                 }
                 .font(.title2)
                 .padding(.leading, 40)
@@ -42,7 +42,7 @@ struct SideMenuView: View {
                     selected = .wifi
                     showMenu = false
                 } label: {
-                    Label("WiFi", systemImage: "Circle")
+                    Label("WiFi", systemImage: "circle")
                 }
                 .font(.title2)
                 .padding(.leading, 40)
@@ -51,7 +51,7 @@ struct SideMenuView: View {
                     selected = .bluetoot
                     showMenu = false
                 } label: {
-                    Label("Bluetooth", systemImage: "Circle")
+                    Label("Bluetooth", systemImage: "circle")
                 }
                 .font(.title2)
                 .padding(.leading, 40)
@@ -60,7 +60,7 @@ struct SideMenuView: View {
                     selected = .mobileNetwork
                     showMenu = false
                 } label: {
-                    Label("Mobile Network", systemImage: "Circle")
+                    Label("Mobile Network", systemImage: "circle")
                 }
                 .font(.title2)
                 .padding(.leading, 40)

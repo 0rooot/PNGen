@@ -9,6 +9,7 @@ import SwiftUI
 
 struct InfoView: View {
     var body: some View {
+        ScrollView{
         VStack(alignment: .leading) {
             Spacer()
             Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Title"))
@@ -47,7 +48,7 @@ struct InfoView: View {
             Spacer()
         }
         .padding(20)
-        
+        }
     }
 }
 

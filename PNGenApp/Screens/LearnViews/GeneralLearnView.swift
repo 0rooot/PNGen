@@ -14,14 +14,14 @@ struct GeneralLearnView: View {
         HStack{
             Spacer()
             VStack(alignment: .leading) {
-                Text("Be Aware!")
+                Text(LocalizedStringKey("LearnView.General.Title"))
                     .font(.largeTitle)
                     .padding(20)
-                Text("This section is all about learning and gathering awareness. Here you can read about general cyber security topics regarding mobile phones. Nowadays it gets more and more important to keep secure at work as well as on private devices." )
+                Text(LocalizedStringKey("LearnView.General.Body"))
                     .font(.body)
                     .lineSpacing(10)
                     .padding(20)
-                Text("Open the menue on the top left and use your device more secure. Keep Secure!" )
+                Text(LocalizedStringKey("LearnView.General.Instructions"))
                     .font(.body)
                     .lineSpacing(10)
                     .padding(20)

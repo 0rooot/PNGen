@@ -13,10 +13,18 @@
 "PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Title" = "What is Pink Noise?";
 "PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Body" = "Pink Noise is the sound of all frequencies. Pink Noise has several purposes. The application area of this app is surveillance and eavesdropping prevention. Pink Noise is designed to fill the surrounding microphones of smartphones and smartwatches and prevent the recording of conversations.";
 
-"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title" = "Recommended Usage:";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title" = "Usage:";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1" = "1. Start Pink Noise with button.";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2" = "2. Place all smartphones and smartwatches in the room in the eavesdropping glass.";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3" = "3. Close the eavesdropping glass and start the conversation.";
 //TODO: Ändern!
 "PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "More info:";
-"PinkNoiseGeneratorView.Info.FurtherInfos.Body" = "Here could be your advertisement!";
+"PinkNoiseGeneratorView.Info.FurtherInfos.Body" = "Place Information here!";
+
+"LearnView.General.Title" = "Be Aware!";
+"LearnView.General.Body" = "This section is all about learning and gathering awareness. Here you can read about general cyber security topics regarding mobile phones. Nowadays it gets more and more important to keep secure at work as well as on private devices.";
+"LearnView.General.Instructions" = "Open the menue on the top left and learn how to keep your device and your data secure.";
+
+"LearnView.Connections.Title" = "Connections are attack surfaces";
+"LearnView.Connections.Body" = "";
+"LearnView.Connections.More" = "";

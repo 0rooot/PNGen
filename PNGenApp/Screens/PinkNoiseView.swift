@@ -7,6 +7,7 @@
 
 import SwiftUI
 import AudioToolbox
+import MediaPlayer
 
 struct PinkNoiseView: View {
     
@@ -26,12 +27,7 @@ struct PinkNoiseView: View {
                 }
             }
             .navigationBarTitle("Pink Noise Generator", displayMode: .inline)
-            .navigationBarItems(leading:
-                                    Button(action: {
-            }) {
-                Image(systemName: "character.bubble")
-                    .imageScale(.large)
-            } , trailing: (
+            .navigationBarItems(trailing: (
                 Button(action: {
                     withAnimation {
                         showingInformationPopover = true
@@ -45,7 +41,7 @@ struct PinkNoiseView: View {
                     }
             )
             )
-        }
+        }.navigationViewStyle(StackNavigationViewStyle())
         
     }
 }
@@ -55,4 +51,5 @@ struct PinkNoiseView_Previews: PreviewProvider {
         PinkNoiseView()
     }
 }
+
 
