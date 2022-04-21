@@ -26,5 +26,23 @@
 "LearnView.General.Instructions" = "Ouvrez le menu en haut à gauche et découvrez comment sécuriser votre appareil et vos données.";
 
 "LearnView.Connections.Title" = "Les connexions sont des surfaces d'attaque";
-"LearnView.Connections.Body" = "";
-"LearnView.Connections.More" = "";
+"LearnView.Connections.Body" = "Chaque fois que tu réussis à te connecter depuis ton smartphone, tu prends un risque. Sois généralement sûr des connexions que tu entreprends. Que ce soit par Wifi, Bluetooth, le réseau mobile ou par câble, il existe partout des possibilités pour les pirates d'accéder à tes données. ";
+"LearnView.Connections.More" = "Dans les sections suivantes, tu peux t'informer sur la protection du Wifi, du Bluetooth et du réseau mobile.";
+
+"LearnView.CyberRules.Title" = "7 cyber-règles de l'armée";
+"LearnView.CyberRules.Body" = "Attaques par hameçonnage, cryptage de données par des tiers ou vol de données : ce sont des exemples de menaces qui guettent en permanence le cyberespace. La Suisse n'est pas épargnée par les cyber-attaques. Afin de garantir sa capacité d'engagement et sa liberté d'action en tout temps et dans toutes les situations, l'armée établit en permanence le cyber-bilan de la situation et est en mesure de détecter les cyberattaques et de les repousser";
+"LearnView.CyberRules.Rule1" = "Considérez toujours les propos tenus sur les réseaux sociaux comme publics.";
+"LearnView.CyberRules.Rule2" = "Ne jamais connecter un dispositif privé ou inconnu à des appareils de l’administration ou de l’armée.";
+"LearnView.CyberRules.Rule3" = "Les points d’accès wifi publics peuvent être dangereux. Votre téléphone mobile est un point wifi plus sûr.";
+"LearnView.CyberRules.Rule4" = "Il faut désactiver WLAN, Bluetooth, GPS, NFC, sauf si vous en avez réellement besoin.";
+"LearnView.CyberRules.Rule5" = "Les téléphones portables, montres ou ordinateurs portables sont des mouchards potentiels. Il faut ranger ailleurs ces appareils avant une conversation confidentielle ou secrète.";
+"LearnView.CyberRules.Rule6" = "N’ouvrez ni les messages, ni les annexes ou les links de provenance inattendue. Contactez l’expéditeur par téléphone en cas de doute.";
+"LearnView.CyberRules.Rule7" = "Si vous soupçonnez une infection par un logiciel malveillant, déconnectez-vous le plus vite possible du réseau, laissez le système en marche et faites part de votre soupçon à la Hotline et à votre supérieur hiérarchique.";
+"LearnView.CyberRules.VideoHint" = "Toutes les vidéos explicatives peuvent être visionnées ici";
+
+"AboutView.Impressum.Title" = "Mentions légales :";
+"AboutView.Impressum.Software" = "Développeur du logiciel : T. A.";
+"AboutView.Impressum.Client" = "Client : T. B.";
+"AboutView.Impressum.Body" = "Cette application a été réalisée dans le cadre d'un travail de bachelor des études \"Information and Cyber Security\" à la Haute école de Lucerne (HSLU) sur mandat de la cyberdéfense de l'Armée suisse. ";
+"AboutView.Feedback.Title" = "Feedback & Reports :";
+"AboutView.Feedback.Body" = "Les propositions d'amélioration et les erreurs peuvent être signalées à l'adresse e-mail suivante :";

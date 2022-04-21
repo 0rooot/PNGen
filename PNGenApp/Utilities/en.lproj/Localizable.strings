@@ -26,5 +26,23 @@
 "LearnView.General.Instructions" = "Open the menue on the top left and learn how to keep your device and your data secure.";
 
 "LearnView.Connections.Title" = "Connections are attack surfaces";
-"LearnView.Connections.Body" = "";
-"LearnView.Connections.More" = "";
+"LearnView.Connections.Body" = "With every successful connection from your smartphone, you take a risk. In general, be sure about the connections you make. Wifi, Bluetooth, the mobile network or via cable, everywhere there are opportunities for attackers to get your data. ";
+"LearnView.Connections.More" = "In the following sections you can read about Wifi, Bluetooth and mobile network protection.";
+
+"LearnView.CyberRules.Title" = "7 Cyber Rules of the Army";
+"LearnView.CyberRules.Body" = "Phishing attacks, encryption of data by strangers or data theft: these are examples of those threats that are constantly lurking in cyber space. Switzerland is not spared from cyber attacks either. To ensure its operational capability and freedom of action at all times and in all situations, the Armed Forces permanently compile the cyber situation picture and are able to detect cyber attacks and defend against them.";
+"LearnView.CyberRules.Rule1" = "Statements made on social media should always be considered public.";
+"LearnView.CyberRules.Rule2" = "Never connect foreign or private USB devices to Army or Administration systems.";
+"LearnView.CyberRules.Rule3" = "Public hotspots can be harmful. A hotspot of your own cell phone is safer.";
+"LearnView.CyberRules.Rule4" = "WLAN, Bluetooth, GPS, NFC, etc. are disabled unless they are deliberately needed.";
+"LearnView.CyberRules.Rule5" = "Cell phones, watches, and notebooks are potential bugs. Before confidential or secret conversations, lock these devices away.";
+"LearnView.CyberRules.Rule6" = "Do not open messages/attachments/links of unexpected origin. Contact the sender by phone if you suspect anything.";
+"LearnView.CyberRules.Rule7" = "Disconnect from the network as soon as possible if you suspect malware infection, leave the device running, and report your suspicions to the hotline and your supervisor.";
+"LearnView.CyberRules.VideoHint" = "All explainer videos can be watched here.";
+
+"AboutView.Impressum.Title" = "Imprint:";
+"AboutView.Impressum.Software" = "Developer: T. A.";
+"AboutView.Impressum.Client" = "Client: T. B.";
+"AboutView.Impressum.Body" = "This application was realized within the scope of a bachelor thesis of the study \"Information and Cyber Security\" at the Lucerne University of Applied Sciences and Arts (HSLU) on behalf of the Cyberdefense of the Swiss Army. ";
+"AboutView.Feedback.Title" = "Feedback & Reports:";
+"AboutView.Feedback.Body" = "Suggestions for improvement and bugs can be reported to the following email address:";

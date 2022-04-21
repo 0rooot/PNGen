@@ -15,14 +15,14 @@ struct CyberRulesLearnView: View {
             Spacer()
             ScrollView{
                 VStack(alignment: .leading) {
-                    Text("7 Cyber Regeln der Armee")
+                    Text(LocalizedStringKey("LearnView.CyberRules.Title"))
                         .font(.title.bold())
-                    Text("Phishing-Attacken, Verschlüsselung von Daten durch Fremde oder Datenklau: Das sind Beispiele jener Bedrohungen, die ständig im Cyber-Raum lauern. Auch die Schweiz ist nicht von Cyber-Angriffen verschont. Um ihre Einsatzfähigkeit und Handlungsfreiheit jederzeit und in allen Lagen sicherzustellen, erstellt die Armee permanent das Cyber-Lagebild und ist in der Lage, Cyber-Angriffe zu detektieren und diese abzuwehren." )
+                    Text(LocalizedStringKey("LearnView.CyberRules.Body"))
                         .font(.subheadline)
                     Group{
                         VStack(alignment: .leading) {
                             HStack{Image("image.CyD+Regel+1").resizable().scaledToFill().frame(width: 100, height: 100).clipped()
-                                VStack{Text("Äusserungen in Sozialen Medien sind immer als öffentlich anzusehen." )
+                                VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule1"))
                                         .fixedSize(horizontal: false, vertical: true)
                                         .frame(maxHeight: .infinity, alignment: .top)
                                         .font(.system(size: 14.0))
@@ -31,7 +31,7 @@ struct CyberRulesLearnView: View {
                         }
                         VStack(alignment: .leading) {
                             HStack{Image("image.CyD+Regel+2").resizable().scaledToFill().frame(width: 100, height: 100).clipped()
-                                VStack{Text("Niemals fremde oder private USB-Geräte an Systeme der Armee oder der Verwaltung anschliessen." )
+                                VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule2"))
                                         .fixedSize(horizontal: false, vertical: true)
                                         .frame(maxHeight: .infinity, alignment: .top)
                                         .font(.system(size: 14.0))
@@ -40,7 +40,7 @@ struct CyberRulesLearnView: View {
                         }
                         VStack(alignment: .leading) {
                             HStack{Image("image.CyD+Regel+3").resizable().scaledToFill().frame(width: 100, height: 100).clipped()
-                                VStack{Text("Öffentliche Hotspots können schädlich sein. Ein Hotspot Ihres eigenen Handys ist sicherer." )
+                                VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule3"))
                                         .fixedSize(horizontal: false, vertical: true)
                                         .frame(maxHeight: .infinity, alignment: .top)
                                         .font(.system(size: 14.0))
@@ -49,7 +49,7 @@ struct CyberRulesLearnView: View {
                         }
                         VStack(alignment: .leading) {
                             HStack{Image("image.CyD+Regel+4").resizable().scaledToFill().frame(width: 100, height: 100).clipped()
-                                VStack{Text("WLAN, Bluetooth, GPS, NFC, etc. sind deaktiviert, ausser sie werden bewusst benötigt." )
+                                VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule4"))
                                         .fixedSize(horizontal: false, vertical: true)
                                         .frame(maxHeight: .infinity, alignment: .top)
                                         .font(.system(size: 14.0))
@@ -58,7 +58,7 @@ struct CyberRulesLearnView: View {
                         }
                         VStack(alignment: .leading) {
                             HStack{Image("image.CyD+Regel+5").resizable().scaledToFill().frame(width: 100, height: 100).clipped()
-                                VStack{Text("Handys, Uhren und Notebooks sind potentielle Wanzen. Vor vertraulichen oder geheimen Gesprächen diese Geräte wegschliessen." )
+                                VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule5"))
                                         .fixedSize(horizontal: false, vertical: true)
                                         .frame(maxHeight: .infinity, alignment: .top)
                                         .font(.system(size: 14.0))
@@ -67,7 +67,7 @@ struct CyberRulesLearnView: View {
                         }
                         VStack(alignment: .leading) {
                             HStack{Image("image.CyD+Regel+6").resizable().scaledToFill().frame(width: 100, height: 100).clipped()
-                                VStack{Text("Keine Mitteilungen/Anhänge/Links unerwarteter Herkunft öffnen. Kontaktieren Sie bei Verdacht den Absender telefonisch." )
+                                VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule6"))
                                         .fixedSize(horizontal: false, vertical: true)
                                         .frame(maxHeight: .infinity, alignment: .top)
                                         .font(.system(size: 14.0))
@@ -76,7 +76,7 @@ struct CyberRulesLearnView: View {
                         }
                         VStack(alignment: .leading) {
                             HStack{Image("image.CyD+Regel+7").resizable().scaledToFill().frame(width: 100, height: 100).clipped()
-                                VStack{Text("Trennen Sie bei Verdacht auf Malware-Infektion schnellstmöglich die Netzverbindung, lassen Sie das Gerät laufen und melden Sie Ihren Verdacht der Hotline und Ihrem Vorgesetzten." )
+                                VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule7"))
                                         .fixedSize(horizontal: false, vertical: true)
                                         .frame(maxHeight: .infinity, alignment: .top)
                                         .font(.system(size: 14.0))
@@ -84,7 +84,7 @@ struct CyberRulesLearnView: View {
                             }
                         }
                     }
-                    Text("Alle Erklärvideos können hier angeschaut werden." )
+                    Text(LocalizedStringKey("LearnView.CyberRules.VideoHint"))
                         .font(.subheadline)
                     Link("Cyber Defence Rules - Admin.ch", destination: URL(string: "https://www.vtg.admin.ch/de/aktuell/themen/cyberdefence/cyber-security.html#18_1621347327946")!).foregroundColor(.red)
                 }

@@ -27,7 +27,22 @@
 
 "LearnView.Connections.Title" = "Verbindungen sind Angriffsflächen";
 "LearnView.Connections.Body" = "Mit jeder erfolgreichen Verbindung von deinem Smartphone gehst du ein Risiko ein. Sei dir allgemein sicher, welche Verbindungen du eingehst. Bei Wifi, Bluetooth, dem Moblien Netz oder per Kabel, überall gibt es für Angreiffer Möglichkeitenum um an deine Daten zu gelangen. ";
-"LearnView.Connections.More" = "Stelle dir im Allgemeinen folgende Fragen bei Verbindungen:";
-"LearnView.Connections.Q1" = "Mit wem oder was verbinde ich mich?";
-"LearnView.Connections.Q2" = "Ist diese Verbindung zwigend notewendig?";
-"LearnView.Connections.Q3" = "Was möchte ich über die Verbindung übermitteln?";
+"LearnView.Connections.More" = "In den folgenden Abschnitten kannst du dich über den Schutz von Wifi, Bluetooth und Mobilem Netzwerk informieren.";
+
+"LearnView.CyberRules.Title" = "7 Cyber Regeln der Armee";
+"LearnView.CyberRules.Body" = "Phishing-Attacken, Verschlüsselung von Daten durch Fremde oder Datenklau: Das sind Beispiele jener Bedrohungen, die ständig im Cyber-Raum lauern. Auch die Schweiz ist nicht von Cyber-Angriffen verschont. Um ihre Einsatzfähigkeit und Handlungsfreiheit jederzeit und in allen Lagen sicherzustellen, erstellt die Armee permanent das Cyber-Lagebild und ist in der Lage, Cyber-Angriffe zu detektieren und diese abzuwehren.";
+"LearnView.CyberRules.Rule1" = "Äusserungen in Sozialen Medien sind immer als öffentlich anzusehen.";
+"LearnView.CyberRules.Rule2" = "Niemals fremde oder private USB-Geräte an Systeme der Armee oder der Verwaltung anschliessen.";
+"LearnView.CyberRules.Rule3" = "Öffentliche Hotspots können schädlich sein. Ein Hotspot Ihres eigenen Handys ist sicherer.";
+"LearnView.CyberRules.Rule4" = "WLAN, Bluetooth, GPS, NFC, etc. sind deaktiviert, ausser sie werden bewusst benötigt.";
+"LearnView.CyberRules.Rule5" = "Handys, Uhren und Notebooks sind potentielle Wanzen. Vor vertraulichen oder geheimen Gesprächen diese Geräte wegschliessen.";
+"LearnView.CyberRules.Rule6" = "Keine Mitteilungen/Anhänge/Links unerwarteter Herkunft öffnen. Kontaktieren Sie bei Verdacht den Absender telefonisch.";
+"LearnView.CyberRules.Rule7" = "Trennen Sie bei Verdacht auf Malware-Infektion schnellstmöglich die Netzverbindung, lassen Sie das Gerät laufen und melden Sie Ihren Verdacht der Hotline und Ihrem Vorgesetzten.";
+"LearnView.CyberRules.VideoHint" = "Alle Erklärvideos können hier angeschaut werden.";
+
+"AboutView.Impressum.Title" = "Impressum:";
+"AboutView.Impressum.Software" = "Developer: T. A.";
+"AboutView.Impressum.Client" = "Auftraggeber: T. B.";
+"AboutView.Impressum.Body" = "Diese Applikation wurde im Rahmen einer Bachelorarbeit des Studiums \"Information and Cyber Security\" an der Hochschule Luzern (HSLU) im Auftrag der Cyberdefense der Schweizer Armee realisiert. ";
+"AboutView.Feedback.Title" = "Feedback & Reports:";
+"AboutView.Feedback.Body" = "Verbesserungsvorschläge und Fehler können an folgende Email Adresse gemeldet werden:";

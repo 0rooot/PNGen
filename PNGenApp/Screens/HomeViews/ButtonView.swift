@@ -21,7 +21,7 @@ struct ButtonView: View {
                 if (playNoise==false) {
                     playNoise = true
                     buttonTitle = "Stop \n Pink Noise"
-                    AudioServicesPlayAlertSoundWithCompletion(SystemSoundID(kSystemSoundID_Vibrate)) {   }
+                    
                     playPinkNoise1(key: "PINKNoise", format: "mp3")
                     //playPinkNoise2(key: "opt-Sig", format: "mp3")
                     UIScreen.main.brightness = CGFloat(0.3)
@@ -32,6 +32,9 @@ struct ButtonView: View {
                     stopPinkNoise()
                     UIScreen.main.brightness = standardBrightness
                     UIApplication.shared.isIdleTimerDisabled = true
+                }
+                while playNoise {
+                    vibrate(count: 5)
                 }
             }){
                 Text(buttonTitle)
@@ -58,3 +61,10 @@ struct GrowingButton: ButtonStyle {
             .animation(.easeOut(duration: 0.2), value: configuration.isPressed)
     }
 }
+
+func vibrate(count: Int) {
+        AudioServicesPlaySystemSoundWithCompletion(kSystemSoundID_Vibrate) {
+            vibrate(count: count - 1)
+        }
+    }
+
