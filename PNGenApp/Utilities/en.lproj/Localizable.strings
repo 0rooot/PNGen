@@ -46,3 +46,14 @@
 "AboutView.Impressum.Body" = "This application was realized within the scope of a bachelor thesis of the study \"Information and Cyber Security\" at the Lucerne University of Applied Sciences and Arts (HSLU) on behalf of the Cyberdefense of the Swiss Army. ";
 "AboutView.Feedback.Title" = "Feedback & Reports:";
 "AboutView.Feedback.Body" = "Suggestions for improvement and bugs can be reported to the following email address:";
+
+"LearnView.Wifi.Title" = "Wifi Security";
+"LearnView.Wifi.Body" = "Wireless networks have become an integral part of our everyday life. They are mainly used to gain access to the Internet. Wifi can be used to connect to a computer or smartphone. However, wifi is not only practical, but also a gateway for attackers. This section presents tips on what to look out for when connecting to a WLAN.";
+"LearnView.Wifi.PublicWiFi.Title" = "Public WLAN";
+"LearnView.Wifi.PublicWiFi.Intro" = "You are on vacation abroad and want to send WhatsApp messages or check the weather for the next few days. Just connect to the restaurant's WLAN and you're on the Internet. But connecting to a public WiFi also carries risks. ";
+"LearnView.Wifi.PublicWiFi.Risk" = "The biggest risk of public wifi is that hackers can be on the same WiFi and thus connect directly to your device. They could get between you and your website or app and, on a poorly secured website, read all the data you send or receive. This is called \"man-in-the-middle\" . Hackers could even set up fake websites on the WLAN and trick you into giving your data directly to the hackers.";
+"LearnView.Wifi.PublicWiFi.Tipp1" = "Make sure you have an encrypted connection between you and the website or server. A VPN (Virtual Private Networks) connection can encrypt your entire connection. This way, a hacker on the same WLAN can no longer grab data.";
+"LearnView.Wifi.PublicWiFi.Tipp2" = "Hackers can always get username and password if they want to. That's why it's recommended to turn on 2FA (two factor authentication) on all services if possible. This way, the hacker will not only need your password, but also your sim card to log into your accounts.";
+"LearnView.Wifi.PublicWiFi.Tipp3" = "Always keep your devices up to date and install the latest updates. Often this will also keep security up to date.";
+"LearnView.Wifi.PublicWiFi.Tipp4" = "If you don't have a VPN and the website doesn't offer 2FA, you can also look at using HTTPS (small lock in the browser). This encrypts the connection of this web page and thus the data can no longer be read on the network.";
+"LearnView.Wifi.PublicWiFi.Tipp5" = "Completely avoiding public WLANs makes the risk disappear altogether. Using the hotspot via the mobile network already increases the security significantly.";

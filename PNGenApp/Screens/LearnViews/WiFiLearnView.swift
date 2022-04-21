@@ -12,39 +12,58 @@ struct WiFiLearnView: View {
     
     var body: some View {
         HStack{
-            Spacer()
             ScrollView{
+                Spacer()
                 VStack(alignment: .leading) {
-                    Text("WiFi Security")
-                        .font(.title.bold())
-                    Text("Phishing-Attacken, Verschlüsselung von Daten durch Fremde oder Datenklau: Das sind Beispiele jener Bedrohungen, die ständig im Cyber-Raum lauern. Auch die Schweiz ist nicht von Cyber-Angriffen verschont. Um ihre Einsatzfähigkeit und Handlungsfreiheit jederzeit und in allen Lagen sicherzustellen, erstellt die Armee permanent das Cyber-Lagebild und ist in der Lage, Cyber-Angriffe zu detektieren und diese abzuwehren." )
-                        .font(.subheadline)
+                    Text(LocalizedStringKey("LearnView.Wifi.Title"))
+                        .font(.largeTitle)
+                        .padding(20)
+                    Text(LocalizedStringKey("LearnView.Wifi.Body"))
+                        .font(.body)
+                        .lineSpacing(10)
+                        .padding(20)
+                    Divider().background(Color.accentColor).frame(maxWidth: 200)
+                    Spacer()
                     Group{
-                        VStack(alignment: .leading) {
-                            HStack{Image("image.CyD+Regel+1").resizable().scaledToFill().frame(width: 100, height: 100).clipped()
-                                VStack{Text("Äusserungen in Sozialen Medien sind immer als öffentlich anzusehen." )
-                                        .fixedSize(horizontal: false, vertical: true)
-                                        .frame(maxHeight: .infinity, alignment: .top)
-                                        .font(.system(size: 14.0))
-                                }
-                            }
-                        }
-                        VStack(alignment: .leading) {
-                            HStack{Image("image.CyD+Regel+2").resizable().scaledToFill().frame(width: 100, height: 100).clipped()
-                                VStack{Text("Niemals fremde oder private USB-Geräte an Systeme der Armee oder der Verwaltung anschliessen." )
-                                        .fixedSize(horizontal: false, vertical: true)
-                                        .frame(maxHeight: .infinity, alignment: .top)
-                                        .font(.system(size: 14.0))
-                                }
-                            }
-                        }
+                        Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Title"))
+                            .font(.title)
+                            .padding(20)
+                        Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Intro"))
+                            .font(.body)
+                            .lineSpacing(10)
+                            .padding(20)
+                        Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Risk"))
+                            .font(.body)
+                            .lineSpacing(10)
+                            .padding(20)
+                        HStack{
+                            Text("1").font(.title).padding(5)
+                            Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Tipp1"))
+                                .font(.body)
+                                .lineSpacing(10)
+                                .padding(20)}
+                        HStack{
+                            Text("2").font(.title).padding(5)
+                            Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Tipp2"))
+                                .font(.body)
+                                .lineSpacing(10)
+                                .padding(20)}
+                        HStack{
+                            Text("3").font(.title).padding(5)
+                            Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Tipp3"))
+                                .font(.body)
+                                .lineSpacing(10)
+                                .padding(20)}
+                        HStack{
+                            Text("4").font(.title).padding(5)
+                            Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Tipp4"))
+                                .font(.body)
+                                .lineSpacing(10)
+                                .padding(20)}
                     }
-                    Text("Alle Erklärvideos können hier angeschaut werden." )
-                        .font(.subheadline)
-                    Link("Cyber Defence Rules - Admin.ch", destination: URL(string: "https://www.vtg.admin.ch/de/aktuell/themen/cyberdefence/cyber-security.html#18_1621347327946")!).foregroundColor(.red)
                 }
+                Spacer()
             }
-            Spacer()
         }
         
     }

@@ -16,16 +16,16 @@ struct CyberRulesLearnView: View {
             ScrollView{
                 VStack(alignment: .leading) {
                     Text(LocalizedStringKey("LearnView.CyberRules.Title"))
-                        .font(.title.bold())
+                        .font(.largeTitle)
                     Text(LocalizedStringKey("LearnView.CyberRules.Body"))
-                        .font(.subheadline)
+                        .font(.body)
                     Group{
                         VStack(alignment: .leading) {
                             HStack{Image("image.CyD+Regel+1").resizable().scaledToFill().frame(width: 100, height: 100).clipped()
                                 VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule1"))
                                         .fixedSize(horizontal: false, vertical: true)
                                         .frame(maxHeight: .infinity, alignment: .top)
-                                        .font(.system(size: 14.0))
+                                        .font(.body)
                                 }
                             }
                         }
@@ -34,7 +34,7 @@ struct CyberRulesLearnView: View {
                                 VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule2"))
                                         .fixedSize(horizontal: false, vertical: true)
                                         .frame(maxHeight: .infinity, alignment: .top)
-                                        .font(.system(size: 14.0))
+                                        .font(.body)
                                 }
                             }
                         }
@@ -43,7 +43,7 @@ struct CyberRulesLearnView: View {
                                 VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule3"))
                                         .fixedSize(horizontal: false, vertical: true)
                                         .frame(maxHeight: .infinity, alignment: .top)
-                                        .font(.system(size: 14.0))
+                                        .font(.body)
                                 }
                             }
                         }
@@ -52,7 +52,7 @@ struct CyberRulesLearnView: View {
                                 VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule4"))
                                         .fixedSize(horizontal: false, vertical: true)
                                         .frame(maxHeight: .infinity, alignment: .top)
-                                        .font(.system(size: 14.0))
+                                        .font(.body)
                                 }
                             }
                         }
@@ -61,7 +61,7 @@ struct CyberRulesLearnView: View {
                                 VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule5"))
                                         .fixedSize(horizontal: false, vertical: true)
                                         .frame(maxHeight: .infinity, alignment: .top)
-                                        .font(.system(size: 14.0))
+                                        .font(.body)
                                 }
                             }
                         }
@@ -70,7 +70,7 @@ struct CyberRulesLearnView: View {
                                 VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule6"))
                                         .fixedSize(horizontal: false, vertical: true)
                                         .frame(maxHeight: .infinity, alignment: .top)
-                                        .font(.system(size: 14.0))
+                                        .font(.body)
                                 }
                             }
                         }
@@ -79,7 +79,7 @@ struct CyberRulesLearnView: View {
                                 VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule7"))
                                         .fixedSize(horizontal: false, vertical: true)
                                         .frame(maxHeight: .infinity, alignment: .top)
-                                        .font(.system(size: 14.0))
+                                        .font(.body)
                                 }
                             }
                         }
