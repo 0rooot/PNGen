@@ -57,3 +57,19 @@
 "LearnView.Wifi.PublicWiFi.Tipp3" = "Maintiens toujours tes appareils à jour et installe les dernières mises à jour. Souvent, cela permet également de maintenir la sécurité à jour";
 "LearnView.Wifi.PublicWiFi.Tipp4" = "Si tu n'as pas de VPN et que le site web ne propose pas de 2FA, tu peux aussi veiller à utiliser le HTTPS (petit cadenas dans le navigateur). Cela crypte la connexion de ce site Internet et les données ne peuvent ainsi plus être lues sur le réseau";
 "LearnView.Wifi.PublicWiFi.Tipp5" = "En renonçant complètement aux réseaux WLAN publics, le risque disparaît totalement. L'utilisation du hotspot via le réseau mobile augmente déjà la sécurité de manière significative";
+
+"LearnView.Bluetooth.Title" = "Sécurité Bluetooth";
+"LearnView.Bluetooth.Body" = "Nombreux sont ceux qui connaissent le mode de connexion Bluetooth pour la fonction mains libres dans la voiture, la transmission de musique sans fil et les appareils IoT. Ce qui semble inoffensif peut également constituer une surface d'attaque pour les pirates. Ce chapitre aborde les risques liés à Bluetooth et présente des conseils pour les prévenir";
+"LearnView.Bluetooth.Risk" = "La plupart du temps, un appairage doit avoir lieu avant que des données puissent être partagées via une connexion Bluetooth. Or, une connexion Bluetooth comporte des risques significatifs. Par exemple, il n'y a pas d'authentification de l'utilisateur. De plus, il existe encore des connexions qui n'offrent pas de sécurité \"Man-in-the-Middle\". n'offrent pas de protection. Les données sont donc transmises de manière très transparente";
+"LearnView.Bluetooth.Tipp1" = "Désactiver le Bluetooth ou au moins le régler sur \"introuvable\" tant que tu n'en as pas besoin. Ainsi, ton appareil est fermé aux nouvelles connexions et ne peut pas transmettre de données de manière involontaire";
+"LearnView.Bluetooth.Tipp2" = "Paire tes appareils Bluetooth uniquement dans des lieux non publics. Dans les lieux publics, les pirates peuvent intervenir directement dans le processus d'établissement de la connexion et prendre le contrôle de la connexion";
+"LearnView.Bluetooth.Tipp3" = "Supprimez les connexions des appareils perdus ou volés. Des attaquants pourraient les exploiter et s'appairer avec ton appareil à l'aide d'anciennes connexions préenregistrées";
+"LearnView.Bluetooth.Tipp4" = "N'accepte que les transmissions et les appairages Bluetooth que tu attends vraiment. Refusez toutes les autres connexions";
+
+"LearnView.GSM.Title" = "";
+"LearnView.GSM.Body" = "";
+"LearnView.GSM.Risk" = "";
+"LearnView.GSM.Tipp1" = "";
+"LearnView.GSM.Tipp2" = "";
+"LearnView.GSM.Tipp3" = "";
+"LearnView.GSM.Tipp4" = "";

@@ -57,3 +57,19 @@
 "LearnView.Wifi.PublicWiFi.Tipp3" = "Always keep your devices up to date and install the latest updates. Often this will also keep security up to date.";
 "LearnView.Wifi.PublicWiFi.Tipp4" = "If you don't have a VPN and the website doesn't offer 2FA, you can also look at using HTTPS (small lock in the browser). This encrypts the connection of this web page and thus the data can no longer be read on the network.";
 "LearnView.Wifi.PublicWiFi.Tipp5" = "Completely avoiding public WLANs makes the risk disappear altogether. Using the hotspot via the mobile network already increases the security significantly.";
+
+"LearnView.Bluetooth.Title" = "Bluetooth Security";
+"LearnView.Bluetooth.Body" = "Many know Bluetooth as a connection type from hands-free car calls, wireless music streaming and IoT devices. What sounds harmless can also provide a target for attackers. This chapter addresses the risks of Bluetooth and presents tips for preventing them.";
+"LearnView.Bluetooth.Risk" = "In most cases, pairing must occur before data can be shared over a Bluetooth connection. However, a Bluetooth connection carries significant risks. For example, there is no user authentication. In addition, there are still connections that do not provide a \"man-in-the-middle\" apron. apron. So the data is transmitted very transparently.";
+"LearnView.Bluetooth.Tipp1" = "Turn Bluetooth off or at least to \"Undiscoverable\" as long as you don't need it. This way your device is closed to new connections and can't pass data unintentionally.";
+"LearnView.Bluetooth.Tipp2" = "Only pair your Bluetooth devices in non-public places. In public places, attackers can directly interfere with the connection establishment process and take over the connection.";
+"LearnView.Bluetooth.Tipp3" = "Delete connections from lost or stolen devices. Attackers could exploit these and pair with your device using old pre-registered connections.";
+"LearnView.Bluetooth.Tipp4" = "Accept only Bluetooth transmissions and pairings you really expect. Reject all other connections.";
+
+"LearnView.GSM.Title" = "";
+"LearnView.GSM.Body" = "";
+"LearnView.GSM.Risk" = "";
+"LearnView.GSM.Tipp1" = "";
+"LearnView.GSM.Tipp2" = "";
+"LearnView.GSM.Tipp3" = "";
+"LearnView.GSM.Tipp4" = "";

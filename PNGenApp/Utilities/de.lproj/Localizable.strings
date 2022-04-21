@@ -57,3 +57,19 @@
 "LearnView.Wifi.PublicWiFi.Tipp3" = "Halte deine Geräte immer auf dem neusten Stand und installiere die neusten Updates. Oft wird dadurch auch die Sicherheit auf dem neusten Stand gehalten.";
 "LearnView.Wifi.PublicWiFi.Tipp4" = "Wenn du kein VPN hast und die Webseite keine 2FA anbietet, kann auch auf die Verwendung von HTTPS (kleines Schloss im Browser) geachtet werden. Dies verschlüsselt die Verbindung dieser Internetseite und die Daten können so nichtmehr im Netzwerk gelesen werden.";
 "LearnView.Wifi.PublicWiFi.Tipp5" = "Der komplette Verzicht auf öffentliche WLANs lässt das Risiko ganz verschwinden. Die Verwendung des Hotspots über das Mobile Netzwerk erhöht die Sicherheit schon signifikant.";
+
+"LearnView.Bluetooth.Title" = "Bluetooth Security";
+"LearnView.Bluetooth.Body" = "Viele kennen die Verbindungsart Bluetooth von der Freisprechfunktion im Auto, drahtlose Musikübertragung und IoT Geräten. Was harmlos klingt, kann ebenfalls eine Angriffsfläche für Angreifer bieten. In diesem Kapitel werden die Risiken von Bluetooth angesprochen und Tipps für die Prävention der Risiken vorgestellt.";
+"LearnView.Bluetooth.Risk" = "Meistens muss ein Pairing stattfinden bevor Daten über eine Bluetooth Verbindung geteilt werden können. Eine Bluetooth Verbindung birgt aber signifikante Risiken. So findet zum Beispiel keine User Authentifizierung statt. Zudem gibt es immer noch Verbindungen welche keinen \"Man-in-the-Middle\" Schurz bieten. Die Daten werden also sehr transparent übermittelt.";
+"LearnView.Bluetooth.Tipp1" = "Schalte Bluetooth aus oder zumindest auf \"Nicht auffindbar\" solange du es nicht benötigst. So ist dein Gerät für neue Verbindungen geschlossen und kann keine Daten ungewollt weitergeben.";
+"LearnView.Bluetooth.Tipp2" = "Paire deine Bluetooth Geräte nur an nicht-öffentlichen Orten. An öffentlichen Orten können Angreifer direkt in den Prozess des Verbindungsaufbaus eingreifen und die Verbindung übernehmen.";
+"LearnView.Bluetooth.Tipp3" = "Lösche die Verbindungen von verlorenen oder gestohlenen Geräten. Angreifer könnten diese ausnutzen und sich mit alten vorgemerkten Verbindungen mit deinem Gerät pairen.";
+"LearnView.Bluetooth.Tipp4" = "Akzeptiere nur Bluetooth Übermittlungen und Pairings welche du wirklich erwartest. Lehne alle anderen Verbindungen ab.";
+
+"LearnView.GSM.Title" = "";
+"LearnView.GSM.Body" = "";
+"LearnView.GSM.Risk" = "";
+"LearnView.GSM.Tipp1" = "";
+"LearnView.GSM.Tipp2" = "";
+"LearnView.GSM.Tipp3" = "";
+"LearnView.GSM.Tipp4" = "";
