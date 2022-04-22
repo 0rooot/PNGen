@@ -66,10 +66,9 @@
 "LearnView.Bluetooth.Tipp3" = "Supprimez les connexions des appareils perdus ou volés. Des attaquants pourraient les exploiter et s'appairer avec ton appareil à l'aide d'anciennes connexions préenregistrées";
 "LearnView.Bluetooth.Tipp4" = "N'accepte que les transmissions et les appairages Bluetooth que tu attends vraiment. Refusez toutes les autres connexions";
 
-"LearnView.GSM.Title" = "";
-"LearnView.GSM.Body" = "";
-"LearnView.GSM.Risk" = "";
-"LearnView.GSM.Tipp1" = "";
-"LearnView.GSM.Tipp2" = "";
-"LearnView.GSM.Tipp3" = "";
-"LearnView.GSM.Tipp4" = "";
+"LearnView.GSM.Title" = "Sécurité du réseau mobile";
+"LearnView.GSM.Body" = "Pour accéder à Internet lors de leurs déplacements, beaucoup utilisent également le réseau mobile. La 3G, la 4G et la 5G sont les technologies utilisées aujourd'hui. La Suisse possède l'une des meilleures couvertures de réseau mobile au monde. Mais le réseau mobile présente également des dangers et des possibilités d'attaque";
+"LearnView.GSM.Risk" = "Les IMSI sont les numéros qui identifient les cartes SIM sur le réseau mobile. Les IMSI-catchers permettent aux pirates d'intercepter ces numéros et de lancer une \"attaque man-in-the-middle\". Avec un IMSI-catcher, il est même possible aujourd'hui de déterminer l'emplacement d'un smartphone ou de le déconnecter du réseau. Mais comment se protéger contre un IMSI-catcher ?";
+"LearnView.GSM.Tipp1" = "Les IMSI-catchers se connectent à ton téléphone portable lorsqu'ils peuvent offrir au smartphone une meilleure qualité de réception que les antennes du fournisseur. Souvent, ils n'ont cependant pas le même débit. Donc, si tu remarques que tu as une réception complète, mais une très mauvaise bande passante, il pourrait s'agir d'un IMSI-catcher. Tu peux alors mettre ton smartphone en mode avion pour une courte durée";
+"LearnView.GSM.Tipp2" = "La nouvelle technologie 5G intègre davantage de technologies de cryptage et de fonctionnalités de sécurité. Les IMSI-catchers tentent souvent de faire passer la norme de téléphonie mobile en 3G. Tu peux régler le paramètre de ton smartphone sous \"Settings\" > \"Réseau mobile\" > \"Options de données\" sur \"5G Ein\". Ainsi, ton smartphone utilisera toujours la 5G lorsqu'elle est disponible";
+"LearnView.GSM.Tipp3" = "Les IMSI catchers sont souvent utilisés dans les endroits où il y a beaucoup de monde. Les aéroports ou les gares sont prédestinés à cela. Il suffit d'éteindre ton smartphone ou de le mettre en mode avion si tu ne veux pas prendre de risques dans ces endroits";

@@ -66,10 +66,9 @@
 "LearnView.Bluetooth.Tipp3" = "Delete connections from lost or stolen devices. Attackers could exploit these and pair with your device using old pre-registered connections.";
 "LearnView.Bluetooth.Tipp4" = "Accept only Bluetooth transmissions and pairings you really expect. Reject all other connections.";
 
-"LearnView.GSM.Title" = "";
-"LearnView.GSM.Body" = "";
-"LearnView.GSM.Risk" = "";
-"LearnView.GSM.Tipp1" = "";
-"LearnView.GSM.Tipp2" = "";
-"LearnView.GSM.Tipp3" = "";
-"LearnView.GSM.Tipp4" = "";
+"LearnView.GSM.Title" = "Mobile Network Security";
+"LearnView.GSM.Body" = "To access the Internet on the road, many also use the mobile network. 3G, 4G and 5G are the technologies used today. Switzerland has one of the best mobile network coverage in the world. But even with the mobile network there are dangers and opportunities for attack.";
+"LearnView.GSM.Risk" = "IMSI are the numbers that identify the SIM cards in the mobile network. With so-called IMSI catchers, attackers can catch these numbers in between and also make a \"man-in-the-middle attack\". Today, an IMSI catcher can even be used to determine the location of a smartphone or disconnect the smartphone from the network. But how can you protect yourself against an IMSI catcher?";
+"LearnView.GSM.Tip1" = "IMSI catchers connect to your phone if they can provide the smartphone with better reception quality than the provider's antennas. However, they often don't have the same throughput. So if you notice that you have full reception but very poor bandwidth, it could be an IMSI catcher. You can then put your smartphone on flight mode for a short time.";
+"LearnView.GSM.Tip2" = "The new 5G technology includes more encryption technology and security features. IMSI catchers often try to downgrade the cellular standard to 3G. You can change the setting on your smartphone under \"Settings\" > \"Mobile network\" > \"Data options\" to \"5G on\". This will make your smartphone use 5G whenever it is available.";
+"LearnView.GSM.Tip3" = "IMSI catchers are often used in places with many people. Airports or train stations are predestined for this. Just turn your smartphone off or to flight mode if you don't want to take the risk in these places.";

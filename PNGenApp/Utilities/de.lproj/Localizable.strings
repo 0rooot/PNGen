@@ -66,10 +66,9 @@
 "LearnView.Bluetooth.Tipp3" = "Lösche die Verbindungen von verlorenen oder gestohlenen Geräten. Angreifer könnten diese ausnutzen und sich mit alten vorgemerkten Verbindungen mit deinem Gerät pairen.";
 "LearnView.Bluetooth.Tipp4" = "Akzeptiere nur Bluetooth Übermittlungen und Pairings welche du wirklich erwartest. Lehne alle anderen Verbindungen ab.";
 
-"LearnView.GSM.Title" = "";
-"LearnView.GSM.Body" = "";
-"LearnView.GSM.Risk" = "";
-"LearnView.GSM.Tipp1" = "";
-"LearnView.GSM.Tipp2" = "";
-"LearnView.GSM.Tipp3" = "";
-"LearnView.GSM.Tipp4" = "";
+"LearnView.GSM.Title" = "Mobile Network Security";
+"LearnView.GSM.Body" = "Um unterwegs ins Internet zu gelangen verwenden viele auch das Mobile Netzwerk. 3G, 4G und 5G heissen die Technologien welche heute gebraucht werden. Die Schweiz hat weltweit eine der besten Mobile Netzwerk Abdeckung. Doch auch beim Mobilen Netz gibt es Gefahren und Angriffsmöglichkeiten.";
+"LearnView.GSM.Risk" = "IMSI heissen die Nummern, welche die Sim-Karten beim Mobilen Netzwerk identifizieren. Mit sogenannten IMSI-Catchern können Angreifer diese Nummern dazwischen auffangen und ebenfalls einen \"Man-in-the-Middle Angriff\" tätigen. Mit einem IMSI-Catcher kann heute sogar den Standort eines Smartphones bestimmt werden oder das Smartphone vom Netz trennen. Doch we kann man sich gegen einen IMSI-Catcher schützen?";
+"LearnView.GSM.Tipp1" = "IMSI-Catcher verbinden sich mit deinem Handy wenn sie dem Smartphone eine bessere Empfangsqualität bieten können als die Antennen des Anbieters. Oftmals haben sie aber nicht den selben Durchsatz. Wenn du also bemerkst, dass du vollen Empfang hast, aber sehr schlechte Bandbreite, dann könnte es sich um ein IMSI-Catcher handeln. Du kannst dann dein Smartphone kurzzeitig auf Flugmodus setzen.";
+"LearnView.GSM.Tipp2" = "Die neue 5G Technologie enthält mehr Verschlüsselungstechnologie und Sicherheitsfeatures. IMSI-Catcher versuchen oft ein Downgrade des Mobilfunk Standards auf 3G. Du kannst bei deinem Smartphone die Einstellung unter \"Einstellungen\" > \"Mobiles Netz\" > \"Datenoptionen\" auf \"5G Ein\" stellen. Damit verwendet dein Smartphone immer 5G wenn es verfügbar ist.";
+"LearnView.GSM.Tipp3" = "IMSI-Catcher werden oft an Orten mit vielen Menschen eingesetzt. Flughäfen oder Bahnhöfe sind dafür prädestiniert. Schalte dein Smartphone ganz einfach aus oder auf Flugmodus wenn du das Risiko an diesen Orten nicht eingehen möchtest.";

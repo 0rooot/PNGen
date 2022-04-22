@@ -47,12 +47,6 @@ struct MobileNetworkLearnView: View {
                                 .font(.body)
                                 .lineSpacing(10)
                                 .padding(20)}
-                        HStack{
-                            Text("4").font(.title).padding(5)
-                            Text(LocalizedStringKey("LearnView.GSM.Tipp4"))
-                                .font(.body)
-                                .lineSpacing(10)
-                                .padding(20)}
                     }
                 }
                 Spacer()
