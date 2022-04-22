@@ -25,10 +25,6 @@ struct SettingsLearnView: View {
                     Divider().background(Color.accentColor).frame(maxWidth: 200)
                     Spacer()
                     Group{
-                        Text(LocalizedStringKey("LearnView.Settings.Risk"))
-                            .font(.body)
-                            .lineSpacing(10)
-                            .padding(20)
                         HStack{
                             Text("1").font(.title).padding(5)
                             Text(LocalizedStringKey("LearnView.Settings.Tipp1"))
