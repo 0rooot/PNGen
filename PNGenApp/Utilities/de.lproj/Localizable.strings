@@ -6,10 +6,12 @@
   
 */
 
+"ButtonView.ButtonTitle.Start" = "Rauschen";
+"ButtonView.ButtonTitle.Stopp" = "Stopp";
+
 "PinkNoiseGeneratorView.Hint.Title" = "Hinweis:";
 "PinkNoiseGeneratorView.Hint.Volume" = "Stelle die Lautstärke auf Maximum und deaktiviere den Lautlos Modus.";
 "PinkNoiseGeneratorView.Hint.Lock" = "Sperre das Iphone um Akku zu sparen.";
-
 "PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Title" = "Was ist Pink Noise?";
 "PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Body" = "Pink Noise ist der Sound von allen Frequenzen. Pink Noise hat verschiedene Einsatzzwecke. Das Einsatzgebiet dieser App ist die Überwachungs- und Abhör-Abwehr. Pink Noise soll die umliegenden Mikrofone von Smartphones und Smartwatches füllen und die Aufnahme von Gesprächen verhindern.";
 
@@ -79,4 +81,3 @@
 "LearnView.Settings.Tipp2" = "Verwende einen Passcode! Es ist ein Glückstreffer für einen Angreifer wenn kein Passcode eigegeben werden muss. Verlierst du dein Smartphone, sind deine Daten direkt auch zugänglich. Mit einem Passcode verhinderst du ungewollten Zugriff. Übrigens: Sechsstellige Passcodes sind 100 Mal sicherer als Vierstellige! TouchID und FaceID erhöhen nur den Komfort und nicht die Sicherheit!";
 "LearnView.Settings.Tipp3" = "Schalte den \"USB Restricted Mode\" an! Unter \"Einstellungen\" > \"Face ID & Passcode\" > \“USB-Zubehör ist auf dem Sperrbildschirm nicht erlaubt\” kannst du verhindern, dass mit einer Kabelverbindung Daten von deinem Smartphone oder Malware auf dein Smartphone ohne Zustimmung geladen wird.";
 "LearnView.Settings.Tipp4" = "Lies die App Berechtigungsanfragen! Wenn Apps auf Daten zugreifen möchten, musst du diesem zustimmen. (Google Maps möchte auf deinen Standort zugreifen.) Hinterfrage diese Zugriffe kritisch. Wenn eine Taschenrechner App auf deine Fotos oder deinen Standort zugreifen will, solltest du dies ablehnen.";
-

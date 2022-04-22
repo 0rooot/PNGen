@@ -6,10 +6,12 @@
   
 */
 
+"ButtonView.ButtonTitle.Start" = "Noise";
+"ButtonView.ButtonTitle.Stopp" = "Stop";
+
 "PinkNoiseGeneratorView.Hint.Title" = "Hint:";
 "PinkNoiseGeneratorView.Hint.Volume" = "Set the volume on maximum and deactivate the silent mode.";
 "PinkNoiseGeneratorView.Hint.Lock" = "Lock the iPhone to save battery.";
-
 "PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Title" = "What is Pink Noise?";
 "PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Body" = "Pink Noise is the sound of all frequencies. Pink Noise has several purposes. The application area of this app is surveillance and eavesdropping prevention. Pink Noise is designed to fill the surrounding microphones of smartphones and smartwatches and prevent the recording of conversations.";
 

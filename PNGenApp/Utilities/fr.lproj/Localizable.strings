@@ -6,6 +6,8 @@
   
 */
 
+"ButtonView.ButtonTitle.Start" = "Bruit";
+"ButtonView.ButtonTitle.Stopp" = "Arrêt";
 
 "PinkNoiseGeneratorView.Hint.Title" = "Remarque:";
 "PinkNoiseGeneratorView.Hint.Volume" = "Réglez le volume au maximum et désactivez le mode silencieux.";

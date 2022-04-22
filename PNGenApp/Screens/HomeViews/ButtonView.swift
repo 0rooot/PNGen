@@ -11,7 +11,7 @@ import AudioToolbox
 struct ButtonView: View {
     
     
-    @State var buttonTitle: String = "Start \n Pink Noise"
+    @State var buttonTitle: LocalizedStringKey = "ButtonView.ButtonTitle.Start"
     @State var playNoise = false
     @State var standardBrightness = UIScreen.main.brightness;
     
@@ -20,7 +20,7 @@ struct ButtonView: View {
             Button(action: {
                 if (playNoise==false) {
                     playNoise = true
-                    buttonTitle = "Stop \n Pink Noise"
+                    buttonTitle = "ButtonView.ButtonTitle.Stopp"
                     
                     playPinkNoise1(key: "PINKNoise", format: "mp3")
                     //playPinkNoise2(key: "opt-Sig", format: "mp3")
@@ -28,14 +28,14 @@ struct ButtonView: View {
                     UIApplication.shared.isIdleTimerDisabled = false
                 } else {
                     playNoise = false
-                    buttonTitle = "Start \n Pink Noise"
+                    buttonTitle = "ButtonView.ButtonTitle.Start"
                     stopPinkNoise()
                     UIScreen.main.brightness = standardBrightness
                     UIApplication.shared.isIdleTimerDisabled = true
                 }
-                while playNoise {
-                    vibrate(count: 5)
-                }
+               // while playNoise {
+               //     vibrate(count: 1)
+               // }
             }){
                 Text(buttonTitle)
                     .bold()
