@@ -9,6 +9,14 @@
 "ButtonView.ButtonTitle.Start" = "Noise";
 "ButtonView.ButtonTitle.Stopp" = "Stop";
 
+"SidemenuView.General" = "General";
+"SidemenuView.CyberRules" = "Cyber Rules";
+"SidemenuView.Connections" = "Connections";
+"SidemenuView.WiFi" = "WiFi";
+"SidemenuView.Bluetooth" = "Bluetooth";
+"SidemenuView.MobileNetwork" = "Mobile Network";
+"SidemenuView.Settings" = "Settings";
+
 "PinkNoiseGeneratorView.Hint.Title" = "Hint:";
 "PinkNoiseGeneratorView.Hint.Volume" = "Set the volume on maximum and deactivate the silent mode.";
 "PinkNoiseGeneratorView.Hint.Lock" = "Lock the iPhone to save battery.";

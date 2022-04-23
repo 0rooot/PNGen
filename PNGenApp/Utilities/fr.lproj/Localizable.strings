@@ -9,6 +9,14 @@
 "ButtonView.ButtonTitle.Start" = "Bruit";
 "ButtonView.ButtonTitle.Stopp" = "Arrêt";
 
+"SidemenuView.General" = "Général";
+"SidemenuView.CyberRules" = "Règles cyber";
+"SidemenuView.Connections" = "Connexions";
+"SidemenuView.WiFi" = "WiFi";
+"SidemenuView.Bluetooth" = "Bluetooth";
+"SidemenuView.MobileNetwork" = "Réseau mobile";
+"SidemenuView.Settings" = "Configuration";
+
 "PinkNoiseGeneratorView.Hint.Title" = "Remarque:";
 "PinkNoiseGeneratorView.Hint.Volume" = "Réglez le volume au maximum et désactivez le mode silencieux.";
 "PinkNoiseGeneratorView.Hint.Lock" = "Verrouillez l'iPhone pour économiser la batterie.";

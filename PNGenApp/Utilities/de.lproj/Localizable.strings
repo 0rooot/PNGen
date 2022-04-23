@@ -9,6 +9,14 @@
 "ButtonView.ButtonTitle.Start" = "Rauschen";
 "ButtonView.ButtonTitle.Stopp" = "Stopp";
 
+"SidemenuView.General" = "Allgemein";
+"SidemenuView.CyberRules" = "Cyber Regeln";
+"SidemenuView.Connections" = "Verbindungen";
+"SidemenuView.WiFi" = "WiFi";
+"SidemenuView.Bluetooth" = "Bluetooth";
+"SidemenuView.MobileNetwork" = "Mobiles Netz";
+"SidemenuView.Settings" = "Einstellungen";
+
 "PinkNoiseGeneratorView.Hint.Title" = "Hinweis:";
 "PinkNoiseGeneratorView.Hint.Volume" = "Stelle die Lautstärke auf Maximum und deaktiviere den Lautlos Modus.";
 "PinkNoiseGeneratorView.Hint.Lock" = "Sperre das Iphone um Akku zu sparen.";

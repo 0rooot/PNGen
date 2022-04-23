@@ -35,43 +35,43 @@ struct LearnView: View {
                     case .general:
                         GeneralLearnView(showMenu: self.$showMenu)
                             .frame(width: geometry.size.width, height: geometry.size.height)
-                            .offset(x: self.showMenu ? geometry.size.width/1.5 : 0)
+                            .offset(x: self.showMenu ? geometry.size.width/1.2 : 0)
                             .disabled(self.showMenu ? true : false)
                     case .cyberRules:
                         CyberRulesLearnView(showMenu: self.$showMenu)
                             .frame(width: geometry.size.width, height: geometry.size.height)
-                            .offset(x: self.showMenu ? geometry.size.width/1.5 : 0)
+                            .offset(x: self.showMenu ? geometry.size.width/1.2 : 0)
                             .disabled(self.showMenu ? true : false)
                     case .connections:
                         ConnectionsLearnView(showMenu: self.$showMenu)
                             .frame(width: geometry.size.width, height: geometry.size.height)
-                            .offset(x: self.showMenu ? geometry.size.width/1.5 : 0)
+                            .offset(x: self.showMenu ? geometry.size.width/1.2 : 0)
                             .disabled(self.showMenu ? true : false)
                     case .wifi:
                         WiFiLearnView(showMenu: self.$showMenu)
                             .frame(width: geometry.size.width, height: geometry.size.height)
-                            .offset(x: self.showMenu ? geometry.size.width/1.5 : 0)
+                            .offset(x: self.showMenu ? geometry.size.width/1.2 : 0)
                             .disabled(self.showMenu ? true : false)
                     case .bluetoot:
                         BluetoothLearnView(showMenu: self.$showMenu)
                             .frame(width: geometry.size.width, height: geometry.size.height)
-                            .offset(x: self.showMenu ? geometry.size.width/1.5 : 0)
+                            .offset(x: self.showMenu ? geometry.size.width/1.2 : 0)
                             .disabled(self.showMenu ? true : false)
                     case .mobileNetwork:
                         MobileNetworkLearnView(showMenu: self.$showMenu)
                             .frame(width: geometry.size.width, height: geometry.size.height)
-                            .offset(x: self.showMenu ? geometry.size.width/1.5 : 0)
+                            .offset(x: self.showMenu ? geometry.size.width/1.2 : 0)
                             .disabled(self.showMenu ? true : false)
                     case .settings:
                         SettingsLearnView(showMenu: self.$showMenu)
                             .frame(width: geometry.size.width, height: geometry.size.height)
-                            .offset(x: self.showMenu ? geometry.size.width/1.5 : 0)
+                            .offset(x: self.showMenu ? geometry.size.width/1.2 : 0)
                             .disabled(self.showMenu ? true : false)
                     }
                         if self.showMenu {
                             SideMenuView(showMenu: $showMenu, selected: $selected)
                                 .transition(.move(edge: .leading))
-                                .frame(width: geometry.size.width/1.5)
+                                .frame(width: geometry.size.width)
                                 .transition(.move(edge: .leading))
                         }
                     }

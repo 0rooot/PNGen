@@ -19,14 +19,14 @@ struct SideMenuView: View {
                     selected = .general
                     showMenu = false
                 } label: {
-                    Label("General", systemImage: "person")
+                    Label(LocalizedStringKey("SidemenuView.General"), systemImage: "person")
                 }.font(.title)
                 
                 Button {
                     selected = .cyberRules
                     showMenu = false
                 } label: {
-                    Label("Cyber Rules", systemImage: "circle")
+                    Label(LocalizedStringKey("SidemenuView.CyberRules"), systemImage: "circle")
                 }
                 .font(.title2)
                 .padding(.leading, 40)
@@ -35,14 +35,14 @@ struct SideMenuView: View {
                     selected = .connections
                     showMenu = false
                 } label: {
-                    Label("Connections", systemImage: "envelope")
+                    Label(LocalizedStringKey("SidemenuView.Connections"), systemImage: "envelope")
                 }.font(.title)
                 
                 Button {
                     selected = .wifi
                     showMenu = false
                 } label: {
-                    Label("WiFi", systemImage: "circle")
+                    Label(LocalizedStringKey("SidemenuView.WiFi"), systemImage: "circle")
                 }
                 .font(.title2)
                 .padding(.leading, 40)
@@ -51,7 +51,7 @@ struct SideMenuView: View {
                     selected = .bluetoot
                     showMenu = false
                 } label: {
-                    Label("Bluetooth", systemImage: "circle")
+                    Label(LocalizedStringKey("SidemenuView.Bluetooth"), systemImage: "circle")
                 }
                 .font(.title2)
                 .padding(.leading, 40)
@@ -60,7 +60,7 @@ struct SideMenuView: View {
                     selected = .mobileNetwork
                     showMenu = false
                 } label: {
-                    Label("Mobile Network", systemImage: "circle")
+                    Label(LocalizedStringKey("SidemenuView.MobileNetwork"), systemImage: "circle")
                 }
                 .font(.title2)
                 .padding(.leading, 40)
@@ -69,7 +69,7 @@ struct SideMenuView: View {
                     selected = .settings
                     showMenu = false
                 } label: {
-                    Label("Settings", systemImage: "gear")
+                    Label(LocalizedStringKey("SidemenuView.Settings"), systemImage: "gear")
                 }.font(.title)
             }
             .font(.title)

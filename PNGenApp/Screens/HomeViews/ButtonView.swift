@@ -56,9 +56,9 @@ struct GrowingButton: ButtonStyle {
             .background(Color(red: 165 / 255, green: 32 / 255, blue: 25 / 255))
             .foregroundColor(Color.white)
             .clipShape(Capsule())
-            .shadow(color: .gray, radius: 2, x: 5, y: 5)
-            .scaleEffect(configuration.isPressed ? 1.1 : 1)
-            .animation(.easeOut(duration: 0.2), value: configuration.isPressed)
+            .shadow(color: .gray, radius: 1, x: 0, y: -2)
+            .scaleEffect(configuration.isPressed ? 0.9 : 1)
+            .animation(.easeOut(duration: 0.4), value: configuration.isPressed)
     }
 }
 
