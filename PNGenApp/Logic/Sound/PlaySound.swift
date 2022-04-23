@@ -60,3 +60,9 @@ func stopPinkNoise(){
     player1?.stop()
     player2?.stop()
 }
+
+func playNoiseIfAutoStart(){
+    if(UserDefaults.standard.bool(forKey: "AUTO_START")){
+    playPinkNoise1(key: "PINKNoise", format: "mp3")
+    }
+}
