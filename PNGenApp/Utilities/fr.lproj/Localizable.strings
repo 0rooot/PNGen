@@ -29,7 +29,7 @@
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3" = "3. Ferme la vitre anti-bruit et commence la session";
 //TODO: Ändern!
 "PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "Plus d'informations:";
-"PinkNoiseGeneratorView.Info.FurtherInfos.Body" = "Place des information ici.";
+"PinkNoiseGeneratorView.Info.FurtherInfos.Body" = "Le démarrage automatique du bruit peut être activé sous \"Réglages\" > \"PNGen\" > \"Auto Start\" .";
 
 "LearnView.General.Title" = "Soyez vigilant!";
 "LearnView.General.Body" = "Cette section est consacrée à l'apprentissage et à la sensibilisation. Vous y trouverez des informations sur des sujets généraux de cybersécurité concernant les téléphones mobiles. De nos jours, il est de plus en plus important d'assurer la sécurité au travail et sur les appareils privés.";

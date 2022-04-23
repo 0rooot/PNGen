@@ -12,7 +12,7 @@
 			<key>Type</key>
 			<string>PSToggleSwitchSpecifier</string>
 			<key>Title</key>
-			<string>Autmatically Start Noise</string>
+			<string>Auto Start</string>
 			<key>Key</key>
 			<string>AUTO_START</string>
 			<key>DefaultValue</key>
