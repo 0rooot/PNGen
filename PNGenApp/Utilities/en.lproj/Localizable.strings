@@ -29,7 +29,10 @@
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3" = "3. Close the eavesdropping glass and start the conversation.";
 //TODO: Ändern!
 "PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "More info:";
-"PinkNoiseGeneratorView.Info.FurtherInfos.Body" = "Automatic noise start can be turned on in \"Settings\" > \"PNGen\" > \"Auto Start\".";
+"PinkNoiseGeneratorView.Info.Autostart.Title" = "How can I start the noise automatically?";
+"PinkNoiseGeneratorView.Info.Autostart.Body" = "Automatic noise start can be turned on in \"Settings\" > \"PNGen\" > \"Auto Start\".";
+"PinkNoiseGeneratorView.Info.Jar.Title" = "What is an eavesdropping jar?";
+"PinkNoiseGeneratorView.Info.Jar.Body" = "An eavesdropping jar is a commercial canning jar into which the smartphone fits. During the development of this app, we tested with a 3l canning jar. The jars are available for purchase here, for example:";
 
 "LearnView.General.Title" = "Be Aware!";
 "LearnView.General.Body" = "This section is all about learning and gathering awareness. Here you can read about general cyber security topics regarding mobile phones. Nowadays it gets more and more important to keep secure at work as well as on private devices.";

@@ -29,7 +29,10 @@
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3" = "3. Lauschschutz Glas schliessen und Sitzung beginnen.";
 //TODO: Ändern!
 "PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "Weitere Infos:";
-"PinkNoiseGeneratorView.Info.FurtherInfos.Body" = "Das automatische Starten des Rauschens kann unter \"Einstellungen\" > \"PNGen\" > \"Auto Start\" eingeschaltet werden.";
+"PinkNoiseGeneratorView.Info.Autostart.Title" = "Wie kann ich das rauschen automatisch starten?";
+"PinkNoiseGeneratorView.Info.Autostart.Body" = "Das automatische Starten des Rauschens kann unter \"Einstellungen\" > \"PNGen\" > \"Auto Start\" eingeschaltet werden.";
+"PinkNoiseGeneratorView.Info.Jar.Title" = "Was ist ein Lauschschutzglas?";
+"PinkNoiseGeneratorView.Info.Jar.Body" = "Ein Lauschschutzglas ist ein handelsübliches Einmachglas, in welches das Smartphone reinpasst. Bei der Entwicklung dieser App wurde mit einem 3l Einmachglas getestet. Die Gläser sind beispielsweise hier käuflich zu erwerben:";
 
 "LearnView.General.Title" = "Sei aufmerksam!";
 "LearnView.General.Body" = "In diesem Abschnitt geht es darum, zu lernen und das Bewusstsein zu schärfen. Hier können Sie über allgemeine Cybersicherheitsthemen in Bezug auf Smartphones lesen. Heutzutage wird es immer wichtiger, sowohl bei der Arbeit als auch bei privaten Geräten für Sicherheit zu sorgen.";
