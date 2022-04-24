@@ -53,30 +53,35 @@ struct InfoView: View {
                     Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Title"))
                         .font(.title2)
                         .foregroundColor(.accentColor)
+                        .padding(.bottom, 5)
                     Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Body"))
                         .font(.body)
                         .lineSpacing(10)
-                        .padding(.bottom, 5)
+                        .padding(.bottom, 20)
+                    Divider().background(Color.accentColor).frame(maxWidth: 200)
                 }
                 Spacer()
                 Group {
                     Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.Autostart.Title"))
                         .font(.title2)
                         .foregroundColor(.accentColor)
+                        .padding(.bottom, 5)
                     Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.Autostart.Body"))
                         .font(.body)
                         .lineSpacing(10)
-                        .padding(.bottom, 10)
+                        .padding(.bottom, 20)
+                    Divider().background(Color.accentColor).frame(maxWidth: 200)
                 }
                 Spacer()
                 Group {
                     Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.Jar.Title"))
                         .font(.title2)
                         .foregroundColor(.accentColor)
+                        .padding(.bottom, 5)
                     Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.Jar.Body"))
                         .font(.body)
                         .lineSpacing(10)
-                        .padding(.bottom, 10)
+                        .padding(.bottom, 20)
                     GeometryReader { geometry in
                         HStack{
                             Link("Migros", destination: URL(string: "https://produkte.migros.ch/bormioli-rocco-einmachglas-fido-703723200000")!).foregroundColor(.red).frame(minWidth: 0, maxWidth: geometry.size.width/3)
