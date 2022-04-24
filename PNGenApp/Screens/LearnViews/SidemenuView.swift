@@ -75,7 +75,7 @@ struct SideMenuView: View {
             .font(.title)
             .padding()
             .frame(maxHeight: .infinity)
-            .background(Color(red: 32/255, green: 32/255, blue: 32/255))
+            .background(Color("NavBarColor"))
             
             Spacer()
         }
