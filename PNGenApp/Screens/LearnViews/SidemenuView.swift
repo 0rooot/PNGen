@@ -24,7 +24,7 @@ struct SideMenuView: View {
                 Button {
                     selected = .cyberRules
                     showMenu = false
-                } label: {Label(LocalizedStringKey("SidemenuView.CyberRules"), systemImage: "circle")
+                } label: {Label(LocalizedStringKey("SidemenuView.CyberRules"), systemImage: "lock.circle.fill")
                 }.withSideMenueSubButtonStyle()
                 
                 Button {
@@ -36,19 +36,19 @@ struct SideMenuView: View {
                 Button {
                     selected = .wifi
                     showMenu = false
-                } label: { Label(LocalizedStringKey("SidemenuView.WiFi"), systemImage: "circle")
+                } label: { Label(LocalizedStringKey("SidemenuView.WiFi"), systemImage: "wifi.circle.fill")
                 }.withSideMenueSubButtonStyle()
                 
                 Button {
                     selected = .bluetoot
                     showMenu = false
-                } label: { Label(LocalizedStringKey("SidemenuView.Bluetooth"), systemImage: "circle")
+                } label: { Label(LocalizedStringKey("SidemenuView.Bluetooth"), systemImage: "airplayaudio.circle.fill")
                 }.withSideMenueSubButtonStyle()
                 
                 Button {
                     selected = .mobileNetwork
                     showMenu = false
-                } label: { Label(LocalizedStringKey("SidemenuView.MobileNetwork"), systemImage: "circle")
+                } label: { Label(LocalizedStringKey("SidemenuView.MobileNetwork"), systemImage: "antenna.radiowaves.left.and.right.circle.fill")
                 }.withSideMenueSubButtonStyle()
                 
                 Button {
