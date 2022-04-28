@@ -15,27 +15,21 @@ struct MobileNetworkLearnView: View {
             ScrollView{
                 Spacer()
                 VStack(alignment: .leading) {
-                    Text(LocalizedStringKey("LearnView.GSM.Title"))
-                        .withLearnTextTitleStyle()
-                    Text(LocalizedStringKey("LearnView.GSM.Body"))
-                        .withLearnTextBodyStyle()
+                    Text(LocalizedStringKey("LearnView.GSM.Title")).withLearnTextTitleStyle()
+                    Text(LocalizedStringKey("LearnView.GSM.Body")).withLearnTextBodyStyle()
                     Divider().background(Color.accentColor).frame(maxWidth: 200)
                     Spacer()
                     Group{
-                        Text(LocalizedStringKey("LearnView.GSM.Risk"))
-                            .withLearnTextBodyStyle()
+                        Text(LocalizedStringKey("LearnView.GSM.Risk")).withLearnTextBodyStyle()
                         HStack{
-                            Text("1").font(.title).padding(5)
-                            Text(LocalizedStringKey("LearnView.GSM.Tipp1"))
-                                .withLearnTextBodyStyle()}
+                            Text("1").withRuleNumberingStyle()
+                            Text(LocalizedStringKey("LearnView.GSM.Tipp1")).withLearnTextBodyStyle()}
                         HStack{
-                            Text("2").font(.title).padding(5)
-                            Text(LocalizedStringKey("LearnView.GSM.Tipp2"))
-                                .withLearnTextBodyStyle()}
+                            Text("2").withRuleNumberingStyle()
+                            Text(LocalizedStringKey("LearnView.GSM.Tipp2")).withLearnTextBodyStyle()}
                         HStack{
-                            Text("3").font(.title).padding(5)
-                            Text(LocalizedStringKey("LearnView.GSM.Tipp3"))
-                                .withLearnTextBodyStyle()}
+                            Text("3").withRuleNumberingStyle()
+                            Text(LocalizedStringKey("LearnView.GSM.Tipp3")).withLearnTextBodyStyle()}
                     }
                 }
                 Spacer()

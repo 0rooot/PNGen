@@ -14,12 +14,9 @@ struct ConnectionsLearnView: View {
         HStack{
             Spacer()
             VStack(alignment: .leading) {
-                Text(LocalizedStringKey("LearnView.Connections.Title"))
-                    .withLearnTextTitleStyle()
-                Text(LocalizedStringKey("LearnView.Connections.Body"))
-                    .withLearnTextBodyStyle()
-                Text(LocalizedStringKey("LearnView.Connections.More"))
-                    .withLearnTextBodyStyle()
+                Text(LocalizedStringKey("LearnView.Connections.Title")).withLearnTextTitleStyle()
+                Text(LocalizedStringKey("LearnView.Connections.Body")).withLearnTextBodyStyle()
+                Text(LocalizedStringKey("LearnView.Connections.More")).withLearnTextBodyStyle()
             }
             Spacer()
         }

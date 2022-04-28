@@ -13,34 +13,19 @@ struct AboutView: View {
             ScrollView{
             VStack(alignment: .leading) {
                 Spacer()
-                Text(LocalizedStringKey("AboutView.Impressum.Title"))
-                    .font(.largeTitle)
-                    .padding(.bottom, 20)
-                Text(LocalizedStringKey("AboutView.Impressum.Software"))
-                    .font(.body)
-                    .lineSpacing(10)
-                    .padding(.bottom, 5)
-                Text(LocalizedStringKey("AboutView.Impressum.Client"))
-                    .font(.body)
-                    .lineSpacing(10)
-                    .padding(.bottom, 5)
-                Text(LocalizedStringKey("AboutView.Impressum.Body"))
-                    .font(.body.italic())
-                    .lineSpacing(10)
-                    .padding(.bottom, 10)
+                Text(LocalizedStringKey("AboutView.Impressum.Title")).withAboutViewTitleStyle()
+                Text(LocalizedStringKey("AboutView.Impressum.Software")).withAboutViewBodyStyle()
+                Text(LocalizedStringKey("AboutView.Impressum.Client")).withAboutViewBodyStyle()
+                Text(LocalizedStringKey("AboutView.Impressum.Body")).withAboutViewBodyStyle()
+                Divider().background(Color.accentColor).frame(maxWidth: 200)
                 VStack() {
                     Image("HSLU").resizable().aspectRatio(contentMode: .fit).padding([.top, .leading], 10).background(.white)
                     Image("SchweizerischeEidgenossenschaft").resizable().aspectRatio(contentMode: .fit).padding([.top, .leading, .bottom], 10).clipped().background(.white)
                 }
                 //Spacer()
                 Group{
-                    Text(LocalizedStringKey("AboutView.Feedback.Title"))
-                    .font(.largeTitle)
-                    .padding(.bottom, 20)
-                    Text(LocalizedStringKey("AboutView.Feedback.Body"))
-                    .font(.body.italic())
-                    .lineSpacing(10)
-                    .padding(.bottom, 10)
+                    Text(LocalizedStringKey("AboutView.Feedback.Title")).withAboutViewTitleStyle()
+                    Text(LocalizedStringKey("AboutView.Feedback.Body")).withAboutViewBodyStyle()
                 Text("pngen@gmx.ch")
                     .font(.body)
                     .lineSpacing(10)
@@ -62,3 +47,15 @@ struct AboutView_Previews: PreviewProvider {
     }
 }
 
+extension Text {
+    func withAboutViewTitleStyle() -> some View {
+            self.font(.largeTitle)
+            .padding(.bottom, 20)
+        }
+    func withAboutViewBodyStyle() -> some View {
+            self.font(.body)
+            .lineSpacing(10)
+            .padding(.bottom, 5)
+        }
+
+}

@@ -15,36 +15,28 @@ struct WiFiLearnView: View {
             ScrollView{
                 Spacer()
                 VStack(alignment: .leading) {
-                    Text(LocalizedStringKey("LearnView.Wifi.Title"))
-                        .withLearnTextTitleStyle()
-                    Text(LocalizedStringKey("LearnView.Wifi.Body"))
-                        .withLearnTextBodyStyle()
+                    Text(LocalizedStringKey("LearnView.Wifi.Title")).withLearnTextTitleStyle()
+                    Text(LocalizedStringKey("LearnView.Wifi.Body")).withLearnTextBodyStyle()
                     Divider().background(Color.accentColor).frame(maxWidth: 200)
                     Spacer()
                     Group{
                         Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Title"))
                             .font(.title)
                             .padding(20)
-                        Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Intro"))
-                            .withLearnTextBodyStyle()
-                        Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Risk"))
-                            .withLearnTextBodyStyle()
+                        Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Intro")).withLearnTextBodyStyle()
+                        Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Risk")).withLearnTextBodyStyle()
                         HStack{
-                            Text("1").font(.title).padding(5)
-                            Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Tipp1"))
-                                .withLearnTextBodyStyle()}
+                            Text("1").withRuleNumberingStyle()
+                            Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Tipp1")).withLearnTextBodyStyle()}
                         HStack{
-                            Text("2").font(.title).padding(5)
-                            Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Tipp2"))
-                                .withLearnTextBodyStyle()}
+                            Text("2").withRuleNumberingStyle()
+                            Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Tipp2")).withLearnTextBodyStyle()}
                         HStack{
-                            Text("3").font(.title).padding(5)
-                            Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Tipp3"))
-                                .withLearnTextBodyStyle()}
+                            Text("3").withRuleNumberingStyle()
+                            Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Tipp3")).withLearnTextBodyStyle()}
                         HStack{
-                            Text("4").font(.title).padding(5)
-                            Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Tipp4"))
-                                .withLearnTextBodyStyle()}
+                            Text("4").withRuleNumberingStyle()
+                            Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Tipp4")).withLearnTextBodyStyle()}
                     }
                 }
                 Spacer()

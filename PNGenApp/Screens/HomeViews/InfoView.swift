@@ -13,56 +13,45 @@ struct InfoView: View {
             VStack(alignment: .leading) {
                 Spacer()
                 Group{
-                    Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title"))
-                        .withTitleStyle()
+                    Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title")).withTitleStyle()
                     VStack(alignment: .leading) {
                         HStack{Image("Start_Button_White").withInfoViewImageStyle()
-                            VStack{Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1"))
-                                    .withStepStyle()
+                            VStack{Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1")).withStepStyle()
                             }
                         }
                     }
                     VStack(alignment: .leading) {
                         HStack{Image("Einmachglas_Manor").withInfoViewImageStyle()
-                            VStack{Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2"))
-                                    .withStepStyle()
+                            VStack{Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2")).withStepStyle()
                             }
                         }
                     }
                     VStack(alignment: .leading) {
                         HStack{Image("Sprechen2").withInfoViewImageStyle()
-                            VStack{Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3"))
-                                    .withStepStyle()
+                            VStack{Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3")).withStepStyle()
                             }
                         }
                     }
                 }
                 Group{
                     Spacer()
-                    Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.FurtherInfos.Title"))
-                        .withTitleStyle()
+                    Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.FurtherInfos.Title")).withTitleStyle()
                     Spacer()
                     Group {
-                        Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Title"))
-                            .withQuestionTitleStyle()
-                        Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Body"))
-                            .withQuestionBodyStyle()
+                        Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Title")).withQuestionTitleStyle()
+                        Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Body")).withQuestionBodyStyle()
                         Divider().background(Color.accentColor).frame(maxWidth: 200)
                     }
                     Spacer()
                     Group {
-                        Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.Autostart.Title"))
-                            .withQuestionTitleStyle()
-                        Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.Autostart.Body"))
-                            .withQuestionBodyStyle()
+                        Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.Autostart.Title")).withQuestionTitleStyle()
+                        Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.Autostart.Body")).withQuestionBodyStyle()
                         Divider().background(Color.accentColor).frame(maxWidth: 200)
                     }
                     Spacer()
                     Group {
-                        Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.Jar.Title"))
-                            .withQuestionTitleStyle()
-                        Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.Jar.Body"))
-                            .withQuestionBodyStyle()
+                        Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.Jar.Title")).withQuestionTitleStyle()
+                        Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.Jar.Body")).withQuestionBodyStyle()
                         GeometryReader { geometry in
                             HStack{
                                 

@@ -15,19 +15,15 @@ struct HintView: View {
             Group{
                 VStack(alignment: .leading) {
                     HStack{
-                        Image(systemName: "speaker.wave.2.circle")
-                            .withHintImageStyle()
-                        VStack{Text(LocalizedStringKey("PinkNoiseGeneratorView.Hint.Volume"))
-                                .withHintTextStyle()
+                        Image(systemName: "speaker.wave.2.circle").withHintImageStyle()
+                        VStack{Text(LocalizedStringKey("PinkNoiseGeneratorView.Hint.Volume")).withHintTextStyle()
                         }
                     }
                 }
                 VStack(alignment: .leading) {
                     HStack{
-                        Image(systemName: "lock.circle")
-                            .withHintImageStyle()
-                        VStack{Text(LocalizedStringKey("PinkNoiseGeneratorView.Hint.Lock"))
-                                .withHintTextStyle()
+                        Image(systemName: "lock.circle").withHintImageStyle()
+                        VStack{Text(LocalizedStringKey("PinkNoiseGeneratorView.Hint.Lock")).withHintTextStyle()
                         }
                     }
                 }

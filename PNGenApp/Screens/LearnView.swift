@@ -17,13 +17,9 @@ struct LearnView: View {
         let drag = DragGesture()
             .onEnded {
                 if $0.translation.width < -100 {
-                    withAnimation {
-                        self.showMenu = false
-                    }
+                    withAnimation { self.showMenu = false }
                 } else {
-                    withAnimation {
-                        self.showMenu = true
-                    }
+                    withAnimation { self.showMenu = true }
                 }
             }
         

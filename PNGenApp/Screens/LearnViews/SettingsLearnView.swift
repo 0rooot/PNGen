@@ -15,29 +15,23 @@ struct SettingsLearnView: View {
             ScrollView{
                 Spacer()
                 VStack(alignment: .leading) {
-                    Text(LocalizedStringKey("LearnView.Settings.Title"))
-                        .withLearnTextTitleStyle()
-                    Text(LocalizedStringKey("LearnView.Settings.Body"))
-                        .withLearnTextBodyStyle()
+                    Text(LocalizedStringKey("LearnView.Settings.Title")).withLearnTextTitleStyle()
+                    Text(LocalizedStringKey("LearnView.Settings.Body")).withLearnTextBodyStyle()
                     Divider().background(Color.accentColor).frame(maxWidth: 200)
                     Spacer()
                     Group{
                         HStack{
-                            Text("1").font(.title).padding(5)
-                            Text(LocalizedStringKey("LearnView.Settings.Tipp1"))
-                                .withLearnTextBodyStyle()}
+                            Text("1").withRuleNumberingStyle()
+                            Text(LocalizedStringKey("LearnView.Settings.Tipp1")).withLearnTextBodyStyle()}
                         HStack{
-                            Text("2").font(.title).padding(5)
-                            Text(LocalizedStringKey("LearnView.Settings.Tipp2"))
-                                .withLearnTextBodyStyle()}
+                            Text("2").withRuleNumberingStyle()
+                            Text(LocalizedStringKey("LearnView.Settings.Tipp2")).withLearnTextBodyStyle()}
                         HStack{
-                            Text("3").font(.title).padding(5)
-                            Text(LocalizedStringKey("LearnView.Settings.Tipp3"))
-                                .withLearnTextBodyStyle()}
+                            Text("3").withRuleNumberingStyle()
+                            Text(LocalizedStringKey("LearnView.Settings.Tipp3")).withLearnTextBodyStyle()}
                         HStack{
-                            Text("3").font(.title).padding(5)
-                            Text(LocalizedStringKey("LearnView.Settings.Tipp4"))
-                                .withLearnTextBodyStyle()}
+                            Text("3").withRuleNumberingStyle()
+                            Text(LocalizedStringKey("LearnView.Settings.Tipp4")).withLearnTextBodyStyle()}
                     }
                 }
                 Spacer()

@@ -15,31 +15,24 @@ struct BluetoothLearnView: View {
             ScrollView{
                 Spacer()
                 VStack(alignment: .leading) {
-                    Text(LocalizedStringKey("LearnView.Bluetooth.Title"))
-                        .withLearnTextTitleStyle()
-                    Text(LocalizedStringKey("LearnView.Bluetooth.Body"))
-                        .withLearnTextBodyStyle()
+                    Text(LocalizedStringKey("LearnView.Bluetooth.Title")).withLearnTextTitleStyle()
+                    Text(LocalizedStringKey("LearnView.Bluetooth.Body")).withLearnTextBodyStyle()
                     Divider().background(Color.accentColor).frame(maxWidth: 200)
                     Spacer()
                     Group{
-                        Text(LocalizedStringKey("LearnView.Bluetooth.Risk"))
-                            .withLearnTextBodyStyle()
+                        Text(LocalizedStringKey("LearnView.Bluetooth.Risk")).withLearnTextBodyStyle()
                         HStack{
-                            Text("1").font(.title).padding(5)
-                            Text(LocalizedStringKey("LearnView.Bluetooth.Tipp1"))
-                                .withLearnTextBodyStyle()}
+                            Text("1").withRuleNumberingStyle()
+                            Text(LocalizedStringKey("LearnView.Bluetooth.Tipp1")).withLearnTextBodyStyle()}
                         HStack{
-                            Text("2").font(.title).padding(5)
-                            Text(LocalizedStringKey("LearnView.Bluetooth.Tipp2"))
-                                .withLearnTextBodyStyle()}
+                            Text("2").withRuleNumberingStyle()
+                            Text(LocalizedStringKey("LearnView.Bluetooth.Tipp2")).withLearnTextBodyStyle()}
                         HStack{
-                            Text("3").font(.title).padding(5)
-                            Text(LocalizedStringKey("LearnView.Bluetooth.Tipp3"))
-                                .withLearnTextBodyStyle()}
+                            Text("3").withRuleNumberingStyle()
+                            Text(LocalizedStringKey("LearnView.Bluetooth.Tipp3")).withLearnTextBodyStyle()}
                         HStack{
-                            Text("4").font(.title).padding(5)
-                            Text(LocalizedStringKey("LearnView.Bluetooth.Tipp4"))
-                                .withLearnTextBodyStyle()}
+                            Text("4").withRuleNumberingStyle()
+                            Text(LocalizedStringKey("LearnView.Bluetooth.Tipp4")).withLearnTextBodyStyle()}
                     }
                 }
                 Spacer()

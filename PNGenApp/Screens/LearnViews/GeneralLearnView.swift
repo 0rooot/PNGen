@@ -14,12 +14,9 @@ struct GeneralLearnView: View {
         HStack{
             Spacer()
             VStack(alignment: .leading) {
-                Text(LocalizedStringKey("LearnView.General.Title"))
-                    .withLearnTextTitleStyle()
-                Text(LocalizedStringKey("LearnView.General.Body"))
-                    .withLearnTextBodyStyle()
-                Text(LocalizedStringKey("LearnView.General.Instructions"))
-                    .withLearnTextBodyStyle()
+                Text(LocalizedStringKey("LearnView.General.Title")).withLearnTextTitleStyle()
+                Text(LocalizedStringKey("LearnView.General.Body")).withLearnTextBodyStyle()
+                Text(LocalizedStringKey("LearnView.General.Instructions")).withLearnTextBodyStyle()
             }
             Spacer()
         }
@@ -33,6 +30,11 @@ extension Text {
             .lineSpacing(10)
             .padding(20)
         }
+    
+    func withRuleNumberingStyle() -> some View {
+        self.font(.title)
+            .padding(5)
+    }
     
     func withLearnTextTitleStyle() -> some View {
             self.font(.largeTitle)
