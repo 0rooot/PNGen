@@ -51,7 +51,7 @@
 "LearnView.CyberRules.Rule5" = "Les téléphones portables, montres ou ordinateurs portables sont des mouchards potentiels. Il faut ranger ailleurs ces appareils avant une conversation confidentielle ou secrète.";
 "LearnView.CyberRules.Rule6" = "N’ouvrez ni les messages, ni les annexes ou les links de provenance inattendue. Contactez l’expéditeur par téléphone en cas de doute.";
 "LearnView.CyberRules.Rule7" = "Si vous soupçonnez une infection par un logiciel malveillant, déconnectez-vous le plus vite possible du réseau, laissez le système en marche et faites part de votre soupçon à la Hotline et à votre supérieur hiérarchique.";
-"LearnView.CyberRules.VideoHint" = "Toutes les vidéos explicatives peuvent être visionnées ici";
+"LearnView.CyberRules.VideoHint" = "vidéos explicatives";
 
 "AboutView.Impressum.Title" = "Mentions légales :";
 "AboutView.Impressum.Software" = "Développeur du logiciel : T. A.";

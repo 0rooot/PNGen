@@ -51,7 +51,7 @@
 "LearnView.CyberRules.Rule5" = "Handys, Uhren und Notebooks sind potentielle Wanzen. Vor vertraulichen oder geheimen Gesprächen diese Geräte wegschliessen.";
 "LearnView.CyberRules.Rule6" = "Keine Mitteilungen/Anhänge/Links unerwarteter Herkunft öffnen. Kontaktieren Sie bei Verdacht den Absender telefonisch.";
 "LearnView.CyberRules.Rule7" = "Trennen Sie bei Verdacht auf Malware-Infektion schnellstmöglich die Netzverbindung, lassen Sie das Gerät laufen und melden Sie Ihren Verdacht der Hotline und Ihrem Vorgesetzten.";
-"LearnView.CyberRules.VideoHint" = "Alle Erklärvideos können hier angeschaut werden.";
+"LearnView.CyberRules.VideoHint" = "Erklärvideos";
 
 "AboutView.Impressum.Title" = "Impressum:";
 "AboutView.Impressum.Software" = "Developer: T. A.";

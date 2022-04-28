@@ -51,7 +51,7 @@
 "LearnView.CyberRules.Rule5" = "Cell phones, watches, and notebooks are potential bugs. Before confidential or secret conversations, lock these devices away.";
 "LearnView.CyberRules.Rule6" = "Do not open messages/attachments/links of unexpected origin. Contact the sender by phone if you suspect anything.";
 "LearnView.CyberRules.Rule7" = "Disconnect from the network as soon as possible if you suspect malware infection, leave the device running, and report your suspicions to the hotline and your supervisor.";
-"LearnView.CyberRules.VideoHint" = "All explainer videos can be watched here.";
+"LearnView.CyberRules.VideoHint" = "explainer videos";
 
 "AboutView.Impressum.Title" = "Imprint:";
 "AboutView.Impressum.Software" = "Developer: T. A.";
