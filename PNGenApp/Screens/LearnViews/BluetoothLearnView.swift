@@ -21,16 +21,16 @@ struct BluetoothLearnView: View {
                     Spacer()
                     Group{
                         Text(LocalizedStringKey("LearnView.Bluetooth.Risk")).withLearnTextBodyStyle()
-                        HStack{
+                        HStack(alignment: .top){
                             Text("1").withRuleNumberingStyle()
                             Text(LocalizedStringKey("LearnView.Bluetooth.Tipp1")).withLearnTextBodyStyle()}
-                        HStack{
+                        HStack(alignment: .top){
                             Text("2").withRuleNumberingStyle()
                             Text(LocalizedStringKey("LearnView.Bluetooth.Tipp2")).withLearnTextBodyStyle()}
-                        HStack{
+                        HStack(alignment: .top){
                             Text("3").withRuleNumberingStyle()
                             Text(LocalizedStringKey("LearnView.Bluetooth.Tipp3")).withLearnTextBodyStyle()}
-                        HStack{
+                        HStack(alignment: .top){
                             Text("4").withRuleNumberingStyle()
                             Text(LocalizedStringKey("LearnView.Bluetooth.Tipp4")).withLearnTextBodyStyle()}
                     }

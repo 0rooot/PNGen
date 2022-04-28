@@ -28,7 +28,7 @@ extension Text {
     func withLearnTextBodyStyle() -> some View {
         self.font(.body)
             .lineSpacing(10)
-            .padding(20)
+            .padding([.leading, .bottom, .trailing], 20)
     }
     
     func withRuleNumberingStyle() -> some View {

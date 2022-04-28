@@ -21,13 +21,13 @@ struct MobileNetworkLearnView: View {
                     Spacer()
                     Group{
                         Text(LocalizedStringKey("LearnView.GSM.Risk")).withLearnTextBodyStyle()
-                        HStack{
+                        HStack(alignment: .top){
                             Text("1").withRuleNumberingStyle()
                             Text(LocalizedStringKey("LearnView.GSM.Tipp1")).withLearnTextBodyStyle()}
-                        HStack{
+                        HStack(alignment: .top){
                             Text("2").withRuleNumberingStyle()
                             Text(LocalizedStringKey("LearnView.GSM.Tipp2")).withLearnTextBodyStyle()}
-                        HStack{
+                        HStack(alignment: .top){
                             Text("3").withRuleNumberingStyle()
                             Text(LocalizedStringKey("LearnView.GSM.Tipp3")).withLearnTextBodyStyle()}
                     }

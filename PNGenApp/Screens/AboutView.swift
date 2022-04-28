@@ -17,10 +17,10 @@ struct AboutView: View {
                     Text(LocalizedStringKey("AboutView.Impressum.Software")).withAboutViewBodyStyle()
                     Text(LocalizedStringKey("AboutView.Impressum.Client")).withAboutViewBodyStyle()
                     Text(LocalizedStringKey("AboutView.Impressum.Body")).withAboutViewBodyStyle()
-                    Divider().background(Color.accentColor).frame(maxWidth: 200)
-                    VStack() {
-                        Image("HSLU").resizable().aspectRatio(contentMode: .fit).padding([.top, .leading], 10).background(.white)
-                        Image("SchweizerischeEidgenossenschaft").resizable().aspectRatio(contentMode: .fit).padding([.top, .leading, .bottom], 10).clipped().background(.white)
+                    Spacer()
+                    HStack() {
+                        Image("HSLU").resizable().aspectRatio(contentMode: .fit).padding([.top, .leading], 10).background(.white).border(Color.black)
+                        Image("SchweizerischeEidgenossenschaft").resizable().aspectRatio(contentMode: .fit).padding( 16).clipped().background(.white).border(Color.black)
                     }
                     //Spacer()
                     Group{

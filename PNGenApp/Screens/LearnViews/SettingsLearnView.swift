@@ -20,17 +20,17 @@ struct SettingsLearnView: View {
                     Divider().background(Color.accentColor).frame(maxWidth: 200)
                     Spacer()
                     Group{
-                        HStack{
+                        HStack(alignment: .top){
                             Text("1").withRuleNumberingStyle()
                             Text(LocalizedStringKey("LearnView.Settings.Tipp1")).withLearnTextBodyStyle()}
-                        HStack{
+                        HStack(alignment: .top){
                             Text("2").withRuleNumberingStyle()
                             Text(LocalizedStringKey("LearnView.Settings.Tipp2")).withLearnTextBodyStyle()}
-                        HStack{
+                        HStack(alignment: .top){
                             Text("3").withRuleNumberingStyle()
                             Text(LocalizedStringKey("LearnView.Settings.Tipp3")).withLearnTextBodyStyle()}
-                        HStack{
-                            Text("3").withRuleNumberingStyle()
+                        HStack(alignment: .top){
+                            Text("4").withRuleNumberingStyle()
                             Text(LocalizedStringKey("LearnView.Settings.Tipp4")).withLearnTextBodyStyle()}
                     }
                 }

@@ -25,16 +25,16 @@ struct WiFiLearnView: View {
                             .padding(20)
                         Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Intro")).withLearnTextBodyStyle()
                         Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Risk")).withLearnTextBodyStyle()
-                        HStack{
+                        HStack(alignment: .top){
                             Text("1").withRuleNumberingStyle()
                             Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Tipp1")).withLearnTextBodyStyle()}
-                        HStack{
+                        HStack(alignment: .top){
                             Text("2").withRuleNumberingStyle()
                             Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Tipp2")).withLearnTextBodyStyle()}
-                        HStack{
+                        HStack(alignment: .top){
                             Text("3").withRuleNumberingStyle()
                             Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Tipp3")).withLearnTextBodyStyle()}
-                        HStack{
+                        HStack(alignment: .top){
                             Text("4").withRuleNumberingStyle()
                             Text(LocalizedStringKey("LearnView.Wifi.PublicWiFi.Tipp4")).withLearnTextBodyStyle()}
                     }

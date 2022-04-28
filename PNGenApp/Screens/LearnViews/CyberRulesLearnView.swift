@@ -18,52 +18,52 @@ struct CyberRulesLearnView: View {
                 
                 VStack(alignment: .leading) {
                     Text(LocalizedStringKey("LearnView.CyberRules.Title"))
-                        .font(.largeTitle)
+                        .withLearnTextTitleStyle()
                     Text(LocalizedStringKey("LearnView.CyberRules.Body"))
-                        .font(.body)
+                        .withLearnTextBodyStyle()
                     Group{
                         VStack(alignment: .leading) {
                             HStack(alignment: .center){Image("image.CyD+Regel+1").withRuleImageStyle()
                                 VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule1")).withRuleTextStyle()
                                 }.background(Color(UIColor.systemBackground))
                             }.background(Color.ruleImageBackgroundColor)
-                        }
+                        }.padding(10)
                         VStack(alignment: .leading) {
                             HStack(alignment: .center){Image("image.CyD+Regel+2").withRuleImageStyle()
                                 VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule2")).withRuleTextStyle()
                                 }.background(Color(UIColor.systemBackground))
                             }.background(Color.ruleImageBackgroundColor)
-                        }
+                        }.padding(10)
                         VStack(alignment: .leading) {
                             HStack(alignment: .center){Image("image.CyD+Regel+3").withRuleImageStyle()
                                 VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule3")).withRuleTextStyle()
                                 }.background(Color(UIColor.systemBackground))
                             }.background(Color.ruleImageBackgroundColor)
-                        }
+                        }.padding(10)
                         VStack(alignment: .leading) {
                             HStack(alignment: .center){Image("image.CyD+Regel+4").withRuleImageStyle()
                                 VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule4")).withRuleTextStyle()
                                 }.background(Color(UIColor.systemBackground))
                             }.background(Color.ruleImageBackgroundColor)
-                        }
+                        }.padding(10)
                         VStack(alignment: .leading) {
                             HStack(alignment: .center){Image("image.CyD+Regel+5").withRuleImageStyle()
                                 VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule5")).withRuleTextStyle()
                                 }.background(Color(UIColor.systemBackground))
                             }.background(Color.ruleImageBackgroundColor)
-                        }
+                        }.padding(10)
                         VStack(alignment: .leading) {
                             HStack(alignment: .center){Image("image.CyD+Regel+6").withRuleImageStyle()
                                 VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule6")).withRuleTextStyle()
                                 }.background(Color(UIColor.systemBackground))
                             }.background(Color.ruleImageBackgroundColor)
-                        }
+                        }.padding(10)
                         VStack(alignment: .leading) {
                             HStack(alignment: .center){Image("image.CyD+Regel+7").withRuleImageStyle()
                                 VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule7")).withRuleTextStyle()
                                 }.background(Color(UIColor.systemBackground))
                             }.background(Color.ruleImageBackgroundColor)
-                        }
+                        }.padding(10)
                     }
                     
                 }
