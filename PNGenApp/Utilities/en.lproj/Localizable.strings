@@ -1,10 +1,10 @@
 /* 
-  Localizable.strings
-  PNGen
-
-  Created by Thomas Arnold on 08.04.22.
-  
-*/
+ Localizable.strings
+ PNGen
+ 
+ Created by Thomas Arnold on 08.04.22.
+ 
+ */
 
 "ButtonView.ButtonTitle.Start" = "Noise";
 "ButtonView.ButtonTitle.Stopp" = "Stop";
@@ -18,16 +18,16 @@
 "SidemenuView.Settings" = "Settings";
 
 "PinkNoiseGeneratorView.Hint.Title" = "Hint:";
-"PinkNoiseGeneratorView.Hint.Volume" = "Set the volume on maximum and deactivate the silent mode.";
+"PinkNoiseGeneratorView.Hint.Volume" = "Set the volume on maximum.";
 "PinkNoiseGeneratorView.Hint.Lock" = "Lock the iPhone to save battery.";
 "PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Title" = "What is Pink Noise?";
 "PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Body" = "Pink Noise is the sound of all frequencies. Pink Noise has several purposes. The application area of this app is surveillance and eavesdropping prevention. Pink Noise is designed to fill the surrounding microphones of smartphones and smartwatches and prevent the recording of conversations.";
 
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title" = "Usage:";
-"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1" = "1. Start Pink Noise with button.";
-"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2" = "2. Place all smartphones and smartwatches in the room in the eavesdropping glass.";
-"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3" = "3. Close the eavesdropping glass and start the conversation.";
-//TODO: Ändern!
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1" = "Start Pink Noise with button.";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2" = "Place all smartphones and smartwatches in the room in the eavesdropping glass.";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3" = "Close the eavesdropping glass and start the conversation.";
+
 "PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "More info:";
 "PinkNoiseGeneratorView.Info.Autostart.Title" = "How can I start the noise automatically?";
 "PinkNoiseGeneratorView.Info.Autostart.Body" = "Automatic noise start can be turned on in \"Settings\" > \"PNGen\" > \"Auto Start\".";

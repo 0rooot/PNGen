@@ -18,16 +18,16 @@
 "SidemenuView.Settings" = "Configuration";
 
 "PinkNoiseGeneratorView.Hint.Title" = "Remarque:";
-"PinkNoiseGeneratorView.Hint.Volume" = "Réglez le volume au maximum et désactivez le mode silencieux.";
+"PinkNoiseGeneratorView.Hint.Volume" = "Réglez le volume au maximum.";
 "PinkNoiseGeneratorView.Hint.Lock" = "Verrouillez l'iPhone pour économiser la batterie.";
 "PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Title" = "Qu'est-ce que Pink Noise?";
 "PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Body" = "Le bruit rose est le son de toutes les fréquences. Le Pink Noise a plusieurs objectifs. Le domaine d`application de cette application est la surveillance et la prévention des écoutes. Pink Noise est conçu pour remplir les microphones environnants des smartphones et des smartwatches et empêcher l`enregistrement des conversations.";
 
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title" = "Utilisation:";
-"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1" = "1. Démarre Pink Noise avec le bouton";
-"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2" = "2. Place tous les smartphones et smartwatches de la pièce dans le bocal antibruit";
-"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3" = "3. Ferme la vitre anti-bruit et commence la session";
-//TODO: Ändern!
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1" = "Démarre Pink Noise avec le bouton";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2" = "Place tous les smartphones et smartwatches de la pièce dans le bocal antibruit";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3" = "Ferme la vitre anti-bruit et commence la session";
+
 "PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "Plus d'informations:";
 "PinkNoiseGeneratorView.Info.Autostart.Title" = "Comment démarrer automatiquement le bruit" ;
 "PinkNoiseGeneratorView.Info.Autostart.Body" = "Le démarrage automatique du bruit peut être activé sous \"Réglages\" > \"PNGen\" > \"Auto Start\" .";

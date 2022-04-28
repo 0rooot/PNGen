@@ -11,20 +11,20 @@ struct ContentView: View {
     var body: some View {
         TabView {
             PinkNoiseView()
-             .tabItem {
-                Image(systemName: "iphone.radiowaves.left.and.right")
-                Text("Pink Noise")
-              }
+                .tabItem {
+                    Image(systemName: "iphone.radiowaves.left.and.right")
+                    Text("Pink Noise")
+                }
             LearnView()
-              .tabItem {
-                 Image(systemName: "book.fill")
-                 Text("Learn")
-               }
+                .tabItem {
+                    Image(systemName: "book.fill")
+                    Text("Learn")
+                }
             AboutView()
-              .tabItem {
-                 Image(systemName: "person.fill")
-                 Text("About")
-               }
+                .tabItem {
+                    Image(systemName: "person.fill")
+                    Text("About")
+                }
         }.onAppear(){
             playNoiseIfAutoStart()
         }

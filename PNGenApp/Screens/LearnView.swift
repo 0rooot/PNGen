@@ -64,48 +64,48 @@ struct LearnView: View {
                             .offset(x: self.showMenu ? geometry.size.width/1.2 : 0)
                             .disabled(self.showMenu ? true : false)
                     }
-                        if self.showMenu {
-                            SideMenuView(showMenu: $showMenu, selected: $selected)
-                                .transition(.move(edge: .leading))
-                                .frame(width: geometry.size.width)
-                                .transition(.move(edge: .leading))
-                        }
+                    if self.showMenu {
+                        SideMenuView(showMenu: $showMenu, selected: $selected)
+                            .transition(.move(edge: .leading))
+                            .frame(width: geometry.size.width)
+                            .transition(.move(edge: .leading))
                     }
-                        .gesture(drag)
                 }
-                .navigationBarTitle("Learn Center", displayMode: .inline)
-                .navigationBarItems(leading: (
-                    Button(action: {
-                        withAnimation {
-                            self.showMenu.toggle()
-                        }
-                    }) {
-                        Image(systemName: "line.horizontal.3")
-                            .imageScale(.large)
+                .gesture(drag)
+            }
+            .navigationBarTitle("Learn Center", displayMode: .inline)
+            .navigationBarItems(leading: (
+                Button(action: {
+                    withAnimation {
+                        self.showMenu.toggle()
                     }
-                ))
-            }.navigationViewStyle(StackNavigationViewStyle())
-        }
+                }) {
+                    Image(systemName: "line.horizontal.3")
+                        .imageScale(.large)
+                }
+            ))
+        }.navigationViewStyle(StackNavigationViewStyle())
     }
-    
-    public enum SelectedScreen {
-        case general
-        case cyberRules
-        case connections
-        case wifi
-        case bluetoot
-        case mobileNetwork
-        case settings
+}
+
+public enum SelectedScreen {
+    case general
+    case cyberRules
+    case connections
+    case wifi
+    case bluetoot
+    case mobileNetwork
+    case settings
+}
+
+struct InformationView_Previews: PreviewProvider {
+    static var previews: some View {
+        LearnView()
     }
-    
-    struct InformationView_Previews: PreviewProvider {
-        static var previews: some View {
-            LearnView()
-        }
-    }
-    
-    
-    
+}
+
+
+
 
 
 

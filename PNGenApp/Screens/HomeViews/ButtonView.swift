@@ -11,7 +11,7 @@ import AudioToolbox
 struct ButtonView: View {
     
     
-
+    
     @State var playNoise = UserDefaults.standard.bool(forKey: "AUTO_START")
     @State var buttonTitleStart: LocalizedStringKey =  "ButtonView.ButtonTitle.Start"
     @State var buttonTitleStopp: LocalizedStringKey =  "ButtonView.ButtonTitle.Stopp"
@@ -33,9 +33,9 @@ struct ButtonView: View {
                     UIScreen.main.brightness = standardBrightness
                     UIApplication.shared.isIdleTimerDisabled = true
                 }
-               // while playNoise {
-               //     vibrate(count: 1)
-               // }
+                // while playNoise {
+                //     vibrate(count: 1)
+                // }
             }){
                 Text(playNoise ? buttonTitleStopp : buttonTitleStart)
                     .bold()
@@ -62,8 +62,8 @@ struct GrowingButton: ButtonStyle {
 }
 
 func vibrate(count: Int) {
-        AudioServicesPlaySystemSoundWithCompletion(kSystemSoundID_Vibrate) {
-            vibrate(count: count - 1)
-        }
+    AudioServicesPlaySystemSoundWithCompletion(kSystemSoundID_Vibrate) {
+        vibrate(count: count - 1)
     }
+}
 

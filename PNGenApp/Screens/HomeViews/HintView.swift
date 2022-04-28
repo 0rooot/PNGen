@@ -39,17 +39,17 @@ struct HintView: View {
 
 extension Text {
     func withHintTextStyle() -> some View {
-            self.fixedSize(horizontal: false, vertical: true)
+        self.fixedSize(horizontal: false, vertical: true)
             .frame(maxHeight: .infinity, alignment: .leading)
             .font(.system(size: 18.0))
             .padding(.leading, 10)
-        }
+    }
 }
 
 extension Image {
     func withHintImageStyle() -> some View {
-            self.resizable()
+        self.resizable()
             .aspectRatio(contentMode: .fit)
             .frame(width: 70, height: 70)
-        }
+    }
 }

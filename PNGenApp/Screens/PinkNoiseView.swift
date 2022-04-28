@@ -20,10 +20,10 @@ struct PinkNoiseView: View {
             GeometryReader { geometry in
                 VStack {
                     ButtonView()
-                    .frame(width: geometry.size.width, height: geometry.size.height/2)
+                        .frame(width: geometry.size.width, height: geometry.size.height/2)
                     
                     HintView()
-                    .frame(width: geometry.size.width/1.1, height: geometry.size.height/2)
+                        .frame(width: geometry.size.width/1.1, height: geometry.size.height/2)
                 }
             }
             .navigationBarTitle("Pink Noise Generator", displayMode: .inline)

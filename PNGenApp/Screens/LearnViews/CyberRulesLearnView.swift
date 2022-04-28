@@ -86,20 +86,20 @@ struct CyberRulesLearnView: View {
 
 extension Text {
     func withRuleTextStyle() -> some View {
-            self.fixedSize(horizontal: false, vertical: true)
+        self.fixedSize(horizontal: false, vertical: true)
             .frame(maxHeight: .infinity, alignment: .top)
             .padding(.leading, 5)
             .font(.body)
-        }
+    }
 }
 
 extension Image {
     func withRuleImageStyle() -> some View {
-            self.resizable()
+        self.resizable()
             .scaledToFill()
             .frame(width: 100, height: 100)
             .clipped()
-        }
+    }
 }
 
 extension Color {

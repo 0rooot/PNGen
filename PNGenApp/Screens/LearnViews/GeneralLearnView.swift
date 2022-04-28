@@ -26,18 +26,19 @@ struct GeneralLearnView: View {
 
 extension Text {
     func withLearnTextBodyStyle() -> some View {
-            self.font(.body)
+        self.font(.body)
             .lineSpacing(10)
             .padding(20)
-        }
+    }
     
     func withRuleNumberingStyle() -> some View {
         self.font(.title)
+            .frame(width: 20)
             .padding(5)
     }
     
     func withLearnTextTitleStyle() -> some View {
-            self.font(.largeTitle)
+        self.font(.largeTitle)
             .padding(20)
-        }
+    }
 }

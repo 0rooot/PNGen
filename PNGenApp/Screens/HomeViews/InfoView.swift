@@ -15,19 +15,22 @@ struct InfoView: View {
                 Group{
                     Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title")).withTitleStyle()
                     VStack(alignment: .leading) {
-                        HStack{Image("Start_Button_White").withInfoViewImageStyle()
+                        HStack{Text("1").withRuleNumberingStyle()
+                            Image("Start_Button_White").withInfoViewImageStyle()
                             VStack{Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1")).withStepStyle()
                             }
                         }
                     }
                     VStack(alignment: .leading) {
-                        HStack{Image("Einmachglas_Manor").withInfoViewImageStyle()
+                        HStack{Text("2").withRuleNumberingStyle()
+                            Image("Einmachglas_Manor").withInfoViewImageStyle()
                             VStack{Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2")).withStepStyle()
                             }
                         }
                     }
                     VStack(alignment: .leading) {
-                        HStack{Image("Sprechen2").withInfoViewImageStyle()
+                        HStack{Text("3").withRuleNumberingStyle()
+                            Image("Sprechen2").withInfoViewImageStyle()
                             VStack{Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3")).withStepStyle()
                             }
                         }
