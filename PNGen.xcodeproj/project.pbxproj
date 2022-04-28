@@ -20,7 +20,6 @@
 		00C6100627E4E63B003C9780 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C6100527E4E63B003C9780 /* PlaySound.swift */; };
 		00C6100827E4E793003C9780 /* PINKNoise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00C6100727E4E793003C9780 /* PINKNoise.mp3 */; };
 		00C8ACF327EC771200D4A6C2 /* SidemenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C8ACF227EC771200D4A6C2 /* SidemenuView.swift */; };
-		00C8ACF527ECD1F200D4A6C2 /* LearnGeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C8ACF427ECD1F200D4A6C2 /* LearnGeneralView.swift */; };
 		00C8ACF827ECEFF400D4A6C2 /* GeneralLearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C8ACF727ECEFF400D4A6C2 /* GeneralLearnView.swift */; };
 		00C8ACFA27ECF3BD00D4A6C2 /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C8ACF927ECF3BD00D4A6C2 /* ConnectionView.swift */; };
 		00C8ACFC27ECF3EE00D4A6C2 /* SettingsLearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C8ACFB27ECF3EE00D4A6C2 /* SettingsLearnView.swift */; };
@@ -70,7 +69,6 @@
 		00C6100527E4E63B003C9780 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		00C6100727E4E793003C9780 /* PINKNoise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PINKNoise.mp3; sourceTree = "<group>"; };
 		00C8ACF227EC771200D4A6C2 /* SidemenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidemenuView.swift; sourceTree = "<group>"; };
-		00C8ACF427ECD1F200D4A6C2 /* LearnGeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnGeneralView.swift; sourceTree = "<group>"; };
 		00C8ACF727ECEFF400D4A6C2 /* GeneralLearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralLearnView.swift; sourceTree = "<group>"; };
 		00C8ACF927ECF3BD00D4A6C2 /* ConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionView.swift; sourceTree = "<group>"; };
 		00C8ACFB27ECF3EE00D4A6C2 /* SettingsLearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLearnView.swift; sourceTree = "<group>"; };
@@ -145,7 +143,6 @@
 		00C8ACF627ECD24B00D4A6C2 /* LearnViews */ = {
 			isa = PBXGroup;
 			children = (
-				00C8ACF427ECD1F200D4A6C2 /* LearnGeneralView.swift */,
 				00C8ACF227EC771200D4A6C2 /* SidemenuView.swift */,
 				00C8ACF727ECEFF400D4A6C2 /* GeneralLearnView.swift */,
 				0036DDC927EDD2DA003B1F74 /* CyberRulesLearnView.swift */,
@@ -387,7 +384,6 @@
 				00F8E24427D3D9B300A11169 /* PinkNoiseView.swift in Sources */,
 				00C8ACFA27ECF3BD00D4A6C2 /* ConnectionView.swift in Sources */,
 				00C8ACF827ECEFF400D4A6C2 /* GeneralLearnView.swift in Sources */,
-				00C8ACF527ECD1F200D4A6C2 /* LearnGeneralView.swift in Sources */,
 				0036DDCE27EE04B5003B1F74 /* WiFiLearnView.swift in Sources */,
 				0036DDCA27EDD2DA003B1F74 /* CyberRulesLearnView.swift in Sources */,
 				003A677C28008D7600CE255F /* ButtonView.swift in Sources */,

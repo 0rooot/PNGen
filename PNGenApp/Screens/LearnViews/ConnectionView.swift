@@ -15,16 +15,11 @@ struct ConnectionsLearnView: View {
             Spacer()
             VStack(alignment: .leading) {
                 Text(LocalizedStringKey("LearnView.Connections.Title"))
-                    .font(.largeTitle)
-                    .padding(20)
+                    .withLearnTextTitleStyle()
                 Text(LocalizedStringKey("LearnView.Connections.Body"))
-                    .font(.body)
-                    .lineSpacing(10)
-                    .padding(20)
+                    .withLearnTextBodyStyle()
                 Text(LocalizedStringKey("LearnView.Connections.More"))
-                    .font(.body)
-                    .lineSpacing(10)
-                    .padding(20)
+                    .withLearnTextBodyStyle()
             }
             Spacer()
         }

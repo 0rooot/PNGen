@@ -15,19 +15,27 @@ struct GeneralLearnView: View {
             Spacer()
             VStack(alignment: .leading) {
                 Text(LocalizedStringKey("LearnView.General.Title"))
-                    .font(.largeTitle)
-                    .padding(20)
+                    .withLearnTextTitleStyle()
                 Text(LocalizedStringKey("LearnView.General.Body"))
-                    .font(.body)
-                    .lineSpacing(10)
-                    .padding(20)
+                    .withLearnTextBodyStyle()
                 Text(LocalizedStringKey("LearnView.General.Instructions"))
-                    .font(.body)
-                    .lineSpacing(10)
-                    .padding(20)
+                    .withLearnTextBodyStyle()
             }
             Spacer()
         }
         
     }
+}
+
+extension Text {
+    func withLearnTextBodyStyle() -> some View {
+            self.font(.body)
+            .lineSpacing(10)
+            .padding(20)
+        }
+    
+    func withLearnTextTitleStyle() -> some View {
+            self.font(.largeTitle)
+            .padding(20)
+        }
 }

@@ -16,28 +16,18 @@ struct HintView: View {
                 VStack(alignment: .leading) {
                     HStack{
                         Image(systemName: "speaker.wave.2.circle")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 70, height: 70)
+                            .withHintImageStyle()
                         VStack{Text(LocalizedStringKey("PinkNoiseGeneratorView.Hint.Volume"))
-                                .fixedSize(horizontal: false, vertical: true)
-                                .frame(maxHeight: .infinity, alignment: .leading)
-                                .font(.system(size: 18.0))
-                                .padding(.leading, 10)
+                                .withHintTextStyle()
                         }
                     }
                 }
                 VStack(alignment: .leading) {
                     HStack{
                         Image(systemName: "lock.circle")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 70, height: 70)
+                            .withHintImageStyle()
                         VStack{Text(LocalizedStringKey("PinkNoiseGeneratorView.Hint.Lock"))
-                                .fixedSize(horizontal: false, vertical: true)
-                                .frame(maxHeight: .infinity, alignment: .leading)
-                                .font(.system(size: 18.0))
-                                .padding(.leading, 10)
+                                .withHintTextStyle()
                         }
                     }
                 }
@@ -51,3 +41,19 @@ struct HintView: View {
     }
 }
 
+extension Text {
+    func withHintTextStyle() -> some View {
+            self.fixedSize(horizontal: false, vertical: true)
+            .frame(maxHeight: .infinity, alignment: .leading)
+            .font(.system(size: 18.0))
+            .padding(.leading, 10)
+        }
+}
+
+extension Image {
+    func withHintImageStyle() -> some View {
+            self.resizable()
+            .aspectRatio(contentMode: .fit)
+            .frame(width: 70, height: 70)
+        }
+}

@@ -14,32 +14,25 @@ struct InfoView: View {
                 Spacer()
                 Group{
                     Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title"))
-                        .font(.largeTitle)
-                        .padding(.bottom, 20)
+                        .withTitleStyle()
                     VStack(alignment: .leading) {
-                        HStack{Image("Start_Button_White").resizable().scaledToFill().frame(width: 100, height: 100).clipped()
+                        HStack{Image("Start_Button_White").withInfoViewImageStyle()
                             VStack{Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1"))
-                                    .fixedSize(horizontal: false, vertical: true)
-                                    .frame(maxHeight: .infinity, alignment: .top)
-                                    .font(.body)
+                                    .withStepStyle()
                             }
                         }
                     }
                     VStack(alignment: .leading) {
-                        HStack{Image("Einmachglas_Manor").resizable().scaledToFill().frame(width: 100, height: 100).clipped()
+                        HStack{Image("Einmachglas_Manor").withInfoViewImageStyle()
                             VStack{Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2"))
-                                    .fixedSize(horizontal: false, vertical: true)
-                                    .frame(maxHeight: .infinity, alignment: .top)
-                                    .font(.body)
+                                    .withStepStyle()
                             }
                         }
                     }
                     VStack(alignment: .leading) {
-                        HStack{Image("Sprechen2").resizable().scaledToFill().frame(width: 100, height: 100).clipped()
+                        HStack{Image("Sprechen2").withInfoViewImageStyle()
                             VStack{Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3"))
-                                    .fixedSize(horizontal: false, vertical: true)
-                                    .frame(maxHeight: .infinity, alignment: .top)
-                                    .font(.body)
+                                    .withStepStyle()
                             }
                         }
                     }
@@ -47,42 +40,29 @@ struct InfoView: View {
                 Group{
                     Spacer()
                     Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.FurtherInfos.Title"))
-                        .font(.largeTitle)
-                        .padding(.bottom, 20)
+                        .withTitleStyle()
                     Spacer()
                     Group {
                         Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Title"))
-                            .font(.title2)
-                            .foregroundColor(.accentColor)
-                            .padding(.bottom, 5)
+                            .withQuestionTitleStyle()
                         Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Body"))
-                            .font(.body)
-                            .lineSpacing(10)
-                            .padding(.bottom, 20)
+                            .withQuestionBodyStyle()
                         Divider().background(Color.accentColor).frame(maxWidth: 200)
                     }
                     Spacer()
                     Group {
                         Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.Autostart.Title"))
-                            .font(.title2)
-                            .foregroundColor(.accentColor)
-                            .padding(.bottom, 5)
+                            .withQuestionTitleStyle()
                         Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.Autostart.Body"))
-                            .font(.body)
-                            .lineSpacing(10)
-                            .padding(.bottom, 20)
+                            .withQuestionBodyStyle()
                         Divider().background(Color.accentColor).frame(maxWidth: 200)
                     }
                     Spacer()
                     Group {
                         Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.Jar.Title"))
-                            .font(.title2)
-                            .foregroundColor(.accentColor)
-                            .padding(.bottom, 5)
+                            .withQuestionTitleStyle()
                         Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.Jar.Body"))
-                            .font(.body)
-                            .lineSpacing(10)
-                            .padding(.bottom, 20)
+                            .withQuestionBodyStyle()
                         GeometryReader { geometry in
                             HStack{
                                 
@@ -122,3 +102,36 @@ struct InfoView: View {
     }
 }
 
+extension Text {
+    func withStepStyle() -> some View {
+        self.fixedSize(horizontal: false, vertical: true)
+            .frame(maxHeight: .infinity, alignment: .top)
+            .font(.body)
+    }
+    
+    func withTitleStyle() -> some View {
+        self.font(.largeTitle)
+            .padding(.bottom, 20)
+    }
+    
+    func withQuestionTitleStyle() -> some View {
+        self.font(.title2)
+            .foregroundColor(.accentColor)
+            .padding(.bottom, 5)
+    }
+    
+    func withQuestionBodyStyle() -> some View {
+        self.font(.body)
+            .lineSpacing(10)
+            .padding(.bottom, 20)
+    }
+}
+
+extension Image {
+    func withInfoViewImageStyle() -> some View {
+        self.resizable()
+            .scaledToFill()
+            .frame(width: 100, height: 100)
+            .clipped()
+    }
+}

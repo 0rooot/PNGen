@@ -23,78 +23,50 @@ struct CyberRulesLearnView: View {
                         .font(.body)
                     Group{
                         VStack(alignment: .leading) {
-                            HStack(alignment: .center){Image("image.CyD+Regel+1").resizable().scaledToFill().frame(width: 100, height: 100).clipped()
-                                VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule1"))
-                                        .fixedSize(horizontal: false, vertical: true)
-                                        .frame(maxHeight: .infinity, alignment: .top)
-                                        .padding(.leading, 5)
-                                        .font(.body)
+                            HStack(alignment: .center){Image("image.CyD+Regel+1").withRuleImageStyle()
+                                VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule1")).withRuleTextStyle()
                                 }.background(Color(UIColor.systemBackground))
-                            }.background(Color(red: 239 / 255, green: 240 / 255, blue: 241 / 255))
+                            }.background(Color.ruleImageBackgroundColor)
                         }
                         VStack(alignment: .leading) {
-                            HStack(alignment: .center){Image("image.CyD+Regel+2").resizable().scaledToFill().frame(width: 100, height: 100).clipped()
-                                VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule2"))
-                                        .fixedSize(horizontal: false, vertical: true)
-                                        .frame(maxHeight: .infinity, alignment: .top)
-                                        .padding(.leading, 5)
-                                        .font(.body)
+                            HStack(alignment: .center){Image("image.CyD+Regel+2").withRuleImageStyle()
+                                VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule2")).withRuleTextStyle()
                                 }.background(Color(UIColor.systemBackground))
-                            }.background(Color(red: 239 / 255, green: 240 / 255, blue: 241 / 255))
+                            }.background(Color.ruleImageBackgroundColor)
                         }
                         VStack(alignment: .leading) {
-                            HStack(alignment: .center){Image("image.CyD+Regel+3").resizable().scaledToFill().frame(width: 100, height: 100).clipped()
-                                VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule3"))
-                                        .fixedSize(horizontal: false, vertical: true)
-                                        .frame(maxHeight: .infinity, alignment: .top)
-                                        .padding(.leading, 5)
-                                        .font(.body)
+                            HStack(alignment: .center){Image("image.CyD+Regel+3").withRuleImageStyle()
+                                VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule3")).withRuleTextStyle()
                                 }.background(Color(UIColor.systemBackground))
-                            }.background(Color(red: 239 / 255, green: 240 / 255, blue: 241 / 255))
+                            }.background(Color.ruleImageBackgroundColor)
                         }
                         VStack(alignment: .leading) {
-                            HStack(alignment: .center){Image("image.CyD+Regel+4").resizable().scaledToFill().frame(width: 100, height: 100).clipped()
-                                VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule4"))
-                                        .fixedSize(horizontal: false, vertical: true)
-                                        .frame(maxHeight: .infinity, alignment: .top)
-                                        .padding(.leading, 5)
-                                        .font(.body)
+                            HStack(alignment: .center){Image("image.CyD+Regel+4").withRuleImageStyle()
+                                VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule4")).withRuleTextStyle()
                                 }.background(Color(UIColor.systemBackground))
-                            }.background(Color(red: 239 / 255, green: 240 / 255, blue: 241 / 255))
+                            }.background(Color.ruleImageBackgroundColor)
                         }
                         VStack(alignment: .leading) {
-                            HStack(alignment: .center){Image("image.CyD+Regel+5").resizable().scaledToFill().frame(width: 100, height: 100).clipped()
-                                VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule5"))
-                                        .fixedSize(horizontal: false, vertical: true)
-                                        .frame(maxHeight: .infinity, alignment: .top)
-                                        .padding(.leading, 5)
-                                        .font(.body)
+                            HStack(alignment: .center){Image("image.CyD+Regel+5").withRuleImageStyle()
+                                VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule5")).withRuleTextStyle()
                                 }.background(Color(UIColor.systemBackground))
-                            }.background(Color(red: 239 / 255, green: 240 / 255, blue: 241 / 255))
+                            }.background(Color.ruleImageBackgroundColor)
                         }
                         VStack(alignment: .leading) {
-                            HStack(alignment: .center){Image("image.CyD+Regel+6").resizable().scaledToFill().frame(width: 100, height: 100).clipped()
-                                VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule6"))
-                                        .fixedSize(horizontal: false, vertical: true)
-                                        .frame(maxHeight: .infinity, alignment: .top)
-                                        .padding(.leading, 5)
-                                        .font(.body)
+                            HStack(alignment: .center){Image("image.CyD+Regel+6").withRuleImageStyle()
+                                VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule6")).withRuleTextStyle()
                                 }.background(Color(UIColor.systemBackground))
-                            }.background(Color(red: 239 / 255, green: 240 / 255, blue: 241 / 255))
+                            }.background(Color.ruleImageBackgroundColor)
                         }
                         VStack(alignment: .leading) {
-                            HStack(alignment: .center){Image("image.CyD+Regel+7").resizable().scaledToFill().frame(width: 100, height: 100).clipped()
-                                VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule7"))
-                                        .fixedSize(horizontal: false, vertical: true)
-                                        .frame(maxHeight: .infinity, alignment: .top)
-                                        .padding(.leading, 5)
-                                        .font(.body)
+                            HStack(alignment: .center){Image("image.CyD+Regel+7").withRuleImageStyle()
+                                VStack{Text(LocalizedStringKey("LearnView.CyberRules.Rule7")).withRuleTextStyle()
                                 }.background(Color(UIColor.systemBackground))
-                            }.background(Color(red: 239 / 255, green: 240 / 255, blue: 241 / 255))
+                            }.background(Color.ruleImageBackgroundColor)
                         }
                     }
                     
-                } //VStack leading
+                }
                 Divider().background(Color.accentColor).frame(maxWidth: 200)
                 Text(LocalizedStringKey("LearnView.CyberRules.VideoHint"))
                     .font(.title2)
@@ -106,8 +78,30 @@ struct CyberRulesLearnView: View {
                         .background(Color(UIColor.label))
                         .cornerRadius(15)
                 })
-            } //VStack
+            }
             Spacer()
-        } //Scroll View
+        }
     }
+}
+
+extension Text {
+    func withRuleTextStyle() -> some View {
+            self.fixedSize(horizontal: false, vertical: true)
+            .frame(maxHeight: .infinity, alignment: .top)
+            .padding(.leading, 5)
+            .font(.body)
+        }
+}
+
+extension Image {
+    func withRuleImageStyle() -> some View {
+            self.resizable()
+            .scaledToFill()
+            .frame(width: 100, height: 100)
+            .clipped()
+        }
+}
+
+extension Color {
+    static let ruleImageBackgroundColor = Color(red: 239 / 255, green: 240 / 255, blue: 241 / 255)
 }

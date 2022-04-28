@@ -45,7 +45,6 @@ struct ButtonView: View {
                     .clipShape(Circle())
             }
             .buttonStyle(GrowingButton())
-            
         }
     }
 }

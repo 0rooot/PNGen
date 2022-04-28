@@ -18,59 +18,44 @@ struct SideMenuView: View {
                 Button {
                     selected = .general
                     showMenu = false
-                } label: {
-                    Label(LocalizedStringKey("SidemenuView.General"), systemImage: "person")
-                }.font(.title)
+                } label: {Label(LocalizedStringKey("SidemenuView.General"), systemImage: "person")
+                }.withSideMenueMainButtonStyle()
                 
                 Button {
                     selected = .cyberRules
                     showMenu = false
-                } label: {
-                    Label(LocalizedStringKey("SidemenuView.CyberRules"), systemImage: "circle")
-                }
-                .font(.title2)
-                .padding(.leading, 40)
+                } label: {Label(LocalizedStringKey("SidemenuView.CyberRules"), systemImage: "circle")
+                }.withSideMenueSubButtonStyle()
                 
                 Button {
                     selected = .connections
                     showMenu = false
-                } label: {
-                    Label(LocalizedStringKey("SidemenuView.Connections"), systemImage: "envelope")
-                }.font(.title)
+                } label: { Label(LocalizedStringKey("SidemenuView.Connections"), systemImage: "envelope")
+                }.withSideMenueMainButtonStyle()
                 
                 Button {
                     selected = .wifi
                     showMenu = false
-                } label: {
-                    Label(LocalizedStringKey("SidemenuView.WiFi"), systemImage: "circle")
-                }
-                .font(.title2)
-                .padding(.leading, 40)
+                } label: { Label(LocalizedStringKey("SidemenuView.WiFi"), systemImage: "circle")
+                }.withSideMenueSubButtonStyle()
                 
                 Button {
                     selected = .bluetoot
                     showMenu = false
-                } label: {
-                    Label(LocalizedStringKey("SidemenuView.Bluetooth"), systemImage: "circle")
-                }
-                .font(.title2)
-                .padding(.leading, 40)
+                } label: { Label(LocalizedStringKey("SidemenuView.Bluetooth"), systemImage: "circle")
+                }.withSideMenueSubButtonStyle()
                 
                 Button {
                     selected = .mobileNetwork
                     showMenu = false
-                } label: {
-                    Label(LocalizedStringKey("SidemenuView.MobileNetwork"), systemImage: "circle")
-                }
-                .font(.title2)
-                .padding(.leading, 40)
+                } label: { Label(LocalizedStringKey("SidemenuView.MobileNetwork"), systemImage: "circle")
+                }.withSideMenueSubButtonStyle()
                 
                 Button {
                     selected = .settings
                     showMenu = false
-                } label: {
-                    Label(LocalizedStringKey("SidemenuView.Settings"), systemImage: "gear")
-                }.font(.title)
+                } label: { Label(LocalizedStringKey("SidemenuView.Settings"), systemImage: "gear")
+                }.withSideMenueMainButtonStyle()
             }
             .font(.title)
             .padding()
@@ -79,5 +64,15 @@ struct SideMenuView: View {
             
             Spacer()
         }
+    }
+}
+
+extension Button {
+    func withSideMenueSubButtonStyle() -> some View {
+        self.font(.title2)
+            .padding(.leading, 40)
+    }
+    func withSideMenueMainButtonStyle() -> some View {
+        self.font(.title)
     }
 }

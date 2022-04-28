@@ -16,37 +16,26 @@ struct MobileNetworkLearnView: View {
                 Spacer()
                 VStack(alignment: .leading) {
                     Text(LocalizedStringKey("LearnView.GSM.Title"))
-                        .font(.largeTitle)
-                        .padding(20)
+                        .withLearnTextTitleStyle()
                     Text(LocalizedStringKey("LearnView.GSM.Body"))
-                        .font(.body)
-                        .lineSpacing(10)
-                        .padding(20)
+                        .withLearnTextBodyStyle()
                     Divider().background(Color.accentColor).frame(maxWidth: 200)
                     Spacer()
                     Group{
                         Text(LocalizedStringKey("LearnView.GSM.Risk"))
-                            .font(.body)
-                            .lineSpacing(10)
-                            .padding(20)
+                            .withLearnTextBodyStyle()
                         HStack{
                             Text("1").font(.title).padding(5)
                             Text(LocalizedStringKey("LearnView.GSM.Tipp1"))
-                                .font(.body)
-                                .lineSpacing(10)
-                                .padding(20)}
+                                .withLearnTextBodyStyle()}
                         HStack{
                             Text("2").font(.title).padding(5)
                             Text(LocalizedStringKey("LearnView.GSM.Tipp2"))
-                                .font(.body)
-                                .lineSpacing(10)
-                                .padding(20)}
+                                .withLearnTextBodyStyle()}
                         HStack{
                             Text("3").font(.title).padding(5)
                             Text(LocalizedStringKey("LearnView.GSM.Tipp3"))
-                                .font(.body)
-                                .lineSpacing(10)
-                                .padding(20)}
+                                .withLearnTextBodyStyle()}
                     }
                 }
                 Spacer()
