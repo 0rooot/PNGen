@@ -18,7 +18,8 @@ struct ButtonView: View {
     @State var standardBrightness = UIScreen.main.brightness;
     
     var body: some View {
-        HStack {
+        
+        HStack(alignment: .center){
             Button(action: {
                 if (playNoise==false) {
                     playNoise = true
@@ -40,7 +41,7 @@ struct ButtonView: View {
                 Text(playNoise ? buttonTitleStopp : buttonTitleStart)
                     .bold()
                     .font(.title)
-                    .frame(width: 200, height: 200, alignment: .center)
+                    .frame(width: UIScreen.main.bounds.size.width/1.8, height: UIScreen.main.bounds.size.width/1.8, alignment: .center)
                     .multilineTextAlignment(.center)
                     .clipShape(Circle())
             }

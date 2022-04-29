@@ -11,7 +11,6 @@
 		0036DDCC27EE047B003B1F74 /* BluetoothLearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036DDCB27EE047B003B1F74 /* BluetoothLearnView.swift */; };
 		0036DDCE27EE04B5003B1F74 /* WiFiLearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036DDCD27EE04B5003B1F74 /* WiFiLearnView.swift */; };
 		0036DDD027EE04D1003B1F74 /* MobileNetworkLearnVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036DDCF27EE04D1003B1F74 /* MobileNetworkLearnVIew.swift */; };
-		003A676D2800578400CE255F /* PlayFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003A676C2800578400CE255F /* PlayFrequency.swift */; };
 		003A67712800873200CE255F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 003A67732800873200CE255F /* Localizable.strings */; };
 		003A677828008BE400CE255F /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003A677728008BE400CE255F /* InfoView.swift */; };
 		003A677A28008C8700CE255F /* HintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003A677928008C8700CE255F /* HintView.swift */; };
@@ -57,7 +56,6 @@
 		0036DDCB27EE047B003B1F74 /* BluetoothLearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothLearnView.swift; sourceTree = "<group>"; };
 		0036DDCD27EE04B5003B1F74 /* WiFiLearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiLearnView.swift; sourceTree = "<group>"; };
 		0036DDCF27EE04D1003B1F74 /* MobileNetworkLearnVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNetworkLearnVIew.swift; sourceTree = "<group>"; };
-		003A676C2800578400CE255F /* PlayFrequency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayFrequency.swift; sourceTree = "<group>"; };
 		003A67722800873200CE255F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		003A67742800873700CE255F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		003A67752800873E00CE255F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -135,7 +133,6 @@
 			children = (
 				00C6100527E4E63B003C9780 /* PlaySound.swift */,
 				00C6100727E4E793003C9780 /* PINKNoise.mp3 */,
-				003A676C2800578400CE255F /* PlayFrequency.swift */,
 			);
 			path = Sound;
 			sourceTree = "<group>";
@@ -379,7 +376,6 @@
 				003A677828008BE400CE255F /* InfoView.swift in Sources */,
 				00F8E24627D3E12200A11169 /* LearnView.swift in Sources */,
 				00C8ACF327EC771200D4A6C2 /* SidemenuView.swift in Sources */,
-				003A676D2800578400CE255F /* PlayFrequency.swift in Sources */,
 				050711BE27B698200046CE4C /* PNGenApp.swift in Sources */,
 				00F8E24427D3D9B300A11169 /* PinkNoiseView.swift in Sources */,
 				00C8ACFA27ECF3BD00D4A6C2 /* ConnectionView.swift in Sources */,
@@ -577,7 +573,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.2.4;
+				MARKETING_VERSION = 0.2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = ThomasArnold.PNGen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -607,7 +603,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.2.4;
+				MARKETING_VERSION = 0.2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = ThomasArnold.PNGen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

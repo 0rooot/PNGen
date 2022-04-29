@@ -41,7 +41,9 @@ extension Text {
     func withHintTextStyle() -> some View {
         self.fixedSize(horizontal: false, vertical: true)
             .frame(maxHeight: .infinity, alignment: .leading)
-            .font(.system(size: 18.0))
+            .font(.body)
+            .lineLimit(2)
+            .minimumScaleFactor(0.01)
             .padding(.leading, 10)
     }
 }

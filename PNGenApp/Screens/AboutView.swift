@@ -33,11 +33,13 @@ struct AboutView: View {
                     Link(destination: URL(string: "mailto:pngen@gmx.ch")!, label: {
                         Text("Email: pngen@gmx.ch")
                             .bold()
-                            .frame(width: 280, height: 50)
+                            .frame(width: UIScreen.main.bounds.size.width/1.6, height: 50)
                             .foregroundColor(Color(UIColor.systemBackground))
                             .accentColor(Color(UIColor.systemBackground))
                             .background(Color(UIColor.label))
                             .cornerRadius(15)
+                            .lineLimit(1)
+                            .minimumScaleFactor(0.01)
                     })
                 }
                 Spacer()

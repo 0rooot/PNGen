@@ -103,10 +103,3 @@ struct InformationView_Previews: PreviewProvider {
         LearnView()
     }
 }
-
-
-
-
-
-
-

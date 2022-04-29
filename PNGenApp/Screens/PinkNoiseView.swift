@@ -51,5 +51,3 @@ struct PinkNoiseView_Previews: PreviewProvider {
         PinkNoiseView()
     }
 }
-
-
