@@ -12,15 +12,31 @@ struct GeneralLearnView: View {
     
     var body: some View {
         HStack{
-            Spacer()
-            VStack(alignment: .leading) {
-                Text(LocalizedStringKey("LearnView.General.Title")).withLearnTextTitleStyle()
-                Text(LocalizedStringKey("LearnView.General.Body")).withLearnTextBodyStyle()
-                Text(LocalizedStringKey("LearnView.General.Instructions")).withLearnTextBodyStyle()
+            ScrollView{
+                Spacer()
+                VStack(alignment: .leading) {
+                    Text(LocalizedStringKey("LearnView.General.Title")).withLearnTextTitleStyle()
+                    Text(LocalizedStringKey("LearnView.Settings.Body")).withLearnTextBodyStyle()
+                    Divider().background(Color.accentColor).frame(maxWidth: 200)
+                    Spacer()
+                    Group{
+                        HStack(alignment: .top){
+                            Text("1").withRuleNumberingStyle()
+                            Text(LocalizedStringKey("LearnView.Settings.Tipp1")).withLearnTextBodyStyle()}
+                        HStack(alignment: .top){
+                            Text("2").withRuleNumberingStyle()
+                            Text(LocalizedStringKey("LearnView.Settings.Tipp2")).withLearnTextBodyStyle()}
+                        HStack(alignment: .top){
+                            Text("3").withRuleNumberingStyle()
+                            Text(LocalizedStringKey("LearnView.Settings.Tipp3")).withLearnTextBodyStyle()}
+                        HStack(alignment: .top){
+                            Text("4").withRuleNumberingStyle()
+                            Text(LocalizedStringKey("LearnView.Settings.Tipp4")).withLearnTextBodyStyle()}
+                    }
+                }
+                Spacer()
             }
-            Spacer()
         }
-        
     }
 }
 

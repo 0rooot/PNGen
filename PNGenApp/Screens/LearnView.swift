@@ -58,11 +58,6 @@ struct LearnView: View {
                             .frame(width: geometry.size.width, height: geometry.size.height)
                             .offset(x: self.showMenu ? geometry.size.width/1.2 : 0)
                             .disabled(self.showMenu ? true : false)
-                    case .settings:
-                        SettingsLearnView(showMenu: self.$showMenu)
-                            .frame(width: geometry.size.width, height: geometry.size.height)
-                            .offset(x: self.showMenu ? geometry.size.width/1.2 : 0)
-                            .disabled(self.showMenu ? true : false)
                     }
                     if self.showMenu {
                         SideMenuView(showMenu: $showMenu, selected: $selected)
@@ -95,10 +90,9 @@ public enum SelectedScreen {
     case wifi
     case bluetoot
     case mobileNetwork
-    case settings
 }
 
-struct InformationView_Previews: PreviewProvider {
+struct LearnView_Previews: PreviewProvider {
     static var previews: some View {
         LearnView()
     }

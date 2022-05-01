@@ -6,7 +6,12 @@
   
 */
 
-"ButtonView.ButtonTitle.Start" = "Bruit";
+"NavBar.Main" = "Anti-écoute";
+"NavBar.Setup" = "Setup";
+"NavBar.Learn" = "Étudier";
+"NavBar.About" = "Impressum";
+
+"ButtonView.ButtonTitle.Start" = "Défense d'écoute";
 "ButtonView.ButtonTitle.Stopp" = "Arrêt";
 
 "SidemenuView.General" = "Général";
@@ -54,9 +59,7 @@
 "LearnView.CyberRules.VideoHint" = "vidéos explicatives";
 
 "AboutView.Impressum.Title" = "Mentions légales :";
-"AboutView.Impressum.Software" = "Développeur du logiciel : T. A.";
-"AboutView.Impressum.Client" = "Client : T. B.";
-"AboutView.Impressum.Body" = "Cette application a été réalisée dans le cadre d'un travail de bachelor des études \"Information and Cyber Security\" à la Haute école de Lucerne (HSLU) sur mandat de la cyberdéfense de l'Armée suisse. ";
+"AboutView.Impressum.Body" = "Cette application a été réalisée dans le cadre d'un travail de bachelor des études \"Information and Cyber Security\" à la Haute école de Lucerne (HSLU) sur mandat de l'Armée suisse. " ;
 "AboutView.Feedback.Title" = "Feedback & Reports :";
 "AboutView.Feedback.Body" = "Les propositions d'amélioration et les erreurs peuvent être signalées à l'adresse e-mail suivante :";
 

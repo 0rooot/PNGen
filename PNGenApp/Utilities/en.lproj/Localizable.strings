@@ -6,7 +6,12 @@
  
  */
 
-"ButtonView.ButtonTitle.Start" = "Noise";
+"NavBar.Main" = "Defense";
+"NavBar.Setup" = "Setup";
+"NavBar.Learn" = "Learn";
+"NavBar.About" = "About";
+
+"ButtonView.ButtonTitle.Start" = "Eavesdropping defense";
 "ButtonView.ButtonTitle.Stopp" = "Stop";
 
 "SidemenuView.General" = "General";
@@ -54,9 +59,7 @@
 "LearnView.CyberRules.VideoHint" = "explainer videos";
 
 "AboutView.Impressum.Title" = "Imprint:";
-"AboutView.Impressum.Software" = "Developer: T. A.";
-"AboutView.Impressum.Client" = "Client: T. B.";
-"AboutView.Impressum.Body" = "This application was realized within the scope of a bachelor thesis of the study \"Information and Cyber Security\" at the Lucerne University of Applied Sciences and Arts (HSLU) on behalf of the Cyberdefense of the Swiss Army. ";
+"AboutView.Imprint.Body" = "This application was realized as part of a bachelor thesis of the study \"Information and Cyber Security\" at the Lucerne University of Applied Sciences and Arts (HSLU) on behalf of the Swiss Armed Forces. ";
 "AboutView.Feedback.Title" = "Feedback & Reports:";
 "AboutView.Feedback.Body" = "Suggestions for improvement and bugs can be reported to the following email address:";
 

@@ -51,11 +51,6 @@ struct SideMenuView: View {
                 } label: { Label(LocalizedStringKey("SidemenuView.MobileNetwork"), systemImage: "antenna.radiowaves.left.and.right.circle.fill")
                 }.withSideMenueSubButtonStyle()
                 
-                Button {
-                    selected = .settings
-                    showMenu = false
-                } label: { Label(LocalizedStringKey("SidemenuView.Settings"), systemImage: "gear")
-                }.withSideMenueMainButtonStyle()
             }
             .font(.title)
             .padding()

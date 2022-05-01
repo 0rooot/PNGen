@@ -13,17 +13,22 @@ struct ContentView: View {
             PinkNoiseView()
                 .tabItem {
                     Image(systemName: "iphone.radiowaves.left.and.right")
-                    Text("Pink Noise")
+                    Text(LocalizedStringKey("NavBar.Main"))
+                }
+            SetupView()
+                .tabItem {
+                    Image(systemName: "hand.point.up.fill")
+                    Text(LocalizedStringKey("NavBar.Setup"))
                 }
             LearnView()
                 .tabItem {
                     Image(systemName: "book.fill")
-                    Text("Learn")
+                    Text(LocalizedStringKey("NavBar.Learn"))
                 }
             AboutView()
                 .tabItem {
                     Image(systemName: "person.fill")
-                    Text("About")
+                    Text(LocalizedStringKey("NavBar.About"))
                 }
         }.onAppear(){
             playNoiseIfAutoStart()

@@ -14,8 +14,6 @@ struct AboutView: View {
                 VStack(alignment: .leading) {
                     Spacer()
                     Text(LocalizedStringKey("AboutView.Impressum.Title")).withAboutViewTitleStyle()
-                    Text(LocalizedStringKey("AboutView.Impressum.Software")).withAboutViewBodyStyle()
-                    Text(LocalizedStringKey("AboutView.Impressum.Client")).withAboutViewBodyStyle()
                     Text(LocalizedStringKey("AboutView.Impressum.Body")).withAboutViewBodyStyle()
                     Spacer()
                     HStack() {

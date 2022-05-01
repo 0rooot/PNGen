@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001350BC281E647100BA0686 /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001350BB281E647100BA0686 /* SetupView.swift */; };
 		0036DDCA27EDD2DA003B1F74 /* CyberRulesLearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036DDC927EDD2DA003B1F74 /* CyberRulesLearnView.swift */; };
 		0036DDCC27EE047B003B1F74 /* BluetoothLearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036DDCB27EE047B003B1F74 /* BluetoothLearnView.swift */; };
 		0036DDCE27EE04B5003B1F74 /* WiFiLearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036DDCD27EE04B5003B1F74 /* WiFiLearnView.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001350BB281E647100BA0686 /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
 		0036DDC927EDD2DA003B1F74 /* CyberRulesLearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyberRulesLearnView.swift; sourceTree = "<group>"; };
 		0036DDCB27EE047B003B1F74 /* BluetoothLearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothLearnView.swift; sourceTree = "<group>"; };
 		0036DDCD27EE04B5003B1F74 /* WiFiLearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiLearnView.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				00F8E24327D3D9B300A11169 /* PinkNoiseView.swift */,
 				00F8E24527D3E12200A11169 /* LearnView.swift */,
 				00F8E24727D3E12D00A11169 /* AboutView.swift */,
+				001350BB281E647100BA0686 /* SetupView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 				003A677A28008C8700CE255F /* HintView.swift in Sources */,
 				050711C027B698200046CE4C /* ContentView.swift in Sources */,
 				00C6100627E4E63B003C9780 /* PlaySound.swift in Sources */,
+				001350BC281E647100BA0686 /* SetupView.swift in Sources */,
 				0036DDCC27EE047B003B1F74 /* BluetoothLearnView.swift in Sources */,
 				003A677828008BE400CE255F /* InfoView.swift in Sources */,
 				00F8E24627D3E12200A11169 /* LearnView.swift in Sources */,

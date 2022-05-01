@@ -6,7 +6,12 @@
   
 */
 
-"ButtonView.ButtonTitle.Start" = "Rauschen";
+"NavBar.Main" = "Lauschabwehr";
+"NavBar.Setup" = "Setup";
+"NavBar.Learn" = "Lernen";
+"NavBar.About" = "Impressum";
+
+"ButtonView.ButtonTitle.Start" = "Lauschabwehr";
 "ButtonView.ButtonTitle.Stopp" = "Stopp";
 
 "SidemenuView.General" = "Allgemein";
@@ -54,9 +59,7 @@
 "LearnView.CyberRules.VideoHint" = "Erklärvideos";
 
 "AboutView.Impressum.Title" = "Impressum:";
-"AboutView.Impressum.Software" = "Developer: T. A.";
-"AboutView.Impressum.Client" = "Auftraggeber: T. B.";
-"AboutView.Impressum.Body" = "Diese Applikation wurde im Rahmen einer Bachelorarbeit des Studiums \"Information and Cyber Security\" an der Hochschule Luzern (HSLU) im Auftrag der Cyberdefense der Schweizer Armee realisiert. ";
+"AboutView.Impressum.Body" = "Diese Applikation wurde im Rahmen einer Bachelorarbeit des Studiums \"Information and Cyber Security\" an der Hochschule Luzern (HSLU) im Auftrag der Schweizer Armee realisiert. ";
 "AboutView.Feedback.Title" = "Feedback & Reports:";
 "AboutView.Feedback.Body" = "Verbesserungsvorschläge und Fehler können an folgende Email Adresse gemeldet werden:";
 
