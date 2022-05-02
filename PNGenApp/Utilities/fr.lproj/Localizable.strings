@@ -6,6 +6,9 @@
   
 */
 
+"NavigationBarTitle.Home" = "Défense d'écouter" ;
+"NavigationBarTitle.Learn" = "Centre d'apprentissage" ;
+
 "NavBar.Main" = "Anti-écoute";
 "NavBar.Setup" = "Setup";
 "NavBar.Learn" = "Étudier";
@@ -32,6 +35,7 @@
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1" = "Démarre Pink Noise avec le bouton";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2" = "Place tous les smartphones et smartwatches de la pièce dans le bocal antibruit";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3" = "Ferme la vitre anti-bruit et commence la session";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Swipe" = "Swipe vers le bas pour démarrer" ;
 
 "PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "Plus d'informations:";
 "PinkNoiseGeneratorView.Info.Autostart.Title" = "Comment démarrer automatiquement le bruit" ;

@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct AboutView: View {
+    
+    @State var AboutViewNavigationBarTitle: LocalizedStringKey =  "NavigationBarTitle.About"
+    
     var body: some View {
         HStack{
             ScrollView{

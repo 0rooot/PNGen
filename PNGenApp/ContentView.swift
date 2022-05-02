@@ -17,7 +17,8 @@ struct ContentView: View {
                 }
             SetupView()
                 .tabItem {
-                    Image(systemName: "hand.point.up.fill")
+                    //Image(systemName: "hand.point.up.fill")
+                    Image(systemName: "info.circle")
                     Text(LocalizedStringKey("NavBar.Setup"))
                 }
             LearnView()

@@ -36,9 +36,14 @@ struct InfoView: View {
                         }
                     }
                 }
+
             }
+
             .padding(20)
         }
+        Spacer()
+        Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Swipe"))
+            .font(.title2)
     }
 }
 

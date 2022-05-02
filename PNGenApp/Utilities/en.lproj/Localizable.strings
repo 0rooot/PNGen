@@ -6,6 +6,9 @@
  
  */
 
+"NavigationBarTitle.Home" = "Eavesdropping Center";
+"NavigationBarTitle.Learn" = "Learning Center";
+
 "NavBar.Main" = "Defense";
 "NavBar.Setup" = "Setup";
 "NavBar.Learn" = "Learn";
@@ -32,6 +35,7 @@
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1" = "Start Pink Noise with button.";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2" = "Place all smartphones and smartwatches in the room in the eavesdropping glass.";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3" = "Close the eavesdropping glass and start the conversation.";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Swipe" = "Swipe down to start";
 
 "PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "More info:";
 "PinkNoiseGeneratorView.Info.Autostart.Title" = "How can I start the noise automatically?";

@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct SetupView: View {
+    
+    @State var SetupViewNavigationBarTitle: LocalizedStringKey =  "NavigationBarTitle.Setup"
+    
     var body: some View {
         ScrollView{
             VStack(alignment: .leading) {

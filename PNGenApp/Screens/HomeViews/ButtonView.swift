@@ -25,7 +25,7 @@ struct ButtonView: View {
                     playNoise = true
                     
                     playPinkNoise1(key: "PINKNoise", format: "mp3")
-                    //playPinkNoise2(key: "opt-Sig", format: "mp3")
+                    //playPinkNoise1(key: "opt-Sig", format: "mp3")
                     UIScreen.main.brightness = CGFloat(0.3)
                     UIApplication.shared.isIdleTimerDisabled = false
                 } else {
@@ -34,9 +34,6 @@ struct ButtonView: View {
                     UIScreen.main.brightness = standardBrightness
                     UIApplication.shared.isIdleTimerDisabled = true
                 }
-                // while playNoise {
-                //     vibrate(count: 1)
-                // }
             }){
                 Text(playNoise ? buttonTitleStopp : buttonTitleStart)
                     .bold()

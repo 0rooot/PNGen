@@ -11,6 +11,7 @@ struct LearnView: View {
     
     @State var showMenu = false
     @State var selected: SelectedScreen = .general
+    @State var LearnViewNavigationBarTitle: LocalizedStringKey =  "NavigationBarTitle.Learn"
     
     var body: some View {
         
@@ -68,7 +69,7 @@ struct LearnView: View {
                 }
                 .gesture(drag)
             }
-            .navigationBarTitle("Learn Center", displayMode: .inline)
+            .navigationBarTitle(LearnViewNavigationBarTitle, displayMode: .inline)
             .navigationBarItems(leading: (
                 Button(action: {
                     withAnimation {

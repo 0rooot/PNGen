@@ -13,9 +13,10 @@ struct PinkNoiseView: View {
     
     @State var lang = "DE"
     @State private var showingInformationPopover = false
+    @State var HomeViewNavigationBarTitle: LocalizedStringKey =  "NavigationBarTitle.Home"
+    @AppStorage("firstStart") var firstStart: Bool = true
     
     var body: some View {
-        
         return NavigationView {
             GeometryReader { geometry in
                 VStack {
@@ -26,14 +27,14 @@ struct PinkNoiseView: View {
                         .frame(width: geometry.size.width/1.1, height: geometry.size.height/2)
                 }
             }
-            .navigationBarTitle("Pink Noise Generator", displayMode: .inline)
+            .navigationBarTitle(HomeViewNavigationBarTitle, displayMode: .inline)
             .navigationBarItems(trailing: (
                 Button(action: {
                     withAnimation {
                         showingInformationPopover = true
                     }
                 }) {
-                    Image(systemName: "info.circle")
+                    Image(systemName: "questionmark.circle")
                         .imageScale(.large)
                 }
                     .popover(isPresented: $showingInformationPopover) {
@@ -42,7 +43,12 @@ struct PinkNoiseView: View {
             )
             )
         }.navigationViewStyle(StackNavigationViewStyle())
-        
+            .onAppear {
+                if firstStart {
+                    showingInformationPopover = firstStart
+                    firstStart = false
+                }
+            }
     }
 }
 
