@@ -6,7 +6,7 @@
  
  */
 
-"NavigationBarTitle.Home" = "Eavesdropping Center";
+"NavigationBarTitle.Home" = "Eavesdropping";
 "NavigationBarTitle.Learn" = "Learning Center";
 
 "NavBar.Main" = "Defense";
@@ -63,7 +63,7 @@
 "LearnView.CyberRules.VideoHint" = "explainer videos";
 
 "AboutView.Impressum.Title" = "Imprint:";
-"AboutView.Imprint.Body" = "This application was realized as part of a bachelor thesis of the study \"Information and Cyber Security\" at the Lucerne University of Applied Sciences and Arts (HSLU) on behalf of the Swiss Armed Forces. ";
+"AboutView.Impressum.Body" = "This application was realized as part of a bachelor thesis of the study \"Information and Cyber Security\" at the Lucerne University of Applied Sciences and Arts (HSLU) on behalf of the Swiss Armed Forces. ";
 "AboutView.Feedback.Title" = "Feedback & Reports:";
 "AboutView.Feedback.Body" = "Suggestions for improvement and bugs can be reported to the following email address:";
 
