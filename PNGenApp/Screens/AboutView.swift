@@ -23,13 +23,14 @@ struct AboutView: View {
                         Image("HSLU").resizable().aspectRatio(contentMode: .fit).padding([.top, .leading], 10).background(.white).border(Color.black)
                         Image("SchweizerischeEidgenossenschaft").resizable().aspectRatio(contentMode: .fit).padding( 16).clipped().background(.white).border(Color.black)
                     }
-                    //Spacer()
+                    Spacer(minLength: 50)
                     Group{
                         Text(LocalizedStringKey("AboutView.Feedback.Title")).withAboutViewTitleStyle()
                         Text(LocalizedStringKey("AboutView.Feedback.Body")).withAboutViewBodyStyle()
                     }
-                    Spacer()
+                    
                 }
+                Spacer(minLength: 20)
                 HStack(alignment: .center){
                     Link(destination: URL(string: "mailto:pngen@gmx.ch")!, label: {
                         Text("Email: pngen@gmx.ch")

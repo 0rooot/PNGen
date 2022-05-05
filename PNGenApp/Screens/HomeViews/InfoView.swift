@@ -9,38 +9,36 @@ import SwiftUI
 
 struct InfoView: View {
     var body: some View {
-        ScrollView{
             VStack(alignment: .leading) {
                 Spacer()
-                Group{
                     Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title")).withTitleStyle()
                     VStack(alignment: .leading) {
-                        HStack{Text("1").withRuleNumberingStyle()
-                            Image("Start_Button_White").withInfoViewImageStyle()
+                        HStack(alignment: .top){
+                            Image("Smartphone").withInfoViewImageStyle()
+                            Text("1").withRuleNumberingStyle()
                             VStack{Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1")).withStepStyle()
                             }
                         }
                     }
                     VStack(alignment: .leading) {
-                        HStack{Text("2").withRuleNumberingStyle()
-                            Image("Einmachglas_Manor").withInfoViewImageStyle()
+                        HStack(alignment: .top){
+                            Image("jar2").withInfoViewImageStyle()
+                            Text("2").withRuleNumberingStyle()
                             VStack{Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2")).withStepStyle()
                             }
                         }
                     }
                     VStack(alignment: .leading) {
-                        HStack{Text("3").withRuleNumberingStyle()
+                        HStack(alignment: .top){
                             Image("Sprechen2").withInfoViewImageStyle()
+                            Text("3").withRuleNumberingStyle()
                             VStack{Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3")).withStepStyle()
                             }
                         }
                     }
-                }
-
             }
 
             .padding(20)
-        }
         Spacer()
         Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Swipe"))
             .font(.title2)
@@ -91,5 +89,6 @@ extension Image {
             .scaledToFill()
             .frame(width: 100, height: 100)
             .clipped()
+            .border(Color.black)
     }
 }

@@ -17,7 +17,6 @@ struct SettingsLearnView: View {
                 VStack(alignment: .leading) {
                     Text(LocalizedStringKey("LearnView.Settings.Title")).withLearnTextTitleStyle()
                     Text(LocalizedStringKey("LearnView.Settings.Body")).withLearnTextBodyStyle()
-                    Divider().background(Color.accentColor).frame(maxWidth: 200)
                     Spacer()
                     Group{
                         HStack(alignment: .top){

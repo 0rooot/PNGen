@@ -22,13 +22,11 @@ struct SetupView: View {
                     Group {
                         Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Title")).withQuestionTitleStyle()
                         Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Body")).withQuestionBodyStyle()
-                        Divider().background(Color.accentColor).frame(maxWidth: 200)
                     }
                     Spacer()
                     Group {
                         Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.Autostart.Title")).withQuestionTitleStyle()
                         Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.Autostart.Body")).withQuestionBodyStyle()
-                        Divider().background(Color.accentColor).frame(maxWidth: 200)
                     }
                     Spacer()
                     Group {

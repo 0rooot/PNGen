@@ -17,7 +17,6 @@ struct BluetoothLearnView: View {
                 VStack(alignment: .leading) {
                     Text(LocalizedStringKey("LearnView.Bluetooth.Title")).withLearnTextTitleStyle()
                     Text(LocalizedStringKey("LearnView.Bluetooth.Body")).withLearnTextBodyStyle()
-                    Divider().background(Color.accentColor).frame(maxWidth: 200)
                     Spacer()
                     Group{
                         Text(LocalizedStringKey("LearnView.Bluetooth.Risk")).withLearnTextBodyStyle()
