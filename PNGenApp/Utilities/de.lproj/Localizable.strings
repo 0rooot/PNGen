@@ -7,7 +7,9 @@
 */
 
 "NavigationBarTitle.Home" = "Lauschabwehr";
-"NavigationBarTitle.Learn" = "Lerncenter";
+"NavigationBarTitle.Learn" = "Wissenscenter";
+"NavigationBarTitle.Setup" = "Gebrauchsanweisung";
+"NavigationBarTitle.About" = "Projekt Information";
 
 "NavBar.Main" = "Lauschabwehr";
 "NavBar.Setup" = "Setup";

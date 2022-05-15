@@ -10,7 +10,6 @@ import SwiftUI
 struct InfoView: View {
     var body: some View {
             VStack(alignment: .leading) {
-                Spacer()
                     Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title")).withTitleStyle()
                     VStack(alignment: .leading) {
                         HStack(alignment: .top){
@@ -37,11 +36,6 @@ struct InfoView: View {
                         }
                     }
             }
-
-            .padding(20)
-        Spacer()
-        Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Swipe"))
-            .font(.title2)
     }
 }
 
