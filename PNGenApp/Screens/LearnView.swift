@@ -83,8 +83,8 @@ struct LearnView: View {
             ))
         }.navigationViewStyle(StackNavigationViewStyle())
             .alert(isPresented: $firstStartLearnView) { Alert(
-            title: Text("Mehr Inhalt"),
-            message: Text("Swipe nach rechts oder tippe den Button oben links um mehr Inhalt zu sehen!"),
+            title: Text(LocalizedStringKey("LearnView.SideMenue.Popup.Title")),
+            message: Text(LocalizedStringKey("LearnView.SideMenue.Popup.Body")),
             dismissButton: .default(Text("OK")))}
     }
 }

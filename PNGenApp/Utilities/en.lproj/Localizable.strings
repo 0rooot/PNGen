@@ -73,6 +73,8 @@
 "AboutView.Privacy.Title" = "Privacy";
 "AboutView.Privacy.Body" = "The PNGen application does not collect any personal data. Except for the Apple standard logs which are sent to Apple.";
 
+"LearnView.SideMenue.Popup.Title" = "More Content";
+"LearnView.SideMenue.Popup.Body" = "Swipe right or tap the top left icon to find more content!";
 "LearnView.Wifi.Title" = "Wifi Security";
 "LearnView.Wifi.Body" = "Wireless networks have become an integral part of our everyday life. They are mainly used to gain access to the Internet. Wifi can be used to connect to a computer or smartphone. However, wifi is not only practical, but also a gateway for attackers. This section presents tips on what to look out for when connecting to a WLAN.";
 "LearnView.Wifi.PublicWiFi.Title" = "Public WLAN";

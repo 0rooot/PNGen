@@ -73,6 +73,8 @@
 "AboutView.Privacy.Title" = "Datenschutz";
 "AboutView.Privacy.Body" = "Die Applikation PNGen sammelt keinerlei Personenbezogene Daten. Ausgenommen davon sind die Apple Standard Logs welche an Apple gesendet werden.";
 
+"LearnView.SideMenue.Popup.Title" = "Mehr Inhalt";
+"LearnView.SideMenue.Popup.Body" = "Swipe nach rechts oder tippe auf das Symbol oben links um mehr Inhalte zu finden!";
 "LearnView.Wifi.Title" = "Wifi Security";
 "LearnView.Wifi.Body" = "Drahtlose Netzwerke sind aus unserem Alltag nichtmehr wegzudenken. Sie werden hauptsächlich dazu verwendet, ein Zugang zum Internet zu erlangen. Über das Wifi kann man sich mit dem Computer oder dem Smartphone verbinden. WLAN ist aber nicht nur praktisch, sondern auch ein Einfallstor für Angreifer. In diesem Abschnitt werden Tipps vorgestellt auf was man achten sollte wenn man sich mit einem WLAN verbindet.";
 "LearnView.Wifi.PublicWiFi.Title" = "Öffentliche WLAN";

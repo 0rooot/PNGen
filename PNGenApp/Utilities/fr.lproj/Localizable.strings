@@ -73,6 +73,8 @@
 "AboutView.Privacy.Title" = "Confidentialité" ;
 "AboutView.Privacy.Body" = "L'application PNGen ne collecte aucune donnée personnelle. A l'exception des logs standards Apple qui sont envoyés à Apple" ;
 
+"LearnView.SideMenue.Popup.Title" = "Plus de contenu";
+"LearnView.SideMenue.Popup.Body" = "Swipe vers la droite ou tape sur le bouton en haut à gauche pour trouver plus de contenu !";
 "LearnView.Wifi.Title" = "Sécurité Wifi";
 "LearnView.Wifi.Body" = "Les réseaux sans fil font partie intégrante de notre quotidien. Ils sont principalement utilisés pour obtenir un accès à Internet. Le Wifi permet de se connecter à son ordinateur ou à son smartphone. Mais le Wifi n'est pas seulement pratique, il est aussi une porte d'entrée pour les pirates. Cette section présente des conseils sur ce à quoi il faut faire attention lorsqu'on se connecte à un WLAN";
 "LearnView.Wifi.PublicWiFi.Title" = "WLAN public";
