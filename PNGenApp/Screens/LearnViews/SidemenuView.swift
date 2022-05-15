@@ -2,7 +2,7 @@
 //  SidemenuView.swift
 //  PNGen
 //
-//  Created by Thomas Arnold on 24.03.22.
+//  Created by Main Developer on 24.03.22.
 //
 
 import SwiftUI
@@ -30,7 +30,7 @@ struct SideMenuView: View {
                 Button {
                     selected = .connections
                     showMenu = false
-                } label: { Label(LocalizedStringKey("SidemenuView.Connections"), systemImage: "envelope")
+                } label: { Label(LocalizedStringKey("SidemenuView.Connections"), systemImage: "point.3.connected.trianglepath.dotted")
                 }.withSideMenueMainButtonStyle()
                 
                 Button {

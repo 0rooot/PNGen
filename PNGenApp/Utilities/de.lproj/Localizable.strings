@@ -2,7 +2,7 @@
   Localizable.strings
   PNGen
 
-  Created by Thomas Arnold on 08.04.22.
+  Created by Main Developer on 08.04.22.
   
 */
 
@@ -11,7 +11,7 @@
 
 "NavBar.Main" = "Lauschabwehr";
 "NavBar.Setup" = "Setup";
-"NavBar.Learn" = "Lernen";
+"NavBar.Learn" = "Wissen";
 "NavBar.About" = "Impressum";
 
 "ButtonView.ButtonTitle.Start" = "Lauschabwehr";
@@ -33,15 +33,15 @@
 
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title" = "Verwendung:";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1" = "Lauschabwehr mit Button starten";
-"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2" = "Alle Smartphones und Smartwatches im Raum in das Lauschschutzglas legen";
-"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3" = "Lauschschutzglas schliessen und Gespräch beginnen.";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2" = "Alle Smartphones und Smartwatches im Raum in das Lauschabwehrglas legen";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3" = "Lauschabwehrglas schliessen und Gespräch beginnen.";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Swipe" = "Swipe nach unten um zu starten";
 
 "PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "Weitere Infos:";
 "PinkNoiseGeneratorView.Info.Autostart.Title" = "Wie kann ich das rauschen automatisch starten?";
-"PinkNoiseGeneratorView.Info.Autostart.Body" = "Das automatische Starten des Rauschens kann unter \"Einstellungen\" > \"PNGen\" > \"Auto Start\" eingeschaltet werden.";
-"PinkNoiseGeneratorView.Info.Jar.Title" = "Was ist ein Lauschschutzglas?";
-"PinkNoiseGeneratorView.Info.Jar.Body" = "Ein Lauschschutzglas ist ein handelsübliches Einmachglas, in welches das Smartphone reinpasst. Bei der Entwicklung dieser App wurde mit einem 3l Einmachglas getestet. Die Gläser sind beispielsweise hier käuflich zu erwerben:";
+"PinkNoiseGeneratorView.Info.Autostart.Body" = "Das automatische Starten des Rauschens kann unter \"Einstellungen\" > \"PNGen\" > \"Auto Start\" eingeschaltet werden. Diese Funktion ist für fortgeschrittene Benutzer, welche beim öffnen der App nur noch direkt die Lauschabwehr verwenden möchten.";
+"PinkNoiseGeneratorView.Info.Jar.Title" = "Was ist ein Lauschabwehrglas?";
+"PinkNoiseGeneratorView.Info.Jar.Body" = "Ein Lauschabwehrglas ist ein handelsübliches Einmachglas, in welches das Smartphone reinpasst. Bei der Entwicklung dieser App wurde mit einem 3l Einmachglas getestet. Die Gläser sind beispielsweise hier käuflich zu erwerben:";
 
 "LearnView.General.Title" = "Sei aufmerksam!";
 "LearnView.General.Body" = "In diesem Abschnitt geht es darum, zu lernen und das Bewusstsein zu schärfen. Hier können Sie über allgemeine Cybersicherheitsthemen in Bezug auf Smartphones lesen. Heutzutage wird es immer wichtiger, sowohl bei der Arbeit als auch bei privaten Geräten für Sicherheit zu sorgen.";
@@ -63,9 +63,15 @@
 "LearnView.CyberRules.VideoHint" = "Erklärvideos";
 
 "AboutView.Impressum.Title" = "Impressum:";
-"AboutView.Impressum.Body" = "Diese Applikation wurde im Rahmen einer Bachelorarbeit des Studiums \"Information and Cyber Security\" an der Hochschule Luzern (HSLU) im Auftrag der Schweizer Armee realisiert. ";
+"AboutView.Impressum.Body" = "Diese Applikation wurde im Rahmen einer Bachelorarbeit des Studiums \"Information and Cyber Security\" an der Hochschule Luzern (HSLU) im Auftrag und Betreuung durch die Schweizer Armee realisiert. ";
 "AboutView.Feedback.Title" = "Feedback & Reports:";
 "AboutView.Feedback.Body" = "Verbesserungsvorschläge und Fehler können an folgende Email Adresse gemeldet werden:";
+"AboutView.Code.Title" = "Source code";
+"AboutView.Code.Body" = "Die PNGen Applikation ist ein Open-Source-Projekt und kann auf Github angeschaut werden. Wir freuen uns über jede Rückmeldung zum Code!";
+"AboutView.AGB.Title" = "Haftungsausschluss";
+"AboutView.AGB.Body" = "Die Autorenschaft übernimmt keinerlei Gewähr hinsichtlich der Zuverlässigkeit und Vollständigkeit der Informationen. Verweise und Links auf Webseiten Dritter liegen ausserhalb unseres Verantwortungsbereichs.";
+"AboutView.Privacy.Title" = "Datenschutz";
+"AboutView.Privacy.Body" = "Die Applikation PNGen sammelt keinerlei Personenbezogene Daten. Ausgenommen davon sind die Apple Standard Logs welche an Apple gesendet werden.";
 
 "LearnView.Wifi.Title" = "Wifi Security";
 "LearnView.Wifi.Body" = "Drahtlose Netzwerke sind aus unserem Alltag nichtmehr wegzudenken. Sie werden hauptsächlich dazu verwendet, ein Zugang zum Internet zu erlangen. Über das Wifi kann man sich mit dem Computer oder dem Smartphone verbinden. WLAN ist aber nicht nur praktisch, sondern auch ein Einfallstor für Angreifer. In diesem Abschnitt werden Tipps vorgestellt auf was man achten sollte wenn man sich mit einem WLAN verbindet.";

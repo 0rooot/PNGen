@@ -2,7 +2,7 @@
 //  PlaySound.swift
 //  PNGen
 //
-//  Created by Thomas Arnold on 18.03.22.
+//  Created by Main Developer on 18.03.22.
 //
 
 import Foundation

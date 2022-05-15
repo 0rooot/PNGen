@@ -2,7 +2,7 @@
 //  PinkNoiseView.swift
 //  PNGen
 //
-//  Created by Thomas Arnold on 05.03.22.
+//  Created by Main Developer on 05.03.22.
 //
 
 import SwiftUI

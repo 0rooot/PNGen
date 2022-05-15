@@ -2,7 +2,7 @@
 //  ConnectionView.swift
 //  PNGen
 //
-//  Created by Thomas Arnold on 24.03.22.
+//  Created by Main Developer on 24.03.22.
 //
 
 import SwiftUI

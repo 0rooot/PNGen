@@ -2,7 +2,7 @@
  Localizable.strings
  PNGen
  
- Created by Thomas Arnold on 08.04.22.
+ Created by Main Developer on 08.04.22.
  
  */
 
@@ -11,7 +11,7 @@
 
 "NavBar.Main" = "Defense";
 "NavBar.Setup" = "Setup";
-"NavBar.Learn" = "Learn";
+"NavBar.Learn" = "Knowledge";
 "NavBar.About" = "About";
 
 "ButtonView.ButtonTitle.Start" = "Eavesdropping defense";
@@ -39,7 +39,7 @@
 
 "PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "More info:";
 "PinkNoiseGeneratorView.Info.Autostart.Title" = "How can I start the noise automatically?";
-"PinkNoiseGeneratorView.Info.Autostart.Body" = "Automatic noise start can be turned on in \"Settings\" > \"PNGen\" > \"Auto Start\".";
+"PinkNoiseGeneratorView.Info.Autostart.Body" = "Automatic noise start can be turned on in \"Settings\" > \"PNGen\" > \"Auto Start\". This function is for advanced users who only want to use the eavesdropping defense directly when opening the app.";
 "PinkNoiseGeneratorView.Info.Jar.Title" = "What is an eavesdropping jar?";
 "PinkNoiseGeneratorView.Info.Jar.Body" = "An eavesdropping jar is a commercial canning jar into which the smartphone fits. During the development of this app, we tested with a 3l canning jar. The jars are available for purchase here, for example:";
 
@@ -63,9 +63,15 @@
 "LearnView.CyberRules.VideoHint" = "explainer videos";
 
 "AboutView.Impressum.Title" = "Imprint:";
-"AboutView.Impressum.Body" = "This application was realized as part of a bachelor thesis of the study \"Information and Cyber Security\" at the Lucerne University of Applied Sciences and Arts (HSLU) on behalf of the Swiss Armed Forces. ";
+"AboutView.Impressum.Body" = "This application was realized as part of a bachelor thesis of the study \"Information and Cyber Security\" at the Lucerne University of Applied Sciences and Arts (HSLU) on behalf of and under the supervision of the Swiss Armed Forces. ";
 "AboutView.Feedback.Title" = "Feedback & Reports:";
 "AboutView.Feedback.Body" = "Suggestions for improvement and bugs can be reported to the following email address:";
+"AboutView.Code.Title" = "Source code";
+"AboutView.Code.Body" = "The source code of the PNGen Application is open source and van be viewed on Github. We welcome any feedback on the code!";
+"AboutView. AGB.Title" = "Disclaimer";
+"AboutView. AGB. Body" = "The authors do not assume any warranty with regard to the reliability and completeness of the information. References and links to third party websites are outside our responsibility.";
+"AboutView.Privacy.Title" = "Privacy";
+"AboutView.Privacy.Body" = "The PNGen application does not collect any personal data. Except for the Apple standard logs which are sent to Apple.";
 
 "LearnView.Wifi.Title" = "Wifi Security";
 "LearnView.Wifi.Body" = "Wireless networks have become an integral part of our everyday life. They are mainly used to gain access to the Internet. Wifi can be used to connect to a computer or smartphone. However, wifi is not only practical, but also a gateway for attackers. This section presents tips on what to look out for when connecting to a WLAN.";

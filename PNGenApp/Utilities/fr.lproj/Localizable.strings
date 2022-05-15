@@ -2,7 +2,7 @@
   Localizable.strings
   PNGen
 
-  Created by Thomas Arnold on 08.04.22.
+  Created by Main Developer on 08.04.22.
   
 */
 
@@ -11,7 +11,7 @@
 
 "NavBar.Main" = "Anti-écoute";
 "NavBar.Setup" = "Setup";
-"NavBar.Learn" = "Étudier";
+"NavBar.Learn" = "Savoir";
 "NavBar.About" = "Impressum";
 
 "ButtonView.ButtonTitle.Start" = "Défense d'écoute";
@@ -39,7 +39,7 @@
 
 "PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "Plus d'informations:";
 "PinkNoiseGeneratorView.Info.Autostart.Title" = "Comment démarrer automatiquement le bruit" ;
-"PinkNoiseGeneratorView.Info.Autostart.Body" = "Le démarrage automatique du bruit peut être activé sous \"Réglages\" > \"PNGen\" > \"Auto Start\" .";
+"PinkNoiseGeneratorView.Info.Autostart.Body" = "Le démarrage automatique du bruit peut être activé sous \"Réglages\" > \"PNGen\" > \"Auto Start\" . Cette fonction est destinée aux utilisateurs avancés qui souhaitent utiliser directement le système de défense contre les écoutes lors de l'ouverture de l'application.";
 "PinkNoiseGeneratorView.Info.Jar.Title" = "Qu'est-ce qu'un bocal antibruit ?";
 "PinkNoiseGeneratorView.Info.Jar.Body" = "Un bocal antibruit est un bocal courant dans lequel on peut mettre son smartphone. Lors du développement de cette application, les tests ont été effectués avec un bocal de 3 litres. Les bocaux peuvent par exemple être achetés ici :";
 
@@ -63,9 +63,15 @@
 "LearnView.CyberRules.VideoHint" = "vidéos explicatives";
 
 "AboutView.Impressum.Title" = "Mentions légales :";
-"AboutView.Impressum.Body" = "Cette application a été réalisée dans le cadre d'un travail de bachelor des études \"Information and Cyber Security\" à la Haute école de Lucerne (HSLU) sur mandat de l'Armée suisse. " ;
+"AboutView.Impressum.Body" = "Cette application a été réalisée dans le cadre d'un travail de bachelor des études \"Information and Cyber Security\" à la Haute école de Lucerne (HSLU) sur mandat et avec le soutien de l'Armée suisse. " ;
 "AboutView.Feedback.Title" = "Feedback & Reports :";
 "AboutView.Feedback.Body" = "Les propositions d'amélioration et les erreurs peuvent être signalées à l'adresse e-mail suivante :";
+"AboutView.Code.Title" = "Source code";
+"AboutView.Code.Body" = "Le code source de l'application PNGen est open source et peut être consulté sur Github. Tout commentaire sur le code est le bienvenu !";
+"AboutView.AGB.Title" = "Clause de non-responsabilité" ;
+"AboutView.AGB.Body" = "Les auteurs n'assument aucune garantie quant à la fiabilité et à l'exhaustivité des informations. Les renvois et liens vers des sites web de tiers ne relèvent pas de notre responsabilité" ;
+"AboutView.Privacy.Title" = "Confidentialité" ;
+"AboutView.Privacy.Body" = "L'application PNGen ne collecte aucune donnée personnelle. A l'exception des logs standards Apple qui sont envoyés à Apple" ;
 
 "LearnView.Wifi.Title" = "Sécurité Wifi";
 "LearnView.Wifi.Body" = "Les réseaux sans fil font partie intégrante de notre quotidien. Ils sont principalement utilisés pour obtenir un accès à Internet. Le Wifi permet de se connecter à son ordinateur ou à son smartphone. Mais le Wifi n'est pas seulement pratique, il est aussi une porte d'entrée pour les pirates. Cette section présente des conseils sur ce à quoi il faut faire attention lorsqu'on se connecte à un WLAN";

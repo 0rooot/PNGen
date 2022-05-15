@@ -2,7 +2,7 @@
 //  SetupView.swift
 //  PNGen
 //
-//  Created by Thomas Arnold on 01.05.22.
+//  Created by Main Developer on 01.05.22.
 //
 
 import SwiftUI

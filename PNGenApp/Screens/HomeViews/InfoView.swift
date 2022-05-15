@@ -2,7 +2,7 @@
 //  InfoView.swift
 //  PNGen
 //
-//  Created by Thomas Arnold on 08.04.22.
+//  Created by Main Developer on 08.04.22.
 //
 
 import SwiftUI

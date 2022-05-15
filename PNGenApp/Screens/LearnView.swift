@@ -2,7 +2,7 @@
 //  InformationView.swift
 //  PNGen
 //
-//  Created by Thomas Arnold on 05.03.22.
+//  Created by Main Developer on 05.03.22.
 //
 
 import SwiftUI
@@ -12,6 +12,7 @@ struct LearnView: View {
     @State var showMenu = false
     @State var selected: SelectedScreen = .general
     @State var LearnViewNavigationBarTitle: LocalizedStringKey =  "NavigationBarTitle.Learn"
+    @AppStorage("firstStartLearnView") var firstStartLearnView: Bool = true
     
     var body: some View {
         
@@ -81,6 +82,10 @@ struct LearnView: View {
                 }
             ))
         }.navigationViewStyle(StackNavigationViewStyle())
+            .alert(isPresented: $firstStartLearnView) { Alert(
+            title: Text("Mehr Inhalt"),
+            message: Text("Swipe nach rechts oder tippe den Button oben links um mehr Inhalt zu sehen!"),
+            dismissButton: .default(Text("OK")))}
     }
 }
 
