@@ -39,6 +39,7 @@ struct InfoView: View {
     }
 }
 
+//defines default Text styles to reuse
 extension Text {
     func withStepStyle() -> some View {
         self.fixedSize(horizontal: false, vertical: true)
@@ -77,6 +78,7 @@ extension Text {
     }
 }
 
+//defines default Image styles to reuse
 extension Image {
     func withInfoViewImageStyle() -> some View {
         self.resizable()

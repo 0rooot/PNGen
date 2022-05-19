@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        //defines the bottom Navigation Tabs
         TabView {
             PinkNoiseView()
                 .tabItem {
@@ -31,7 +32,7 @@ struct ContentView: View {
                     Text(LocalizedStringKey("NavBar.About"))
                 }
         }.onAppear(){
-            playNoiseIfAutoStart()
+            playNoiseIfAutoStart() //plays the noise if the autostart setting is set from the user
         }
     }
 }

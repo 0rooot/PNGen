@@ -21,6 +21,7 @@ struct AboutView: View {
                         Text(LocalizedStringKey("AboutView.Impressum.Body")).withAboutViewBodyStyle()
                         Spacer()
                         HStack() {
+                            //When pressing on the pictures, the user gets to the webpages of the according organisation.
                             Button(action: {
                                 guard let hslu = URL(string: "https://www.hslu.ch/de-ch/informatik/studium/bachelor/information-and-cyber-security/"),
                                       UIApplication.shared.canOpenURL(hslu) else {
@@ -99,6 +100,9 @@ struct AboutView: View {
                         }
                     }
                 }.navigationBarTitle(AboutViewNavigationBarTitle, displayMode: .inline)
+                    .navigationBarItems(leading: (
+                        Image("schweizer_wappen")
+                    ))
             }.padding([.leading, .trailing], 20)
         }
     }
@@ -112,6 +116,7 @@ struct AboutView_Previews: PreviewProvider {
     }
 }
 
+//defines default Text styles to reuse
 extension Text {
     func withAboutViewMainTitleStyle() -> some View {
         self.font(.largeTitle)

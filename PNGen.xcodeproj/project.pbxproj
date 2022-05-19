@@ -160,9 +160,9 @@
 				003A677628008B7B00CE255F /* HomeViews */,
 				00C8ACF627ECD24B00D4A6C2 /* LearnViews */,
 				00F8E24327D3D9B300A11169 /* PinkNoiseView.swift */,
+				001350BB281E647100BA0686 /* SetupView.swift */,
 				00F8E24527D3E12200A11169 /* LearnView.swift */,
 				00F8E24727D3E12D00A11169 /* AboutView.swift */,
-				001350BB281E647100BA0686 /* SetupView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -578,7 +578,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = ThomasArnold.PNGen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -610,7 +610,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = ThomasArnold.PNGen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

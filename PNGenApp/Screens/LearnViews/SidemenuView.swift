@@ -9,8 +9,8 @@ import SwiftUI
 
 struct SideMenuView: View {
     
-    @Binding var showMenu: Bool
-    @Binding var selected: SelectedScreen
+    @Binding var showMenu: Bool //defines if the menue is showing at the moment
+    @Binding var selected: SelectedScreen //variable that holds the selected screen name
     
     var body: some View {
         HStack {

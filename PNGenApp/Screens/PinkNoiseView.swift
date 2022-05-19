@@ -20,15 +20,18 @@ struct PinkNoiseView: View {
         return NavigationView {
             GeometryReader { geometry in
                 VStack {
+                    //Noise Button
                     ButtonView()
                         .frame(width: geometry.size.width, height: geometry.size.height/2)
-                    
+                    //Hint Points
                     HintView()
                         .frame(width: geometry.size.width/1.1, height: geometry.size.height/2)
                 }
             }
             .navigationBarTitle(HomeViewNavigationBarTitle, displayMode: .inline)
-            .navigationBarItems(trailing: (
+            .navigationBarItems(leading: (
+                Image("schweizer_wappen")
+            ), trailing: (
                 Button(action: {
                     withAnimation {
                         showingInformationPopover = true

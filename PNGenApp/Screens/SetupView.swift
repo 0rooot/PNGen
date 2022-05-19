@@ -16,6 +16,7 @@ struct SetupView: View {
             HStack{
                 ScrollView{
                     VStack(alignment: .leading) {
+                        //How to use the Noise App
                         InfoView()
                         Spacer()
                         Group{
@@ -49,6 +50,9 @@ struct SetupView: View {
                         Spacer()
                     }
                 }.navigationBarTitle(SetupViewNavigationBarTitle, displayMode: .inline)
+                    .navigationBarItems(leading: (
+                        Image("schweizer_wappen")
+                    ))
             }.padding([.leading, .trailing], 20)
         }
     }

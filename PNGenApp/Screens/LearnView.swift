@@ -12,6 +12,7 @@ struct LearnView: View {
     @State var showMenu = false
     @State var selected: SelectedScreen = .general
     @State var LearnViewNavigationBarTitle: LocalizedStringKey =  "NavigationBarTitle.Learn"
+    //When the user navigates the first time to the LearnView, he gets notified that he can click on the button or swipe
     @AppStorage("firstStartLearnView") var firstStartLearnView: Bool = true
     
     var body: some View {
@@ -25,6 +26,7 @@ struct LearnView: View {
                 }
             }
         
+        //Main View is the navigation. All other Views are going on top.
         return NavigationView {
             GeometryReader { geometry in
                 ZStack(alignment: .leading) {
@@ -68,6 +70,7 @@ struct LearnView: View {
                             .transition(.move(edge: .leading))
                     }
                 }
+                //This defines that the user can also use the swipe gesture
                 .gesture(drag)
             }
             .navigationBarTitle(LearnViewNavigationBarTitle, displayMode: .inline)
@@ -89,6 +92,7 @@ struct LearnView: View {
     }
 }
 
+//Enum to define the selected screens
 public enum SelectedScreen {
     case general
     case cyberRules

@@ -34,9 +34,9 @@
 "PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Body" = "Pink Noise is the sound of all frequencies. Pink Noise has several purposes. The application area of this app is surveillance and eavesdropping prevention. Pink Noise is designed to fill the surrounding microphones of smartphones and smartwatches and prevent the recording of conversations.";
 
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title" = "Usage:";
-"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1" = "Start savesdropping with button.";
-"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2" = "Place all smartphones and smartwatches in the room in the eavesdropping glass.";
-"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3" = "Close the eavesdropping glass and start the conversation.";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1" = "Start eavesdropping with button.";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2" = "Place all smartphones and smartwatches in the room in the eavesdropping jar.";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3" = "Close the eavesdropping jar and start the conversation.";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Swipe" = "Swipe down to start";
 
 "PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "More info:";
@@ -70,8 +70,8 @@
 "AboutView.Feedback.Body" = "Suggestions for improvement and bugs can be reported to the following email address:";
 "AboutView.Code.Title" = "Source code";
 "AboutView.Code.Body" = "The source code of the PNGen Application is open source and van be viewed on Github. We welcome any feedback on the code!";
-"AboutView. AGB.Title" = "Disclaimer";
-"AboutView. AGB. Body" = "The authors do not assume any warranty with regard to the reliability and completeness of the information. References and links to third party websites are outside our responsibility.";
+"AboutView.AGB.Title" = "Disclaimer";
+"AboutView.AGB.Body" = "The authors do not assume any warranty with regard to the reliability and completeness of the information. References and links to third party websites are outside our responsibility.";
 "AboutView.Privacy.Title" = "Privacy";
 "AboutView.Privacy.Body" = "The PNGen application does not collect any personal data. Except for the Apple standard logs which are sent to Apple.";
 

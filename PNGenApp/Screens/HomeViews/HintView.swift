@@ -6,6 +6,9 @@
 //
 
 import SwiftUI
+import MediaPlayer
+import UIKit
+
 
 struct HintView: View {
     var body: some View {
@@ -27,6 +30,10 @@ struct HintView: View {
                         }
                     }
                 }
+                //uses the Volume Slider definition --> Airplay Button cannot be disabled
+                VolumeSlider()
+                    .frame(height: 40)
+                    .padding(.horizontal)
                 Spacer()
             }
             .font(.body)
@@ -36,7 +43,7 @@ struct HintView: View {
         
     }
 }
-
+//defines default Text styles to reuse
 extension Text {
     func withHintTextStyle() -> some View {
         self.fixedSize(horizontal: false, vertical: true)
@@ -47,11 +54,19 @@ extension Text {
             .padding(.leading, 10)
     }
 }
-
+//defines default Image styles to reuse
 extension Image {
     func withHintImageStyle() -> some View {
         self.resizable()
             .aspectRatio(contentMode: .fit)
             .frame(width: 70, height: 70)
     }
+}
+//defines the Volume Slieder
+struct VolumeSlider: UIViewRepresentable {
+    func makeUIView(context: Context) -> MPVolumeView {
+        MPVolumeView(frame: .zero)
+    }
+    
+    func updateUIView(_ view: MPVolumeView, context: Context) {}
 }
