@@ -13,7 +13,7 @@ struct InfoView: View {
                     Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title")).withTitleStyle()
                     VStack(alignment: .leading) {
                         HStack(alignment: .top){
-                            Image("Smartphone").withInfoViewImageStyle()
+                            Image("Anleitung_1").withInfoViewImageStyle()
                             Text("1").withRuleNumberingStyle()
                             VStack{Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1")).withStepStyle()
                             }
@@ -21,7 +21,7 @@ struct InfoView: View {
                     }
                     VStack(alignment: .leading) {
                         HStack(alignment: .top){
-                            Image("jar2").withInfoViewImageStyle()
+                            Image("Anleitung_2").withInfoViewImageStyle()
                             Text("2").withRuleNumberingStyle()
                             VStack{Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2")).withStepStyle()
                             }
@@ -29,7 +29,7 @@ struct InfoView: View {
                     }
                     VStack(alignment: .leading) {
                         HStack(alignment: .top){
-                            Image("Sprechen2").withInfoViewImageStyle()
+                            Image("Anleitung_3").withInfoViewImageStyle()
                             Text("3").withRuleNumberingStyle()
                             VStack{Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3")).withStepStyle()
                             }

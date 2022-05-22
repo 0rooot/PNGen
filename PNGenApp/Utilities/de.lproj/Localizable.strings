@@ -1,4 +1,4 @@
-/* 
+/*
   Localizable.strings
   PNGen
 
@@ -29,9 +29,9 @@
 
 "PinkNoiseGeneratorView.Hint.Title" = "Hinweis:";
 "PinkNoiseGeneratorView.Hint.Volume" = "Stelle die Lautstärke auf Maximum.";
-"PinkNoiseGeneratorView.Hint.Lock" = "Sperre das Iphone um Akku zu sparen.";
+"PinkNoiseGeneratorView.Hint.Lock" = "Sperre das iPhone, um Akku zu sparen.";
 "PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Title" = "Was ist Pink Noise?";
-"PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Body" = "Pink Noise ist der Sound von allen Frequenzen. Pink Noise hat verschiedene Einsatzzwecke. Das Einsatzgebiet dieser App ist die Überwachungs- und Abhör-Abwehr. Pink Noise soll die umliegenden Mikrofone von Smartphones und Smartwatches füllen und die Aufnahme von Gesprächen verhindern.";
+"PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Body" = "Pink Noise (oder rosa Rauschen) ist das Geräusch das auf allen Frequenzen gleichzeitig ertönt. Pink Noise hat verschiedene Einsatzzwecke. Das Einsatzgebiet dieser App ist die Überwachungs- und Abhör-Abwehr. Pink Noise soll die umliegenden Mikrofone von Smartphones und Smartwatches mit Geräuschen füllen, andere Töne im Raum überlagern und so das Abhören von Gesprächen über umliegende Mikrofone verhindern.";
 
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title" = "Verwendung:";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1" = "Lauschabwehr mit Button starten";
@@ -40,18 +40,18 @@
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Swipe" = "Swipe nach unten um zu starten";
 
 "PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "Weitere Infos:";
-"PinkNoiseGeneratorView.Info.Autostart.Title" = "Wie kann ich das rauschen automatisch starten?";
-"PinkNoiseGeneratorView.Info.Autostart.Body" = "Das automatische Starten des Rauschens kann unter \"Einstellungen\" > \"PNGen\" > \"Auto Start\" eingeschaltet werden. Diese Funktion ist für fortgeschrittene Benutzer, welche beim öffnen der App nur noch direkt die Lauschabwehr verwenden möchten.";
+"PinkNoiseGeneratorView.Info.Autostart.Title" = "Wie kann ich das Rauschen automatisch starten?";
+"PinkNoiseGeneratorView.Info.Autostart.Body" = "Das automatische Starten des Rauschens kann unter \"Einstellungen\" > \"PNGen\" > \"Auto Start\" eingeschaltet werden. Diese Funktion dient fortgeschrittenen Benutzern dazu, beim Öffnen der App direkt die Lauschabwehr zu verwenden.";
 "PinkNoiseGeneratorView.Info.Jar.Title" = "Was ist ein Lauschabwehrglas?";
-"PinkNoiseGeneratorView.Info.Jar.Body" = "Ein Lauschabwehrglas ist ein handelsübliches Einmachglas, in welches das Smartphone reinpasst. Bei der Entwicklung dieser App wurde mit einem 3l Einmachglas getestet. Die Gläser sind beispielsweise hier käuflich zu erwerben:";
+"PinkNoiseGeneratorView.Info.Jar.Body" = "Ein Lauschabwehrglas ist ein handelsübliches Einmachglas, in welches das Smartphone hineinpasst. Bei der Entwicklung dieser App wurde mit einem 3l Einmachglas getestet. Die Gläser sind beispielsweise hier käuflich zu erwerben:";
 
 "LearnView.General.Title" = "Sei aufmerksam!";
-"LearnView.General.Body" = "In diesem Abschnitt geht es darum, zu lernen und das Bewusstsein zu schärfen. Hier können Sie über allgemeine Cybersicherheitsthemen in Bezug auf Smartphones lesen. Heutzutage wird es immer wichtiger, sowohl bei der Arbeit als auch bei privaten Geräten für Sicherheit zu sorgen.";
+"LearnView.General.Body" = "In diesem Abschnitt geht es darum, zu lernen und das Bewusstsein über allgemeine Cybersicherheitsthemen in Bezug auf Smartphones zu schärfen. Heutzutage wird es immer wichtiger bei elektronischen Geräten für genügend Sicherheit zu sorgen, sei es bei der Arbeit oder auch im privaten Bereich. ";
 "LearnView.General.Instructions" = "Öffnen Sie das Menü oben links und erfahren Sie, wie Sie Ihr Gerät und Ihre Daten schützen können.";
 
 "LearnView.Connections.Title" = "Verbindungen sind Angriffsflächen";
-"LearnView.Connections.Body" = "Mit jeder erfolgreichen Verbindung von deinem Smartphone gehst du ein Risiko ein. Sei dir allgemein sicher, welche Verbindungen du eingehst. Bei Wifi, Bluetooth, dem Moblien Netz oder per Kabel, überall gibt es für Angreiffer Möglichkeitenum um an deine Daten zu gelangen. ";
-"LearnView.Connections.More" = "In den folgenden Abschnitten kannst du dich über den Schutz von Wifi, Bluetooth und Mobilem Netzwerk informieren.";
+"LearnView.Connections.Body" = "Mit jeder erfolgreichen Verbindung von Ihrem Smartphone gehen Sie ein Risiko ein. Seien Sie sich allgemein sicher, welche Verbindungen Sie eingehen. Sowohl bei Wifi, Bluetooth, dem mobilen Netz oder auch per Kabel gibt es für Angreifer Möglichkeiten, um an Ihre Daten zu gelangen. ";
+"LearnView.Connections.More" = "In den folgenden Abschnitten können Sie sich über den Schutz von Wifi, Bluetooth und dem mobilen Netzwerk informieren.";
 
 "LearnView.CyberRules.Title" = "7 Cyber Regeln der Armee";
 "LearnView.CyberRules.Body" = "Phishing-Attacken, Verschlüsselung von Daten durch Fremde oder Datenklau: Das sind Beispiele jener Bedrohungen, die ständig im Cyber-Raum lauern. Auch die Schweiz ist nicht von Cyber-Angriffen verschont. Um ihre Einsatzfähigkeit und Handlungsfreiheit jederzeit und in allen Lagen sicherzustellen, erstellt die Armee permanent das Cyber-Lagebild und ist in der Lage, Cyber-Angriffe zu detektieren und diese abzuwehren.";
@@ -65,47 +65,47 @@
 "LearnView.CyberRules.VideoHint" = "Erklärvideos";
 
 "AboutView.Impressum.Title" = "Impressum:";
-"AboutView.Impressum.Body" = "Diese Applikation wurde im Rahmen einer Bachelorarbeit des Studiums \"Information and Cyber Security\" an der Hochschule Luzern (HSLU) im Auftrag und Betreuung durch die Schweizer Armee realisiert. ";
+"AboutView.Impressum.Body" = "Diese Applikation wurde im Rahmen einer Bachelorarbeit des Studiums \"Information and Cyber Security\" an der Hochschule Luzern (HSLU) im Auftrag von und mit Betreuung durch die Schweizer Armee realisiert. ";
 "AboutView.Feedback.Title" = "Feedback & Reports:";
 "AboutView.Feedback.Body" = "Verbesserungsvorschläge und Fehler können an folgende Email Adresse gemeldet werden:";
-"AboutView.Code.Title" = "Source code";
-"AboutView.Code.Body" = "Die PNGen Applikation ist ein Open-Source-Projekt und kann auf Github angeschaut werden. Wir freuen uns über jede Rückmeldung zum Code!";
+"AboutView.Code.Title" = "Source Code";
+"AboutView.Code.Body" = "Die PNGen Applikation ist ein Open-Source-Projekt und kann auf Github eingesehen werden. Wir freuen uns über jede Rückmeldung zum Code!";
 "AboutView.AGB.Title" = "Haftungsausschluss";
 "AboutView.AGB.Body" = "Die Autorenschaft übernimmt keinerlei Gewähr hinsichtlich der Zuverlässigkeit und Vollständigkeit der Informationen. Verweise und Links auf Webseiten Dritter liegen ausserhalb unseres Verantwortungsbereichs.";
 "AboutView.Privacy.Title" = "Datenschutz";
-"AboutView.Privacy.Body" = "Die Applikation PNGen sammelt keinerlei Personenbezogene Daten. Ausgenommen davon sind die Apple Standard Logs welche an Apple gesendet werden.";
+"AboutView.Privacy.Body" = "Die Applikation PNGen sammelt keinerlei personenbezogene Daten. Ausgenommen davon sind die Apple Standard Logs welche an Apple gesendet werden.";
 
 "LearnView.SideMenue.Popup.Title" = "Mehr Inhalt";
 "LearnView.SideMenue.Popup.Body" = "Swipe nach rechts oder tippe auf das Symbol oben links um mehr Inhalte zu finden!";
 "LearnView.Wifi.Title" = "Wifi Security";
-"LearnView.Wifi.Body" = "Drahtlose Netzwerke sind aus unserem Alltag nichtmehr wegzudenken. Sie werden hauptsächlich dazu verwendet, ein Zugang zum Internet zu erlangen. Über das Wifi kann man sich mit dem Computer oder dem Smartphone verbinden. WLAN ist aber nicht nur praktisch, sondern auch ein Einfallstor für Angreifer. In diesem Abschnitt werden Tipps vorgestellt auf was man achten sollte wenn man sich mit einem WLAN verbindet.";
+"LearnView.Wifi.Body" = "Drahtlose Netzwerke sind aus unserem Alltag nicht mehr wegzudenken. Sie werden hauptsächlich dazu verwendet, einen Zugang zum Internet zu ermöglichen. Über das WLAN kann eine Verbindung mit dem Computer oder dem Smartphone hergestellt werden. WLAN ist aber nicht nur praktisch, sondern gleichzeitig auch ein Einfallstor für Angreifer. In diesem Abschnitt werden Tipps vorgestellt, welche bei der Verbindung mit einem WLAN beachtet werden sollten: ";
 "LearnView.Wifi.PublicWiFi.Title" = "Öffentliche WLAN";
-"LearnView.Wifi.PublicWiFi.Intro" = "Man sitzt im Ausland in den Ferien und will kurz WhatsApp Nachrichten senden oder das Wetter der nächsten Tage nachschauen. Nur kurz mit dem WLAN des Restaurants verbinden und schon ist man im Internet. Doch die Verbindung mit einem öffentlichen WiFi birgt auch Risiken. ";
-"LearnView.Wifi.PublicWiFi.Risk" = "Die grösste Gefahr von öffentlichen Wifi liegt darin, dass Hacker im selben WiFi sind und somit eine direkte Verbindung mit deinem Gerät aufbauen können. Sie könnten sich zwischen dich und deiner der Webseite oder der App stellen und bei einer schlecht gesicherten Website alle Daten welche du sendest oder bekommst, mitlesen. Dies nennt man \"Man-in-the-Middle\". Hacker könnten sogar unechte Internetseiten im WLAN aufschalten und dich täuschen, damit du deine Daten direkt an die Hacker weitergibst. ";
-"LearnView.Wifi.PublicWiFi.Tipp1" = "Achte auf eine verschlüsselte Verbindung zwischen dir und der Webseite oder dem Server. Eine VPN (Virtuelle Private Netzwerke) Verbindung kann dir die gesamte Verbindung verschlüsseln. So kann ein Hacker im selben WLAN nichtmehr Daten abgreifen.";
-"LearnView.Wifi.PublicWiFi.Tipp2" = "An Benutzername und Passwort können Hacker bei genügend Wille immer gelangen. Darum empfiehlt es sich 2FA (Zwei Faktor Authentifizierung) bei möglichst allen Diensten einzuschalten. So benötigt der Hacker nicht nur dein Passwort, sondern auch deine Simkarte um sich in deine Accounts einzuloggen.";
-"LearnView.Wifi.PublicWiFi.Tipp3" = "Halte deine Geräte immer auf dem neusten Stand und installiere die neusten Updates. Oft wird dadurch auch die Sicherheit auf dem neusten Stand gehalten.";
-"LearnView.Wifi.PublicWiFi.Tipp4" = "Wenn du kein VPN hast und die Webseite keine 2FA anbietet, kann auch auf die Verwendung von HTTPS (kleines Schloss im Browser) geachtet werden. Dies verschlüsselt die Verbindung dieser Internetseite und die Daten können so nichtmehr im Netzwerk gelesen werden.";
-"LearnView.Wifi.PublicWiFi.Tipp5" = "Der komplette Verzicht auf öffentliche WLANs lässt das Risiko ganz verschwinden. Die Verwendung des Hotspots über das Mobile Netzwerk erhöht die Sicherheit schon signifikant.";
+"LearnView.Wifi.PublicWiFi.Intro" = "Man ist im Ausland in den Ferien und will kurz WhatsApp Nachrichten senden oder das Wetter der nächsten Tage prüfen. Nur schnell mit dem WLAN des Restaurants verbinden und schon ist man im Internet. Doch die Verbindung mit einem öffentlichen WLAN birgt auch Risiken. ";
+"LearnView.Wifi.PublicWiFi.Risk" = "Die grösste Gefahr von öffentlichen WLAN liegt darin, dass Hacker im selben WLAN sind und somit eine direkte Verbindung mit Ihrem Gerät aufbauen können. Damit könnten sie sich zwischen Ihr Gerät und der abgerufenen Webseite stellen und bei einer schlecht gesicherten Website alle gesendeten Daten mitlesen. Dies wird \"Man-in-the-Middle\" genannt. Hacker könnten sogar falsche Internetseiten im WLAN aufschalten und den Anwender täuschen, so dass die Daten direkt an die Hacker weitergegeben werden. ";
+"LearnView.Wifi.PublicWiFi.Tipp1" = "Achten Sie auf eine verschlüsselte Verbindung zwischen Ihrem Gerät und der Webseite oder dem Server. Eine VPN (Virtuelles Privates Netzwerk) Verbindung kann die gesamte Verbindung verschlüsseln, damit ein Hacker im gleichen WLAN nicht mehr die Daten abgreifen kann. ";
+"LearnView.Wifi.PublicWiFi.Tipp2" = "An Benutzername und Passwort können Hacker bei genügend grossem Aufwand immer gelangen. Darum empfiehlt es sich, 2FA (Zwei Faktor Authentifizierung) bei möglichst allen Diensten einzuschalten. So benötigt der Hacker nicht nur das Passwort, sondern auch die Simkarte um sich in den Account einzuloggen.";
+"LearnView.Wifi.PublicWiFi.Tipp3" = "Halten Sie Ihre Geräte immer auf dem neusten Stand und installieren Sie die neusten Updates. Oft wird dadurch auch die Sicherheit verbessert.";
+"LearnView.Wifi.PublicWiFi.Tipp4" = "Wenn keine VPN-Verbindung zur Verfügung steht und die Webseite keine 2FA anbietet, kann auch auf die Verwendung von HTTPS (kleines Schloss im Browser) geachtet werden. Dies verschlüsselt die Verbindung dieser Internetseite und die Daten können so nicht mehr im Netzwerk mitgelesen werden.";
+"LearnView.Wifi.PublicWiFi.Tipp5" = "Der komplette Verzicht auf öffentliche WLANs eliminiert dieses Risiko vollständig. Bereits die Verwendung des Hotspots über das Mobile Netzwerk erhöht die Sicherheit signifikant.";
 
 "LearnView.Bluetooth.Title" = "Bluetooth Security";
-"LearnView.Bluetooth.Body" = "Viele kennen die Verbindungsart Bluetooth von der Freisprechfunktion im Auto, drahtlose Musikübertragung und IoT Geräten. Was harmlos klingt, kann ebenfalls eine Angriffsfläche für Angreifer bieten. In diesem Kapitel werden die Risiken von Bluetooth angesprochen und Tipps für die Prävention der Risiken vorgestellt.";
-"LearnView.Bluetooth.Risk" = "Meistens muss ein Pairing stattfinden bevor Daten über eine Bluetooth Verbindung geteilt werden können. Eine Bluetooth Verbindung birgt aber signifikante Risiken. So findet zum Beispiel keine User Authentifizierung statt. Zudem gibt es immer noch Verbindungen welche keinen \"Man-in-the-Middle\" Schurz bieten. Die Daten werden also sehr transparent übermittelt.";
-"LearnView.Bluetooth.Tipp1" = "Schalte Bluetooth aus oder zumindest auf \"Nicht auffindbar\" solange du es nicht benötigst. So ist dein Gerät für neue Verbindungen geschlossen und kann keine Daten ungewollt weitergeben.";
-"LearnView.Bluetooth.Tipp2" = "Paire deine Bluetooth Geräte nur an nicht-öffentlichen Orten. An öffentlichen Orten können Angreifer direkt in den Prozess des Verbindungsaufbaus eingreifen und die Verbindung übernehmen.";
-"LearnView.Bluetooth.Tipp3" = "Lösche die Verbindungen von verlorenen oder gestohlenen Geräten. Angreifer könnten diese ausnutzen und sich mit alten vorgemerkten Verbindungen mit deinem Gerät pairen.";
-"LearnView.Bluetooth.Tipp4" = "Akzeptiere nur Bluetooth Übermittlungen und Pairings welche du wirklich erwartest. Lehne alle anderen Verbindungen ab.";
+"LearnView.Bluetooth.Body" = "Die Verbindungsart Bluetooth ist oft bekannt von der Freisprechfunktion im Auto, der drahtlosen Musikübertragung und IoT Geräten. Was harmlos klingt, kann ebenfalls eine Angriffsfläche für Angreifer bieten. In diesem Kapitel werden die Risiken von Bluetooth angesprochen und Tipps für die Prävention der Risiken vorgestellt.";
+"LearnView.Bluetooth.Risk" = "Meistens findet ein Pairing (Verbindung) statt, bevor Daten über eine Bluetooth Verbindung geteilt werden können. Eine Bluetooth Verbindung birgt aber signifikante Risiken. So findet zum Beispiel keine User Authentifizierung statt. Zudem gibt es immer noch Verbindungen, welche keinen \"Man-in-the-Middle\" Schutz bieten. Die Daten werden also sehr transparent übermittelt.";
+"LearnView.Bluetooth.Tipp1" = " Bluetooth ausschalten oder zumindest auf \"Nicht auffindbar\" setzen, solange es nicht benötigt wird. So ist das Gerät für neue Verbindungen geschlossen und kann keine Daten ungewollt weitergeben.";
+"LearnView.Bluetooth.Tipp2" = " Bluetooth Geräte nur an nicht-öffentlichen Orten pairen (verbinden). An öffentlichen Orten können Angreifer direkt in den Prozess des Verbindungsaufbaus eingreifen und die Verbindung übernehmen.";
+"LearnView.Bluetooth.Tipp3" = " Verbindungen von verlorenen oder gestohlenen Geräten löschen. Angreifer könnten diese nutzen und sich mit alten vorgemerkten Verbindungen mit dem Gerät verbinden.";
+"LearnView.Bluetooth.Tipp4" = "Nur Bluetooth Übermittlungen und Pairings akzeptieren, welche du erwartet werden und alle anderen Verbindungen ablehnen";
 
 "LearnView.GSM.Title" = "Mobile Network Security";
-"LearnView.GSM.Body" = "Um unterwegs ins Internet zu gelangen verwenden viele auch das Mobile Netzwerk. 3G, 4G und 5G heissen die Technologien welche heute gebraucht werden. Die Schweiz hat weltweit eine der besten Mobile Netzwerk Abdeckung. Doch auch beim Mobilen Netz gibt es Gefahren und Angriffsmöglichkeiten.";
-"LearnView.GSM.Risk" = "IMSI heissen die Nummern, welche die Sim-Karten beim Mobilen Netzwerk identifizieren. Mit sogenannten IMSI-Catchern können Angreifer diese Nummern dazwischen auffangen und ebenfalls einen \"Man-in-the-Middle Angriff\" tätigen. Mit einem IMSI-Catcher kann heute sogar den Standort eines Smartphones bestimmt werden oder das Smartphone vom Netz trennen. Doch we kann man sich gegen einen IMSI-Catcher schützen?";
-"LearnView.GSM.Tipp1" = "IMSI-Catcher verbinden sich mit deinem Handy wenn sie dem Smartphone eine bessere Empfangsqualität bieten können als die Antennen des Anbieters. Oftmals haben sie aber nicht den selben Durchsatz. Wenn du also bemerkst, dass du vollen Empfang hast, aber sehr schlechte Bandbreite, dann könnte es sich um ein IMSI-Catcher handeln. Du kannst dann dein Smartphone kurzzeitig auf Flugmodus setzen.";
-"LearnView.GSM.Tipp2" = "Die neue 5G Technologie enthält mehr Verschlüsselungstechnologie und Sicherheitsfeatures. IMSI-Catcher versuchen oft ein Downgrade des Mobilfunk Standards auf 3G. Du kannst bei deinem Smartphone die Einstellung unter \"Einstellungen\" > \"Mobiles Netz\" > \"Datenoptionen\" auf \"5G Ein\" stellen. Damit verwendet dein Smartphone immer 5G wenn es verfügbar ist.";
-"LearnView.GSM.Tipp3" = "IMSI-Catcher werden oft an Orten mit vielen Menschen eingesetzt. Flughäfen oder Bahnhöfe sind dafür prädestiniert. Schalte dein Smartphone ganz einfach aus oder auf Flugmodus wenn du das Risiko an diesen Orten nicht eingehen möchtest.";
+"LearnView.GSM.Body" = "Um unterwegs ins Internet zu gelangen, wird oft das Mobile Netzwerk des Mobilfunkanbieters verwendet. 3G, 4G und 5G heissen die Technologien, welche heute üblich sind. Die Schweiz hat weltweit eine der besten Mobilnetz-Abdeckung. Doch auch beim Mobilen Netz gibt es Gefahren und Angriffsmöglichkeiten.";
+"LearnView.GSM.Risk" = "IMSI heissen die Nummern, welche die SIM-Karten beim Mobilen Netzwerk identifizieren. Mit sogenannten IMSI-Catchern können Angreifer diese Nummern auffangen und ebenfalls einen \"Man-in-the-Middle Angriff\" tätigen. Mit einem IMSI-Catcher kann heute sogar der Standort eines Smartphones bestimmt oder das Smartphone vom Netz getrennt werden. Doch wie kann man sich gegen einen IMSI-Catcher schützen?";
+"LearnView.GSM.Tipp1" = "IMSI-Catcher verbinden sich mit dem Mobiltelefon, wenn sie dem Smartphone eine bessere Empfangsqualität bieten können, als die Antennen des Mobilfunk-Anbieters. Oftmals haben sie aber nicht denselben Durchsatz. Wenn Sie also bemerken, dass trotz vollem Empfang nur sehr schlechte Bandbreiten zur Verfügung stehen, dann könnte dies ein Hinweis auf einen IMSI-Catcher sein. Das Smartphone sollte in diesem Fall kurzzeitig in den Flugmodus gesetzt werden.";
+"LearnView.GSM.Tipp2" = "Die neue 5G Technologie enthält bessere Verschlüsselungstechnologien und Sicherheitsfeatures, als ältere Standards. IMSI-Catcher versuchen oft ein Downgrade des Mobilfunk Standards auf 3G. Beim Smartphone kann wie folgt eingestellt werden, dass das Gerät immer 5G verwendet, sofern dies verfügbar ist: \"Einstellungen\" > \"Mobiles Netz\" > \"Datenoptionen\" auf \"5G Ein\".";
+"LearnView.GSM.Tipp3" = "IMSI-Catcher werden oft an Orten mit vielen Menschen eingesetzt. Flughäfen oder Bahnhöfe sind dafür prädestiniert. An diesen Orten kann das Smartphone ausgeschaltet oder in den Flugmodus gesetzt werden, um das Risiko an diesem Orten zu vermeiden. ";
 
 "LearnView.Settings.Title" = "Sicherheitseinstellungen";
-"LearnView.Settings.Body" = "Ein Smartphone wird immer mehr zum Arbeitsgerät und enthält dadurch auch oft sehr persönliche Daten. Versicherungen, Banken und andere Firmen bieten Apps, welchen auf personenbezogene Daten zugreifen und abändern können. Auch Emails, Photos und Passwörter sind auf dem eigenen Smartphone gespeichert. Mit wenigen Einstellungen kann das Risiko eines Verlustes oder der ungewollten Weitergabe dieser Daten minimiert werden.";
-"LearnView.Settings.Tipp1" = "Halte dein iPhone aktuell! Installiere die neusten Updates des Betriebssystems. Wenn Apple von einer Schwachstelle weiss, wird diese meist mit einem Update direkt wieder geschlossen. Von alten Betriebssystemversionen gibt es oft schon Angriffsanleitungen im Internet.";
-"LearnView.Settings.Tipp2" = "Verwende einen Passcode! Es ist ein Glückstreffer für einen Angreifer wenn kein Passcode eigegeben werden muss. Verlierst du dein Smartphone, sind deine Daten direkt auch zugänglich. Mit einem Passcode verhinderst du ungewollten Zugriff. Übrigens: Sechsstellige Passcodes sind 100 Mal sicherer als Vierstellige! TouchID und FaceID erhöhen nur den Komfort und nicht die Sicherheit!";
-"LearnView.Settings.Tipp3" = "Schalte den \"USB Restricted Mode\" an! Unter \"Einstellungen\" > \"Face ID & Passcode\" > \“USB-Zubehör ist auf dem Sperrbildschirm nicht erlaubt\” kannst du verhindern, dass mit einer Kabelverbindung Daten von deinem Smartphone oder Malware auf dein Smartphone ohne Zustimmung geladen wird.";
-"LearnView.Settings.Tipp4" = "Lies die App Berechtigungsanfragen! Wenn Apps auf Daten zugreifen möchten, musst du diesem zustimmen. (Google Maps möchte auf deinen Standort zugreifen.) Hinterfrage diese Zugriffe kritisch. Wenn eine Taschenrechner App auf deine Fotos oder deinen Standort zugreifen will, solltest du dies ablehnen.";
+"LearnView.Settings.Body" = "Ein Smartphone ist häufig ein Arbeitsgerät und enthält dadurch auch oft sehr persönliche Daten. Versicherungen, Banken und andere Firmen bieten Apps, welche auf personenbezogene Daten zugreifen und diese ändern können. Auch Emails, Fotos und Passwörter sind auf dem eigenen Smartphone gespeichert. Mit wenigen Einstellungen kann das Risiko eines Verlustes oder der ungewollten Weitergabe dieser Daten minimiert werden.";
+"LearnView.Settings.Tipp1" = "Halten Sie Ihr iPhone immer aktuell! Installieren Sie die neusten Updates des Betriebssystems. Wenn Apple von einer Schwachstelle weiss, wird diese meist mit einem Update direkt wieder geschlossen. Zu alten Betriebssystemversionen gibt es oft schon Angriffsanleitungen im Internet.";
+"LearnView.Settings.Tipp2" = "Verwenden Sie einen Passcode! Es ist ein Glückstreffer für einen Angreifer, wenn kein Passcode eigegeben werden muss. Verlieren Sie Ihr Smartphone, sind die Daten direkt auch zugänglich. Mit einem Passcode wird der ungewollte Zugriff verhindert. Übrigens: Sechsstellige Passcodes sind 100-mal sicherer als Vierstellige! TouchID und FaceID erhöhen nur den Komfort und nicht die Sicherheit!";
+"LearnView.Settings.Tipp3" = "Schalten Sie den \"USB Restricted Mode\" ein: \"Einstellungen\" > \"Face ID & Passcode\" > \“USB-Zubehör ist auf dem Sperrbildschirm nicht erlaubt\”. Damit kann verhindert werden, dass mit einer Kabelverbindung Daten vom Smartphone ausgelesen oder Malware auf das Smartphone ohne Zustimmung geladen wird.";
+"LearnView.Settings.Tipp4" = "Lesen Sie die Berechtigungsanfragen der Apps! Wenn Apps auf Daten zugreifen möchten, muss zugestimmt werden. (Beispiel: Google Maps möchte auf deinen Standort zugreifen.) Solche Zugriffe sollen kritisch hinterfragt werden.  Wenn beispielsweise eine Taschenrechner App auf die Fotos oder den Standort zugreifen will, sollte dies abgelehnt werden.";
