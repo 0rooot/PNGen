@@ -1,5 +1,5 @@
 //
-//  InfoView.swift
+//  ManualView.swift
 //  PNGen
 //
 //  Created by Main Developer on 08.04.22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct InfoView: View {
+struct ManualView: View {
     var body: some View {
             VStack(alignment: .leading) {
                     Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title")).withTitleStyle()

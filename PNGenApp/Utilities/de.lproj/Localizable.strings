@@ -8,8 +8,8 @@
 
 "NavigationBarTitle.Home" = "Lauschabwehr";
 "NavigationBarTitle.Learn" = "Wissenscenter";
-"NavigationBarTitle.Setup" = "Gebrauchsanweisung";
-"NavigationBarTitle.About" = "Projekt Information";
+"NavigationBarTitle.Setup" = "Info";
+"NavigationBarTitle.About" = "Impressum";
 
 "NavBar.Main" = "Lauschabwehr";
 "NavBar.Setup" = "Info";
@@ -27,19 +27,19 @@
 "SidemenuView.MobileNetwork" = "Mobiles Netz";
 "SidemenuView.Settings" = "Einstellungen";
 
-"PinkNoiseGeneratorView.Hint.Title" = "Hinweis:";
+"PinkNoiseGeneratorView.Hint.Title" = "Hinweis";
 "PinkNoiseGeneratorView.Hint.Volume" = "Stelle die Lautstärke auf Maximum.";
 "PinkNoiseGeneratorView.Hint.Lock" = "Sperre das iPhone, um Akku zu sparen.";
 "PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Title" = "Was ist Pink Noise?";
 "PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Body" = "Pink Noise (oder rosa Rauschen) ist das Geräusch das auf allen Frequenzen gleichzeitig ertönt. Pink Noise hat verschiedene Einsatzzwecke. Das Einsatzgebiet dieser App ist die Überwachungs- und Abhör-Abwehr. Pink Noise soll die umliegenden Mikrofone von Smartphones und Smartwatches mit Geräuschen füllen, andere Töne im Raum überlagern und so das Abhören von Gesprächen über umliegende Mikrofone verhindern.";
 
-"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title" = "Verwendung:";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title" = "Verwendung";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1" = "Lauschabwehr mit Button starten";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2" = "Alle Smartphones und Smartwatches im Raum in das Lauschabwehrglas legen";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3" = "Lauschabwehrglas schliessen und Gespräch beginnen.";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Swipe" = "Swipe nach unten um zu starten";
 
-"PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "Weitere Infos:";
+"PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "Weitere Infos";
 "PinkNoiseGeneratorView.Info.Autostart.Title" = "Wie kann ich das Rauschen automatisch starten?";
 "PinkNoiseGeneratorView.Info.Autostart.Body" = "Das automatische Starten des Rauschens kann unter \"Einstellungen\" > \"PNGen\" > \"Auto Start\" eingeschaltet werden. Diese Funktion dient fortgeschrittenen Benutzern dazu, beim Öffnen der App direkt die Lauschabwehr zu verwenden.";
 "PinkNoiseGeneratorView.Info.Jar.Title" = "Was ist ein Lauschabwehrglas?";
@@ -64,9 +64,9 @@
 "LearnView.CyberRules.Rule7" = "Trennen Sie bei Verdacht auf Malware-Infektion schnellstmöglich die Netzverbindung, lassen Sie das Gerät laufen und melden Sie Ihren Verdacht der Hotline und Ihrem Vorgesetzten.";
 "LearnView.CyberRules.VideoHint" = "Erklärvideos";
 
-"AboutView.Impressum.Title" = "Impressum:";
+"AboutView.Impressum.Title" = "Impressum";
 "AboutView.Impressum.Body" = "Diese Applikation wurde im Rahmen einer Bachelorarbeit des Studiums \"Information and Cyber Security\" an der Hochschule Luzern (HSLU) im Auftrag von und mit Betreuung durch die Schweizer Armee realisiert. ";
-"AboutView.Feedback.Title" = "Feedback & Reports:";
+"AboutView.Feedback.Title" = "Feedback & Reports";
 "AboutView.Feedback.Body" = "Verbesserungsvorschläge und Fehler können an folgende Email Adresse gemeldet werden:";
 "AboutView.Code.Title" = "Source Code";
 "AboutView.Code.Body" = "Die PNGen Applikation ist ein Open-Source-Projekt und kann auf Github eingesehen werden. Wir freuen uns über jede Rückmeldung zum Code!";

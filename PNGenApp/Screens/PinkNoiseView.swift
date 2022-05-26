@@ -41,7 +41,8 @@ struct PinkNoiseView: View {
                         .imageScale(.large)
                 }
                     .popover(isPresented: $showingInformationPopover) {
-                        InfoView()
+                        ManualView().padding(30)
+                        Text(LocalizedStringKey("PinkNoiseGeneratorView.Info.PinkNoiseUsage.Swipe")).withAboutViewTitleStyle()
                     }
             )
             )

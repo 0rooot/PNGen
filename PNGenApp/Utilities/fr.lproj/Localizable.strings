@@ -8,8 +8,8 @@
 
 "NavigationBarTitle.Home" = "Défense d'écouter" ;
 "NavigationBarTitle.Learn" = "Centre d'apprentissage" ;
-"NavigationBarTitle.Setup" = "Mode d'emploi" ;
-"NavigationBarTitle.About" = "Informations sur le projet" ;
+"NavigationBarTitle.Setup" = "Info" ;
+"NavigationBarTitle.About" = "Impressum" ;
 
 "NavBar.Main" = "Anti-écoute";
 "NavBar.Setup" = "Info";

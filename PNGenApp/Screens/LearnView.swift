@@ -1,5 +1,5 @@
 //
-//  InformationView.swift
+//  LearnView.swift
 //  PNGen
 //
 //  Created by Main Developer on 05.03.22.

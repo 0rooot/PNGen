@@ -13,9 +13,14 @@
 		0036DDCE27EE04B5003B1F74 /* WiFiLearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036DDCD27EE04B5003B1F74 /* WiFiLearnView.swift */; };
 		0036DDD027EE04D1003B1F74 /* MobileNetworkLearnVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036DDCF27EE04D1003B1F74 /* MobileNetworkLearnVIew.swift */; };
 		003A67712800873200CE255F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 003A67732800873200CE255F /* Localizable.strings */; };
-		003A677828008BE400CE255F /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003A677728008BE400CE255F /* InfoView.swift */; };
+		003A677828008BE400CE255F /* ManualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003A677728008BE400CE255F /* ManualView.swift */; };
 		003A677A28008C8700CE255F /* HintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003A677928008C8700CE255F /* HintView.swift */; };
 		003A677C28008D7600CE255F /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003A677B28008D7600CE255F /* ButtonView.swift */; };
+		0040EC70283F70ED00EDA940 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0040EC6F283F70ED00EDA940 /* InfoView.swift */; };
+		0040EC73283F7D4400EDA940 /* PrivacyDisclaimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0040EC72283F7D4400EDA940 /* PrivacyDisclaimerView.swift */; };
+		0040EC75283F7E0100EDA940 /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0040EC74283F7E0100EDA940 /* FeedbackView.swift */; };
+		0040EC77283F7E0E00EDA940 /* SourceCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0040EC76283F7E0E00EDA940 /* SourceCodeView.swift */; };
+		0040EC79283F7F7B00EDA940 /* ImprintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0040EC78283F7F7B00EDA940 /* ImprintView.swift */; };
 		006DE08A2814323C0057349F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 006DE0892814323C0057349F /* Settings.bundle */; };
 		00C6100627E4E63B003C9780 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C6100527E4E63B003C9780 /* PlaySound.swift */; };
 		00C6100827E4E793003C9780 /* PINKNoise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00C6100727E4E793003C9780 /* PINKNoise.mp3 */; };
@@ -61,9 +66,14 @@
 		003A67722800873200CE255F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		003A67742800873700CE255F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		003A67752800873E00CE255F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
-		003A677728008BE400CE255F /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		003A677728008BE400CE255F /* ManualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualView.swift; sourceTree = "<group>"; };
 		003A677928008C8700CE255F /* HintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintView.swift; sourceTree = "<group>"; };
 		003A677B28008D7600CE255F /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		0040EC6F283F70ED00EDA940 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		0040EC72283F7D4400EDA940 /* PrivacyDisclaimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyDisclaimerView.swift; sourceTree = "<group>"; };
+		0040EC74283F7E0100EDA940 /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		0040EC76283F7E0E00EDA940 /* SourceCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceCodeView.swift; sourceTree = "<group>"; };
+		0040EC78283F7F7B00EDA940 /* ImprintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImprintView.swift; sourceTree = "<group>"; };
 		00601F6C27F757CD00A2E765 /* PNGen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PNGen-Info.plist"; sourceTree = "<group>"; };
 		006DE0892814323C0057349F /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		00C6100527E4E63B003C9780 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
@@ -123,11 +133,30 @@
 		003A677628008B7B00CE255F /* HomeViews */ = {
 			isa = PBXGroup;
 			children = (
-				003A677728008BE400CE255F /* InfoView.swift */,
 				003A677928008C8700CE255F /* HintView.swift */,
 				003A677B28008D7600CE255F /* ButtonView.swift */,
 			);
 			path = HomeViews;
+			sourceTree = "<group>";
+		};
+		0040EC6E283F70AC00EDA940 /* SetupViews */ = {
+			isa = PBXGroup;
+			children = (
+				003A677728008BE400CE255F /* ManualView.swift */,
+				0040EC6F283F70ED00EDA940 /* InfoView.swift */,
+			);
+			path = SetupViews;
+			sourceTree = "<group>";
+		};
+		0040EC71283F75FF00EDA940 /* AboutViews */ = {
+			isa = PBXGroup;
+			children = (
+				0040EC72283F7D4400EDA940 /* PrivacyDisclaimerView.swift */,
+				0040EC74283F7E0100EDA940 /* FeedbackView.swift */,
+				0040EC76283F7E0E00EDA940 /* SourceCodeView.swift */,
+				0040EC78283F7F7B00EDA940 /* ImprintView.swift */,
+			);
+			path = AboutViews;
 			sourceTree = "<group>";
 		};
 		00C6100227E4E29E003C9780 /* Sound */ = {
@@ -157,6 +186,8 @@
 		00F8E23E27D3C11C00A11169 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				0040EC71283F75FF00EDA940 /* AboutViews */,
+				0040EC6E283F70AC00EDA940 /* SetupViews */,
 				003A677628008B7B00CE255F /* HomeViews */,
 				00C8ACF627ECD24B00D4A6C2 /* LearnViews */,
 				00F8E24327D3D9B300A11169 /* PinkNoiseView.swift */,
@@ -373,21 +404,26 @@
 			files = (
 				0036DDD027EE04D1003B1F74 /* MobileNetworkLearnVIew.swift in Sources */,
 				003A677A28008C8700CE255F /* HintView.swift in Sources */,
+				0040EC77283F7E0E00EDA940 /* SourceCodeView.swift in Sources */,
 				050711C027B698200046CE4C /* ContentView.swift in Sources */,
 				00C6100627E4E63B003C9780 /* PlaySound.swift in Sources */,
 				001350BC281E647100BA0686 /* SetupView.swift in Sources */,
 				0036DDCC27EE047B003B1F74 /* BluetoothLearnView.swift in Sources */,
-				003A677828008BE400CE255F /* InfoView.swift in Sources */,
+				0040EC70283F70ED00EDA940 /* InfoView.swift in Sources */,
+				003A677828008BE400CE255F /* ManualView.swift in Sources */,
 				00F8E24627D3E12200A11169 /* LearnView.swift in Sources */,
 				00C8ACF327EC771200D4A6C2 /* SidemenuView.swift in Sources */,
 				050711BE27B698200046CE4C /* PNGenApp.swift in Sources */,
 				00F8E24427D3D9B300A11169 /* PinkNoiseView.swift in Sources */,
 				00C8ACFA27ECF3BD00D4A6C2 /* ConnectionView.swift in Sources */,
 				00C8ACF827ECEFF400D4A6C2 /* GeneralLearnView.swift in Sources */,
+				0040EC75283F7E0100EDA940 /* FeedbackView.swift in Sources */,
 				0036DDCE27EE04B5003B1F74 /* WiFiLearnView.swift in Sources */,
 				0036DDCA27EDD2DA003B1F74 /* CyberRulesLearnView.swift in Sources */,
+				0040EC73283F7D4400EDA940 /* PrivacyDisclaimerView.swift in Sources */,
 				003A677C28008D7600CE255F /* ButtonView.swift in Sources */,
 				00F8E24827D3E12D00A11169 /* AboutView.swift in Sources */,
+				0040EC79283F7F7B00EDA940 /* ImprintView.swift in Sources */,
 				00C8ACFC27ECF3EE00D4A6C2 /* SettingsLearnView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -578,7 +614,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.0.6;
 				PRODUCT_BUNDLE_IDENTIFIER = ThomasArnold.PNGen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -610,7 +646,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.0.6;
 				PRODUCT_BUNDLE_IDENTIFIER = ThomasArnold.PNGen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

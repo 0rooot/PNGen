@@ -10,12 +10,10 @@ import AudioToolbox
 
 struct ButtonView: View {
     
-    
-    
     @State var playNoise = UserDefaults.standard.bool(forKey: "AUTO_START") //reads if the user enabled the Autostart setting
     @State var buttonTitleStart: LocalizedStringKey =  "ButtonView.ButtonTitle.Start"
     @State var buttonTitleStopp: LocalizedStringKey =  "ButtonView.ButtonTitle.Stopp"
-    @State var buttonColor: Color = Color(red: 186 / 255, green: 0 / 255, blue: 8 / 255)
+    @State var buttonColor: Color = setButtonColor()
     @State var standardBrightness = UIScreen.main.brightness; //brightness of the phone to decrease it when sound played
     
     var body: some View {
@@ -27,13 +25,13 @@ struct ButtonView: View {
                     
                     playPinkNoise(key: "PINKNoise", format: "mp3") //audio file gets started
                     //playPinkNoise(key: "opt-Sig", format: "mp3")
-                    buttonColor = Color(red: 26 / 255, green: 99 / 255, blue: 145 / 255) //set Button Color to blue
+                    buttonColor = setButtonColorBlue() //set Button Color to blue
                     UIScreen.main.brightness = CGFloat(0.3) //brightness gets reduced
                     UIApplication.shared.isIdleTimerDisabled = false //turn screen off after a time
                 } else {
                     playNoise = false
                     stopPinkNoise()
-                    buttonColor = Color(red: 186 / 255, green: 0 / 255, blue: 8 / 255) //set Button color to red again
+                    buttonColor = setButtonColorRed() //set Button color to red again
                     UIScreen.main.brightness = standardBrightness //set again the normal brightness
                     UIApplication.shared.isIdleTimerDisabled = true //do not turn off screen after a time
                 }
@@ -62,4 +60,18 @@ struct ShrinkingButton: ButtonStyle {
     }
 }
 
+func setButtonColor() -> Color {
+    if(UserDefaults.standard.bool(forKey: "AUTO_START")){
+        return setButtonColorBlue()
+    } else {
+        return setButtonColorRed()
+    }
+}
 
+func setButtonColorBlue() -> Color {
+    return Color(red: 26 / 255, green: 99 / 255, blue: 145 / 255)
+}
+
+func setButtonColorRed() -> Color {
+    return Color(red: 186 / 255, green: 0 / 255, blue: 8 / 255)
+}

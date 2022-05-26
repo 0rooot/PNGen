@@ -8,8 +8,8 @@
 
 "NavigationBarTitle.Home" = "Eavesdropping";
 "NavigationBarTitle.Learn" = "Knowledge Center";
-"NavigationBarTitle.Setup" = "Setup";
-"NavigationBarTitle.About" = "Project Info";
+"NavigationBarTitle.Setup" = "Info";
+"NavigationBarTitle.About" = "About";
 
 "NavBar.Main" = "Defense";
 "NavBar.Setup" = "Info";
