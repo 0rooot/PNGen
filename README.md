@@ -3,7 +3,7 @@
 ## LearningViews Referenced:
 ### WIFI:
 - https://www.kaspersky.com/resource-center/preemptive-safety/public-wifi
-- https://us.norton.com/internetsecurity-iot-keep-your-home-wifi-safe.html
+- https://blog.usecure.io/5-ways-your-users-can-stay-safe-when-using-public-wifi
 
 ### Bluetooth:
 - https://www.fcc.gov/consumers/guides/how-protect-yourself-online
