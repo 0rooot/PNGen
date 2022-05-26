@@ -27,19 +27,19 @@
 "SidemenuView.MobileNetwork" = "Réseau mobile";
 "SidemenuView.Settings" = "Configuration";
 
-"PinkNoiseGeneratorView.Hint.Title" = "Remarque:";
+"PinkNoiseGeneratorView.Hint.Title" = "Remarque";
 "PinkNoiseGeneratorView.Hint.Volume" = "Réglez le volume au maximum.";
 "PinkNoiseGeneratorView.Hint.Lock" = "Verrouillez l'iPhone pour économiser la batterie.";
 "PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Title" = "Qu'est-ce que Pink Noise?";
 "PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Body" = "Le bruit rose est le son de toutes les fréquences. Le Pink Noise a plusieurs objectifs. Le domaine d`application de cette application est la surveillance et la prévention des écoutes. Pink Noise est conçu pour remplir les microphones environnants des smartphones et des smartwatches et empêcher l`enregistrement des conversations.";
 
-"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title" = "Utilisation:";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title" = "Utilisation";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1" = "Démarre la défense d'écouter avec le bouton";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2" = "Place tous les smartphones et smartwatches de la pièce dans le bocal antibruit";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3" = "Ferme la vitre anti-bruit et commence la session";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Swipe" = "Swipe vers le bas pour démarrer" ;
 
-"PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "Plus d'informations:";
+"PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "Plus d'informations";
 "PinkNoiseGeneratorView.Info.Autostart.Title" = "Comment démarrer automatiquement le bruit" ;
 "PinkNoiseGeneratorView.Info.Autostart.Body" = "Le démarrage automatique du bruit peut être activé sous \"Réglages\" > \"PNGen\" > \"Auto Start\" . Cette fonction est destinée aux utilisateurs avancés qui souhaitent utiliser directement le système de défense contre les écoutes lors de l'ouverture de l'application.";
 "PinkNoiseGeneratorView.Info.Jar.Title" = "Qu'est-ce qu'un bocal antibruit ?";
@@ -64,9 +64,9 @@
 "LearnView.CyberRules.Rule7" = "Si vous soupçonnez une infection par un logiciel malveillant, déconnectez-vous le plus vite possible du réseau, laissez le système en marche et faites part de votre soupçon à la Hotline et à votre supérieur hiérarchique.";
 "LearnView.CyberRules.VideoHint" = "vidéos explicatives";
 
-"AboutView.Impressum.Title" = "Mentions légales :";
+"AboutView.Impressum.Title" = "Mentions légales";
 "AboutView.Impressum.Body" = "Cette application a été réalisée dans le cadre d'un travail de bachelor des études \"Information and Cyber Security\" à la Haute école de Lucerne (HSLU) sur mandat et avec le soutien de l'Armée suisse. " ;
-"AboutView.Feedback.Title" = "Feedback & Reports :";
+"AboutView.Feedback.Title" = "Feedback & Reports";
 "AboutView.Feedback.Body" = "Les propositions d'amélioration et les erreurs peuvent être signalées à l'adresse e-mail suivante :";
 "AboutView.Code.Title" = "Source code";
 "AboutView.Code.Body" = "Le code source de l'application PNGen est open source et peut être consulté sur Github. Tout commentaire sur le code est le bienvenu !";

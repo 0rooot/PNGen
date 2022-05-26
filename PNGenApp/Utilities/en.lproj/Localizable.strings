@@ -27,19 +27,19 @@
 "SidemenuView.MobileNetwork" = "Mobile Network";
 "SidemenuView.Settings" = "Settings";
 
-"PinkNoiseGeneratorView.Hint.Title" = "Hint:";
+"PinkNoiseGeneratorView.Hint.Title" = "Hint";
 "PinkNoiseGeneratorView.Hint.Volume" = "Set the volume on maximum.";
 "PinkNoiseGeneratorView.Hint.Lock" = "Lock the iPhone to save battery.";
 "PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Title" = "What is Pink Noise?";
 "PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Body" = "Pink Noise is the sound of all frequencies. Pink Noise has several purposes. The application area of this app is surveillance and eavesdropping prevention. Pink Noise is designed to fill the surrounding microphones of smartphones and smartwatches and prevent the recording of conversations.";
 
-"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title" = "Usage:";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title" = "Usage";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1" = "Start eavesdropping with button.";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2" = "Place all smartphones and smartwatches in the room in the eavesdropping jar.";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3" = "Close the eavesdropping jar and start the conversation.";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Swipe" = "Swipe down to start";
 
-"PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "More info:";
+"PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "More info";
 "PinkNoiseGeneratorView.Info.Autostart.Title" = "How can I start the noise automatically?";
 "PinkNoiseGeneratorView.Info.Autostart.Body" = "Automatic noise start can be turned on in \"Settings\" > \"PNGen\" > \"Auto Start\". This function is for advanced users who only want to use the eavesdropping defense directly when opening the app.";
 "PinkNoiseGeneratorView.Info.Jar.Title" = "What is an eavesdropping jar?";
@@ -64,9 +64,9 @@
 "LearnView.CyberRules.Rule7" = "Disconnect from the network as soon as possible if you suspect malware infection, leave the device running, and report your suspicions to the hotline and your supervisor.";
 "LearnView.CyberRules.VideoHint" = "explainer videos";
 
-"AboutView.Impressum.Title" = "Imprint:";
+"AboutView.Impressum.Title" = "Imprint";
 "AboutView.Impressum.Body" = "This application was realized as part of a bachelor thesis of the study \"Information and Cyber Security\" at the Lucerne University of Applied Sciences and Arts (HSLU) on behalf of and under the supervision of the Swiss Armed Forces. ";
-"AboutView.Feedback.Title" = "Feedback & Reports:";
+"AboutView.Feedback.Title" = "Feedback & Reports";
 "AboutView.Feedback.Body" = "Suggestions for improvement and bugs can be reported to the following email address:";
 "AboutView.Code.Title" = "Source code";
 "AboutView.Code.Body" = "The source code of the PNGen Application is open source and van be viewed on Github. We welcome any feedback on the code!";
