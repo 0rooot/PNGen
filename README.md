@@ -2,7 +2,7 @@
 
 ## LearningViews Referenced:
 ### WIFI:
-- https://www.kaspersky.com/resource-center/preemptive-safety/protecting-wireless-networks
+- https://www.kaspersky.com/resource-center/preemptive-safety/public-wifi
 - https://us.norton.com/internetsecurity-iot-keep-your-home-wifi-safe.html
 
 ### Bluetooth:
