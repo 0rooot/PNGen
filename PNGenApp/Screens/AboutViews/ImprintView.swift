@@ -47,6 +47,7 @@ struct ImprintView: View {
             Text("Cyber Security")
             Text("Stauffacherstrasse 65")
             Text("CH-3003 Bern")
+            Text("cyber.fub@vtg.admin.ch")
         }
     }
 }

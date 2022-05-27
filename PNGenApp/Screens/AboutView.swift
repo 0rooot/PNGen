@@ -17,11 +17,11 @@ struct AboutView: View {
                 ScrollView{
                     ImprintView()
                     Spacer(minLength: 50)
-                    SourceCodeView()
+                    PrivacyDisclaimerView()
                     Spacer(minLength: 50)
                     FeedbackView()
                     Spacer(minLength: 50)
-                    PrivacyDisclaimerView()
+                    SourceCodeView()
                 }.navigationBarTitle(AboutViewNavigationBarTitle, displayMode: .inline)
                     .navigationBarItems(leading: (
                         Image("schweizer_wappen")
