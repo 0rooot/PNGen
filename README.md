@@ -1,6 +1,6 @@
 # PNGen
 
-## LearningViews Referenced:
+## LearningViews References:
 ### WIFI:
 - https://www.kaspersky.com/resource-center/preemptive-safety/public-wifi
 - https://blog.usecure.io/5-ways-your-users-can-stay-safe-when-using-public-wifi
@@ -15,6 +15,8 @@
 ### Cyber Rules of the Swiss Armed Forces:
 - https://www.vtg.admin.ch/de/aktuell/themen/cyberdefence/cyber-security.html#18_1621347327946
 (Approval from Projectinitiator to use it exactly 1by1)
+
+## Sound References:
 
 ### Pink Noise Sound file:
 - https://bigsoundbank.com/detail-0432-pink-noise.html
