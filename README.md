@@ -15,3 +15,8 @@
 ### Cyber Rules of the Swiss Armed Forces:
 - https://www.vtg.admin.ch/de/aktuell/themen/cyberdefence/cyber-security.html#18_1621347327946
 (Approval from Projectinitiator to use it exactly 1by1)
+
+### Pink Noise Sound file:
+- https://bigsoundbank.com/detail-0432-pink-noise.html
+(Royalty Free)
+![image](https://user-images.githubusercontent.com/26322153/170886744-7bd3231d-4619-43ac-8123-3a6904936978.png)
