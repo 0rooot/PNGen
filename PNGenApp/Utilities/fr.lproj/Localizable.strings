@@ -1,4 +1,4 @@
-/* 
+/*
   Localizable.strings
   PNGen
 
@@ -6,17 +6,17 @@
   
 */
 
-"NavigationBarTitle.Home" = "Défense d'écouter" ;
-"NavigationBarTitle.Learn" = "Centre d'apprentissage" ;
-"NavigationBarTitle.Setup" = "Info" ;
-"NavigationBarTitle.About" = "Impressum" ;
+"NavigationBarTitle.Home" = "Défense contre l'écoute" ;
+"NavigationBarTitle.Learn" = "Base de connaissances" ;
+"NavigationBarTitle.Setup" = "Mode d'emploi" ;
+"NavigationBarTitle.About" = "Informations sur le projet" ;
 
-"NavBar.Main" = "Anti-écoute";
+"NavBar.Main" = "Défense contre l'écoute";
 "NavBar.Setup" = "Info";
 "NavBar.Learn" = "Savoir";
 "NavBar.About" = "Impressum";
 
-"ButtonView.ButtonTitle.Start" = "Défense d'écoute";
+"ButtonView.ButtonTitle.Start" = "Défense contre l'écoute";
 "ButtonView.ButtonTitle.Stopp" = "Arrêt";
 
 "SidemenuView.General" = "Général";
@@ -27,19 +27,19 @@
 "SidemenuView.MobileNetwork" = "Réseau mobile";
 "SidemenuView.Settings" = "Configuration";
 
-"PinkNoiseGeneratorView.Hint.Title" = "Remarque";
+"PinkNoiseGeneratorView.Hint.Title" = "Remarque:";
 "PinkNoiseGeneratorView.Hint.Volume" = "Réglez le volume au maximum.";
 "PinkNoiseGeneratorView.Hint.Lock" = "Verrouillez l'iPhone pour économiser la batterie.";
-"PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Title" = "Qu'est-ce que Pink Noise?";
-"PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Body" = "Le bruit rose est le son de toutes les fréquences. Le Pink Noise a plusieurs objectifs. Le domaine d`application de cette application est la surveillance et la prévention des écoutes. Pink Noise est conçu pour remplir les microphones environnants des smartphones et des smartwatches et empêcher l`enregistrement des conversations.";
+"PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Title" = "Qu'est-ce que le Pink Noise?";
+"PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Body" = "Le bruit rose est le son de toutes les fréquences. Le Pink Noise a plusieurs objectifs. Le domaine d`application de cette application est la surveillance et la défense contre les écoutes. Le Pink Noise est conçu pour remplir les microphones environnants des smartphones et des smartwatches et empêcher l`enregistrement des conversations.";
 
-"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title" = "Utilisation";
-"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1" = "Démarre la défense d'écouter avec le bouton";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title" = "Utilisation:";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1" = "Démarre la défense contre l'écoute avec le bouton";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2" = "Place tous les smartphones et smartwatches de la pièce dans le bocal antibruit";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3" = "Ferme la vitre anti-bruit et commence la session";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Swipe" = "Swipe vers le bas pour démarrer" ;
 
-"PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "Plus d'informations";
+"PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "Plus d'informations:";
 "PinkNoiseGeneratorView.Info.Autostart.Title" = "Comment démarrer automatiquement le bruit" ;
 "PinkNoiseGeneratorView.Info.Autostart.Body" = "Le démarrage automatique du bruit peut être activé sous \"Réglages\" > \"PNGen\" > \"Auto Start\" . Cette fonction est destinée aux utilisateurs avancés qui souhaitent utiliser directement le système de défense contre les écoutes lors de l'ouverture de l'application.";
 "PinkNoiseGeneratorView.Info.Jar.Title" = "Qu'est-ce qu'un bocal antibruit ?";
@@ -54,22 +54,22 @@
 "LearnView.Connections.More" = "Dans les sections suivantes, tu peux t'informer sur la protection du Wifi, du Bluetooth et du réseau mobile.";
 
 "LearnView.CyberRules.Title" = "7 cyber-règles de l'armée";
-"LearnView.CyberRules.Body" = "Attaques par hameçonnage, cryptage de données par des tiers ou vol de données : ce sont des exemples de menaces qui guettent en permanence le cyberespace. La Suisse n'est pas épargnée par les cyber-attaques. Afin de garantir sa capacité d'engagement et sa liberté d'action en tout temps et dans toutes les situations, l'armée établit en permanence le cyber-bilan de la situation et est en mesure de détecter les cyberattaques et de les repousser";
+"LearnView.CyberRules.Body" = "Attaques par hameçonnage, cryptage de données par des tiers ou vol de données : ce sont des exemples de menaces qui guettent en permanence le cyberespace. La Suisse n'est pas épargnée par les cyber-attaques. Afin de garantir sa capacité d'engagement et sa liberté d'action en tout temps et dans toutes les situations, l'armée établit en permanence l'image de la situation cyber et est en mesure de détecter les cyberattaques et de les repousser";
 "LearnView.CyberRules.Rule1" = "Considérez toujours les propos tenus sur les réseaux sociaux comme publics.";
 "LearnView.CyberRules.Rule2" = "Ne jamais connecter un dispositif privé ou inconnu à des appareils de l’administration ou de l’armée.";
 "LearnView.CyberRules.Rule3" = "Les points d’accès wifi publics peuvent être dangereux. Votre téléphone mobile est un point wifi plus sûr.";
 "LearnView.CyberRules.Rule4" = "Il faut désactiver WLAN, Bluetooth, GPS, NFC, sauf si vous en avez réellement besoin.";
 "LearnView.CyberRules.Rule5" = "Les téléphones portables, montres ou ordinateurs portables sont des mouchards potentiels. Il faut ranger ailleurs ces appareils avant une conversation confidentielle ou secrète.";
-"LearnView.CyberRules.Rule6" = "N’ouvrez ni les messages, ni les annexes ou les links de provenance inattendue. Contactez l’expéditeur par téléphone en cas de doute.";
+"LearnView.CyberRules.Rule6" = "N’ouvrez ni les messages, ni les annexes ou les liens de provenance inattendue. Contactez l’expéditeur par téléphone en cas de doute.";
 "LearnView.CyberRules.Rule7" = "Si vous soupçonnez une infection par un logiciel malveillant, déconnectez-vous le plus vite possible du réseau, laissez le système en marche et faites part de votre soupçon à la Hotline et à votre supérieur hiérarchique.";
 "LearnView.CyberRules.VideoHint" = "vidéos explicatives";
 
-"AboutView.Impressum.Title" = "Mentions légales";
+"AboutView.Impressum.Title" = "Mentions légales :";
 "AboutView.Impressum.Body" = "Cette application a été réalisée dans le cadre d'un travail de bachelor des études \"Information and Cyber Security\" à la Haute école de Lucerne (HSLU) sur mandat et avec le soutien de l'Armée suisse. " ;
-"AboutView.Feedback.Title" = "Feedback & Reports";
+"AboutView.Feedback.Title" = "Feedback & Reports :";
 "AboutView.Feedback.Body" = "Les propositions d'amélioration et les erreurs peuvent être signalées à l'adresse e-mail suivante :";
 "AboutView.Code.Title" = "Source code";
-"AboutView.Code.Body" = "Le code source de l'application PNGen est open source et peut être consulté sur Github. Tout commentaire sur le code est le bienvenu !";
+"AboutView.Code.Body" = "Le code source de l'application PNGen est open source et peut être consulté sur GitHub. Tout commentaire sur le code est le bienvenu !";
 "AboutView.AGB.Title" = "Clause de non-responsabilité" ;
 "AboutView.AGB.Body" = "Les auteurs n'assument aucune garantie quant à la fiabilité et à l'exhaustivité des informations. Les renvois et liens vers des sites web de tiers ne relèvent pas de notre responsabilité" ;
 "AboutView.Privacy.Title" = "Confidentialité" ;
@@ -89,8 +89,8 @@
 "LearnView.Wifi.PublicWiFi.Tipp5" = "En renonçant complètement aux réseaux WLAN publics, le risque disparaît totalement. L'utilisation du hotspot via le réseau mobile augmente déjà la sécurité de manière significative";
 
 "LearnView.Bluetooth.Title" = "Sécurité Bluetooth";
-"LearnView.Bluetooth.Body" = "Nombreux sont ceux qui connaissent le mode de connexion Bluetooth pour la fonction mains libres dans la voiture, la transmission de musique sans fil et les appareils IoT. Ce qui semble inoffensif peut également constituer une surface d'attaque pour les pirates. Ce chapitre aborde les risques liés à Bluetooth et présente des conseils pour les prévenir";
-"LearnView.Bluetooth.Risk" = "La plupart du temps, un appairage doit avoir lieu avant que des données puissent être partagées via une connexion Bluetooth. Or, une connexion Bluetooth comporte des risques significatifs. Par exemple, il n'y a pas d'authentification de l'utilisateur. De plus, il existe encore des connexions qui n'offrent pas de sécurité \"Man-in-the-Middle\". n'offrent pas de protection. Les données sont donc transmises de manière très transparente";
+"LearnView.Bluetooth.Body" = "Nombreux sont ceux qui connaissent le mode de connexion Bluetooth pour la fonction mains libres dans la voiture, la transmission de musique sans fil et les appareils IoT. Ce qui semble inoffensif peut également constituer une surface d'attaque pour les pirates. Ce chapitre aborde les risques liés au Bluetooth et présente des conseils pour les prévenir";
+"LearnView.Bluetooth.Risk" = "La plupart du temps, un appairage doit avoir lieu avant que des données puissent être partagées via une connexion Bluetooth. Or, une connexion Bluetooth comporte des risques significatifs. Par exemple, il n'y a pas d'authentification de l'utilisateur. De plus, il existe encore des connexions qui n'offrent pas de sécurité \"Man-in-the-Middle\". Les données sont donc transmises de manière très transparente";
 "LearnView.Bluetooth.Tipp1" = "Désactiver le Bluetooth ou au moins le régler sur \"introuvable\" tant que tu n'en as pas besoin. Ainsi, ton appareil est fermé aux nouvelles connexions et ne peut pas transmettre de données de manière involontaire";
 "LearnView.Bluetooth.Tipp2" = "Paire tes appareils Bluetooth uniquement dans des lieux non publics. Dans les lieux publics, les pirates peuvent intervenir directement dans le processus d'établissement de la connexion et prendre le contrôle de la connexion";
 "LearnView.Bluetooth.Tipp3" = "Supprimez les connexions des appareils perdus ou volés. Des attaquants pourraient les exploiter et s'appairer avec ton appareil à l'aide d'anciennes connexions préenregistrées";

@@ -29,7 +29,7 @@
 
 "PinkNoiseGeneratorView.Hint.Title" = "Hinweis";
 "PinkNoiseGeneratorView.Hint.Volume" = "Stelle die Lautstärke auf Maximum.";
-"PinkNoiseGeneratorView.Hint.Lock" = "Sperre das iPhone, um Akku zu sparen.";
+"PinkNoiseGeneratorView.Hint.Lock" = "Sperre das Smartphone, um Akku zu sparen.";
 "PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Title" = "Was ist Pink Noise?";
 "PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Body" = "Pink Noise (oder rosa Rauschen) ist das Geräusch das auf allen Frequenzen gleichzeitig ertönt. Pink Noise hat verschiedene Einsatzzwecke. Das Einsatzgebiet dieser App ist die Überwachungs- und Abhör-Abwehr. Pink Noise soll die umliegenden Mikrofone von Smartphones und Smartwatches mit Geräuschen füllen, andere Töne im Raum überlagern und so das Abhören von Gesprächen über umliegende Mikrofone verhindern.";
 
@@ -69,7 +69,7 @@
 "AboutView.Feedback.Title" = "Feedback & Reports";
 "AboutView.Feedback.Body" = "Verbesserungsvorschläge und Fehler können an folgende Email Adresse gemeldet werden:";
 "AboutView.Code.Title" = "Source Code";
-"AboutView.Code.Body" = "Die PNGen Applikation ist ein Open-Source-Projekt und kann auf Github eingesehen werden. Wir freuen uns über jede Rückmeldung zum Code!";
+"AboutView.Code.Body" = "Die PNGen Applikation ist ein Open-Source-Projekt und kann auf GitHub eingesehen werden. Wir freuen uns über jede Rückmeldung zum Code!";
 "AboutView.AGB.Title" = "Haftungsausschluss";
 "AboutView.AGB.Body" = "Die Autorenschaft übernimmt keinerlei Gewähr hinsichtlich der Zuverlässigkeit und Vollständigkeit der Informationen. Verweise und Links auf Webseiten Dritter liegen ausserhalb unseres Verantwortungsbereichs.";
 "AboutView.Privacy.Title" = "Datenschutz";

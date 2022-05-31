@@ -6,7 +6,7 @@
  
  */
 
-"NavigationBarTitle.Home" = "Eavesdropping";
+"NavigationBarTitle.Home" = "Eavesdropping defense";
 "NavigationBarTitle.Learn" = "Knowledge Center";
 "NavigationBarTitle.Setup" = "Info";
 "NavigationBarTitle.About" = "About";
@@ -22,7 +22,7 @@
 "SidemenuView.General" = "General";
 "SidemenuView.CyberRules" = "Cyber Rules";
 "SidemenuView.Connections" = "Connections";
-"SidemenuView.WiFi" = "WiFi";
+"SidemenuView.WiFi" = "WIFI";
 "SidemenuView.Bluetooth" = "Bluetooth";
 "SidemenuView.MobileNetwork" = "Mobile Network";
 "SidemenuView.Settings" = "Settings";
@@ -34,27 +34,27 @@
 "PinkNoiseGeneratorView.Info.PinkNoiseExplanation.Body" = "Pink Noise is the sound of all frequencies. Pink Noise has several purposes. The application area of this app is surveillance and eavesdropping prevention. Pink Noise is designed to fill the surrounding microphones of smartphones and smartwatches and prevent the recording of conversations.";
 
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Title" = "Usage";
-"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1" = "Start eavesdropping with button.";
-"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2" = "Place all smartphones and smartwatches in the room in the eavesdropping jar.";
-"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3" = "Close the eavesdropping jar and start the conversation.";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step1" = "Start eavesdropping defense with button.";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step2" = "Place all smartphones and smartwatches in the room in the eavesdropping defense jar.";
+"PinkNoiseGeneratorView.Info.PinkNoiseUsage.Step3" = "Close the eavesdropping defense jar and start the conversation.";
 "PinkNoiseGeneratorView.Info.PinkNoiseUsage.Swipe" = "Swipe down to start";
 
 "PinkNoiseGeneratorView.Info.FurtherInfos.Title" = "More info";
 "PinkNoiseGeneratorView.Info.Autostart.Title" = "How can I start the noise automatically?";
 "PinkNoiseGeneratorView.Info.Autostart.Body" = "Automatic noise start can be turned on in \"Settings\" > \"PNGen\" > \"Auto Start\". This function is for advanced users who only want to use the eavesdropping defense directly when opening the app.";
-"PinkNoiseGeneratorView.Info.Jar.Title" = "What is an eavesdropping jar?";
-"PinkNoiseGeneratorView.Info.Jar.Body" = "An eavesdropping jar is a commercial canning jar into which the smartphone fits. During the development of this app, we tested with a 3l canning jar. The jars are available for purchase here, for example:";
+"PinkNoiseGeneratorView.Info.Jar.Title" = "What is an eavesdropping defense jar?";
+"PinkNoiseGeneratorView.Info.Jar.Body" = "An eavesdropping defense jar is a commercial canning jar into which the smartphone fits. During the development of this app, we tested with a 3l canning jar. The jars are available for purchase here, for example:";
 
 "LearnView.General.Title" = "Be Aware!";
 "LearnView.General.Body" = "This section is all about learning and gathering awareness. Here you can read about general cyber security topics regarding mobile phones. Nowadays it gets more and more important to keep secure at work as well as on private devices.";
-"LearnView.General.Instructions" = "Open the menue on the top left and learn how to keep your device and your data secure.";
+"LearnView.General.Instructions" = "Open the menu on the top left and learn how to keep your device and your data secure.";
 
 "LearnView.Connections.Title" = "Connections are attack surfaces";
-"LearnView.Connections.Body" = "With every successful connection from your smartphone, you take a risk. In general, be sure about the connections you make. Wifi, Bluetooth, the mobile network or via cable, everywhere there are opportunities for attackers to get your data. ";
-"LearnView.Connections.More" = "In the following sections you can read about Wifi, Bluetooth and mobile network protection.";
+"LearnView.Connections.Body" = "With every successful connection from your smartphone, you take a risk. In general, be sure about the connections you make. WIFI, Bluetooth, the mobile network or via cable, everywhere there are opportunities for attackers to get your data. ";
+"LearnView.Connections.More" = "In the following sections you can read about WIFI, Bluetooth and mobile network protection.";
 
 "LearnView.CyberRules.Title" = "7 Cyber Rules of the Army";
-"LearnView.CyberRules.Body" = "Phishing attacks, encryption of data by strangers or data theft: these are examples of those threats that are constantly lurking in cyber space. Switzerland is not spared from cyber attacks either. To ensure its operational capability and freedom of action at all times and in all situations, the Armed Forces permanently compile the cyber situation picture and are able to detect cyber attacks and defend against them.";
+"LearnView.CyberRules.Body" = "Phishing attacks, encryption of data by strangers or data theft: these are examples of those threats that are constantly lurking in cyber space. Switzerland is not spared from cyber-attacks either. To always ensure its operational capability and freedom of action and in all situations, the Armed Forces permanently compile the cyber situation picture and can detect cyber-attacks and defend against them.";
 "LearnView.CyberRules.Rule1" = "Statements made on social media should always be considered public.";
 "LearnView.CyberRules.Rule2" = "Never connect foreign or private USB devices to Army or Administration systems.";
 "LearnView.CyberRules.Rule3" = "Public hotspots can be harmful. A hotspot of your own cell phone is safer.";
@@ -69,7 +69,7 @@
 "AboutView.Feedback.Title" = "Feedback & Reports";
 "AboutView.Feedback.Body" = "Suggestions for improvement and bugs can be reported to the following email address:";
 "AboutView.Code.Title" = "Source code";
-"AboutView.Code.Body" = "The source code of the PNGen Application is open source and van be viewed on Github. We welcome any feedback on the code!";
+"AboutView.Code.Body" = "The source code of the PNGen Application is open source and van be viewed on GitHub. We welcome any feedback on the code!";
 "AboutView.AGB.Title" = "Disclaimer";
 "AboutView.AGB.Body" = "The authors do not assume any warranty with regard to the reliability and completeness of the information. References and links to third party websites are outside our responsibility.";
 "AboutView.Privacy.Title" = "Privacy";
@@ -77,11 +77,11 @@
 
 "LearnView.SideMenue.Popup.Title" = "More Content";
 "LearnView.SideMenue.Popup.Body" = "Swipe right or tap the top left icon to find more content!";
-"LearnView.Wifi.Title" = "Wifi Security";
-"LearnView.Wifi.Body" = "Wireless networks have become an integral part of our everyday life. They are mainly used to gain access to the Internet. Wifi can be used to connect to a computer or smartphone. However, wifi is not only practical, but also a gateway for attackers. This section presents tips on what to look out for when connecting to a WLAN.";
+"LearnView.Wifi.Title" = "WIFI Security";
+"LearnView.Wifi.Body" = "Wireless networks have become an integral part of our everyday life. They are mainly used to gain access to the Internet. WIFI can be used to connect to a computer or smartphone. However, WIFI is not only practical, but also a gateway for attackers. This section presents tips on what to look out for when connecting to a WLAN.";
 "LearnView.Wifi.PublicWiFi.Title" = "Public WLAN";
-"LearnView.Wifi.PublicWiFi.Intro" = "You are on vacation abroad and want to send WhatsApp messages or check the weather for the next few days. Just connect to the restaurant's WLAN and you're on the Internet. But connecting to a public WiFi also carries risks. ";
-"LearnView.Wifi.PublicWiFi.Risk" = "The biggest risk of public wifi is that hackers can be on the same WiFi and thus connect directly to your device. They could get between you and your website or app and, on a poorly secured website, read all the data you send or receive. This is called \"man-in-the-middle\" . Hackers could even set up fake websites on the WLAN and trick you into giving your data directly to the hackers.";
+"LearnView.Wifi.PublicWiFi.Intro" = "You are on vacation abroad and want to send WhatsApp messages or check the weather for the next few days. Just connect to the restaurant's WLAN and you're on the Internet. But connecting to a public WIFI also carries risks. ";
+"LearnView.Wifi.PublicWiFi.Risk" = "The biggest risk of public WIFI is that hackers can be on the same WIFI and thus connect directly to your device. They could get between you and your website or app and, on a poorly secured website, read all the data you send or receive. This is called \"man-in-the-middle\" . Hackers could even set up fake websites on the WLAN and trick you into giving your data directly to the hackers.";
 "LearnView.Wifi.PublicWiFi.Tipp1" = "Make sure you have an encrypted connection between you and the website or server. A VPN (Virtual Private Networks) connection can encrypt your entire connection. This way, a hacker on the same WLAN can no longer grab data.";
 "LearnView.Wifi.PublicWiFi.Tipp2" = "Hackers can always get username and password if they want to. That's why it's recommended to turn on 2FA (two factor authentication) on all services if possible. This way, the hacker will not only need your password, but also your sim card to log into your accounts.";
 "LearnView.Wifi.PublicWiFi.Tipp3" = "Always keep your devices up to date and install the latest updates. Often this will also keep security up to date.";
@@ -97,15 +97,15 @@
 "LearnView.Bluetooth.Tipp4" = "Accept only Bluetooth transmissions and pairings you really expect. Reject all other connections.";
 
 "LearnView.GSM.Title" = "Mobile Network Security";
-"LearnView.GSM.Body" = "To access the Internet on the road, many also use the mobile network. 3G, 4G and 5G are the technologies used today. Switzerland has one of the best mobile network coverage in the world. But even with the mobile network there are dangers and opportunities for attack.";
-"LearnView.GSM.Risk" = "IMSI are the numbers that identify the SIM cards in the mobile network. With so-called IMSI catchers, attackers can catch these numbers in between and also make a \"man-in-the-middle attack\". Today, an IMSI catcher can even be used to determine the location of a smartphone or disconnect the smartphone from the network. But how can you protect yourself against an IMSI catcher?";
-"LearnView.GSM.Tipp1" = "IMSI catchers connect to your phone if they can provide the smartphone with better reception quality than the provider's antennas. However, they often don't have the same throughput. So if you notice that you have full reception but very poor bandwidth, it could be an IMSI catcher. You can then put your smartphone on flight mode for a short time.";
+"LearnView.GSM.Body" = "To access the Internet on the road, many also use the mobile network. 3G, 4G and 5G are the technologies used today. Switzerland has one of the best mobile network coverages in the world. But even with the mobile network there are dangers and opportunities for attack.";
+"LearnView.GSM.Risk" = "IMSI are the numbers that identify the SIM cards in the mobile network. With so-called IMSI catchers, attackers can catch these numbers in between and make a \"man-in-the-middle attack\". Today, an IMSI catcher can even be used to determine the location of a smartphone or disconnect the smartphone from the network. But how can you protect yourself against an IMSI catcher?";
+"LearnView.GSM.Tipp1" = "IMSI catchers connect to your phone if they can provide the smartphone with better reception quality than the provider's antennas. However, they often don't have the same throughput. So, if you notice that you have full reception but very poor bandwidth, it could be an IMSI catcher. You can then put your smartphone on flight mode for a short time.";
 "LearnView.GSM.Tipp2" = "The new 5G technology includes more encryption technology and security features. IMSI catchers often try to downgrade the cellular standard to 3G. You can change the setting on your smartphone under \"Settings\" > \"Mobile network\" > \"Data options\" to \"5G on\". This will make your smartphone use 5G whenever it is available.";
 "LearnView.GSM.Tipp3" = "IMSI catchers are often used in places with many people. Airports or train stations are predestined for this. Just turn your smartphone off or to flight mode if you don't want to take the risk in these places.";
 
 "LearnView.Settings.Title" = "Security settings";
 "LearnView.Settings.Body" = "A smartphone is increasingly becoming a work device and therefore often contains very personal data. Insurance companies, banks and other companies offer apps that can access and modify personal data. Emails, photos and passwords are also stored on the smartphone. With a few settings, the risk of loss or unintentional disclosure of this data can be minimized.";
-"LearnView.Settings.Tipp1" = "Keep your iPhone up-to-date! Install the latest updates to the operating system. If Apple knows about a vulnerability, they usually close it directly with an update. From old operating system versions there are often already attack instructions on the Internet.";
+"LearnView.Settings.Tipp1" = "Keep your iPhone up to date! Install the latest updates to the operating system. If Apple knows about a vulnerability, they usually close it directly with an update. From old operating system versions there are often already attack instructions on the Internet.";
 "LearnView.Settings.Tipp2" = "Use a passcode! It is a lucky strike for an attacker if no passcode has to be entered. If you lose your smartphone, your data is directly accessible. With a passcode you prevent unwanted access. By the way: Six-digit passcodes are 100 times more secure than four-digit ones! TouchID and FaceID only increase convenience, not security!";
 "LearnView.Settings.Tipp3" = "Turn on the \"USB Restricted Mode\"! Under \"Settings\" > \"Face ID & Passcode\" > \"USB accessories are not allowed on the lock screen\" you can prevent a wired connection from downloading data from your smartphone or malware to your smartphone without consent.";
 "LearnView.Settings.Tipp4" = "Read the app permission requests! If apps want to access data, you must agree to it. (Google Maps wants to access your location.) Question these accesses critically. If a calculator app wants to access your photos or location, you should decline.";
